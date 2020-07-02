@@ -1,0 +1,32 @@
+2020-03-31 14:32:15,875 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-31 14:32:15,875 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-31 14:32:15,893 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-31 14:32:15,894 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu(MeetInfoSubscribeDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\MeetInfoSubscribeService.cs:行号 62
+   在 Castle.Proxies.Invocations.IMeetInfoSubscribeService_GetBu.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-31 14:32:15,894 ErrorFileLogger -- [TargetSite]:GetBu
+
+2020-03-31 14:32:15,894 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]]
+
+2020-03-31 14:32:15,894 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 14:32:15,894 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-31 15:43:38,556 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-31 15:43:38,556 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-31 15:43:38,568 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-31 15:43:38,568 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu(MeetInfoSubscribeDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\MeetInfoSubscribeService.cs:行号 74
+   在 Castle.Proxies.Invocations.IMeetInfoSubscribeService_GetBu.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-31 15:43:38,568 ErrorFileLogger -- [TargetSite]:GetBu
+
+2020-03-31 15:43:38,568 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]]
+
+2020-03-31 15:43:38,568 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 15:43:38,568 ErrorFileLogger -- --------------------------------------------------------------------------------

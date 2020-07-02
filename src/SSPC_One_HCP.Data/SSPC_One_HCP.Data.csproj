@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4500E9C9-DDB9-4285-B177-2A11237254EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSPC_One_HCP.Data</RootNamespace>
+    <AssemblyName>SSPC_One_HCP.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.Extended, Version=6.0.0.0, Culture=neutral, PublicKeyToken=05b7e29bdd433584, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.168\lib\net45\EntityFramework.Extended.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\EfRepository.cs" />
+    <Compile Include="Data\EFRepositoryGeneric.cs" />
+    <Compile Include="Data\FacDbContext.cs" />
+    <Compile Include="Mappings\BaseEntityTypeConfiguration.cs" />
+    <Compile Include="Mappings\DataMappings\LiveOnlineMap.cs" />
+    <Compile Include="Mappings\DataMappings\AdQRCodeMap.cs" />
+    <Compile Include="Mappings\DataMappings\AnalysisDailyVisitTrendMap.cs" />
+    <Compile Include="Mappings\DataMappings\AnswerModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\ApprovalRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\BannerInfoItemMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotMedalBusinessConfigureMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotSaleConfigureMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotMedalStandardConfigureMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotADWhiteNameMap.cs" />
+    <Compile Include="Mappings\DataMappings\BannerInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\DocumentManagerMap.cs" />
+    <Compile Include="Mappings\DataMappings\DocumentManagerRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetSubscribeMap.cs" />
+    <Compile Include="Mappings\DataMappings\RongCloudChatroomStatusMap.cs" />
+    <Compile Include="Mappings\DataMappings\RongCloudChatRoomHandleMap.cs" />
+    <Compile Include="Mappings\DataMappings\RongCloudContentMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpDataCatalogueRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpDataInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotSaleUserTotalRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotSaleUserMedalInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\BotSaleUserInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\BuInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\BuProDeptRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\BusinessCardMap.cs" />
+    <Compile Include="Mappings\DataMappings\CompanyInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\CompetingProductMap.cs" />
+    <Compile Include="Mappings\DataMappings\ConfigurationMap.cs" />
+    <Compile Include="Mappings\DataMappings\DataInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\DepartmentInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\DocGroupMap.cs" />
+    <Compile Include="Mappings\DataMappings\DocTagMap.cs" />
+    <Compile Include="Mappings\DataMappings\DoctorMeetingMap.cs" />
+    <Compile Include="Mappings\DataMappings\DoctorModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\DocumentTypeMap.cs" />
+    <Compile Include="Mappings\DataMappings\DropDownConfigMap.cs" />
+    <Compile Include="Mappings\DataMappings\EdaCheckInRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\FeekbackMap.cs" />
+    <Compile Include="Mappings\DataMappings\FsysArticleMap.cs" />
+    <Compile Include="Mappings\DataMappings\GroupInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\GroupTagRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\GuidVisitMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpDataOperationInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpDownloadInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpCatalogueManageMap.cs" />
+    <Compile Include="Mappings\DataMappings\HospitalInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\LanguageConfigMap.cs" />
+    <Compile Include="Mappings\DataMappings\LiveBroadcastPVMap.cs" />
+    <Compile Include="Mappings\DataMappings\PneumoniaBotForwardMap.cs" />
+    <Compile Include="Mappings\DataMappings\PneumoniaBotOperationRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\ManagementMap.cs" />
+    <Compile Include="Mappings\DataMappings\HcpMediaDataRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\MediaDataRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\MedicineHotSearchMap.cs" />
+    <Compile Include="Mappings\DataMappings\MedicineSearchHistoryMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetAndProAndDepRelationMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetQAResultMap.cs" />
+    <Compile Include="Mappings\DataMappings\ProductInfoLikeMap.cs" />
+    <Compile Include="Mappings\DataMappings\PublicAccountMap.cs" />
+    <Compile Include="Mappings\DataMappings\QRcodeExtensionMap.cs" />
+    <Compile Include="Mappings\DataMappings\QRcodeRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\SendRateMap.cs" />
+    <Compile Include="Mappings\DataMappings\SpreadQRCodeMap.cs" />
+    <Compile Include="Mappings\DataMappings\TagGroupMap.cs" />
+    <Compile Include="Mappings\DataMappings\TemplateFormMap.cs" />
+    <Compile Include="Mappings\DataMappings\ThirdPartyKeyWordMap.cs" />
+    <Compile Include="Mappings\DataMappings\VisitModulesMap.cs" />
+    <Compile Include="Mappings\DataMappings\VisitModulesNameMap.cs" />
+    <Compile Include="Mappings\DataMappings\SeriesCoursesMeetRelMap.cs" />
+    <Compile Include="Mappings\DataMappings\SeriesCoursesMap.cs" />
+    <Compile Include="Mappings\DataMappings\VisitTimesMap.cs" />
+    <Compile Include="Mappings\DataMappings\WechatActionHistoryMap.cs" />
+    <Compile Include="Mappings\DataMappings\WechatPublicAccountMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetFileMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetPicMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetQAModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetScheduleMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetSignUpMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetSpeakerMap.cs" />
+    <Compile Include="Mappings\DataMappings\MeetTagMap.cs" />
+    <Compile Include="Mappings\DataMappings\MenuInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\MyReadRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\MyCollectionInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\MyLRecordMap.cs" />
+    <Compile Include="Mappings\DataMappings\MyMeetOrderMap.cs" />
+    <Compile Include="Mappings\DataMappings\OrganizationMap.cs" />
+    <Compile Include="Mappings\DataMappings\PositionMap.cs" />
+    <Compile Include="Mappings\DataMappings\ProAndDepRelationMap.cs" />
+    <Compile Include="Mappings\DataMappings\ProductInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\ProductTypeInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\ProtocolModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\QuestionModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\RegisterModelMap.cs" />
+    <Compile Include="Mappings\DataMappings\RoleInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\RoleMenuMap.cs" />
+    <Compile Include="Mappings\DataMappings\TagInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\UserInfoMap.cs" />
+    <Compile Include="Mappings\DataMappings\UserRoleMap.cs" />
+    <Compile Include="Mappings\DataMappings\WordBlackListMap.cs" />
+    <Compile Include="Mappings\IdentityMappings\AccountLoginMap.cs" />
+    <Compile Include="Mappings\IdentityMappings\AppClientInfoMap.cs" />
+    <Compile Include="Mappings\IdentityMappings\RefreshTokenInfoMap.cs" />
+    <Compile Include="Migrations\202002210807023_20200221001.cs" />
+    <Compile Include="Migrations\202002210807023_20200221001.Designer.cs">
+      <DependentUpon>202002210807023_20200221001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002250905322_20200225001.cs" />
+    <Compile Include="Migrations\202002250905322_20200225001.Designer.cs">
+      <DependentUpon>202002250905322_20200225001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002250909466_20200225002.cs" />
+    <Compile Include="Migrations\202002250909466_20200225002.Designer.cs">
+      <DependentUpon>202002250909466_20200225002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002260823256_20200226001.cs" />
+    <Compile Include="Migrations\202002260823256_20200226001.Designer.cs">
+      <DependentUpon>202002260823256_20200226001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002280627456_20200228001.cs" />
+    <Compile Include="Migrations\202002280627456_20200228001.Designer.cs">
+      <DependentUpon>202002280627456_20200228001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003030749384_20200303001.cs" />
+    <Compile Include="Migrations\202003030749384_20200303001.Designer.cs">
+      <DependentUpon>202003030749384_20200303001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003060854078_20200306001.cs" />
+    <Compile Include="Migrations\202003060854078_20200306001.Designer.cs">
+      <DependentUpon>202003060854078_20200306001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003060920466_20200306002.cs" />
+    <Compile Include="Migrations\202003060920466_20200306002.Designer.cs">
+      <DependentUpon>202003060920466_20200306002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003060928150_20200306003.cs" />
+    <Compile Include="Migrations\202003060928150_20200306003.Designer.cs">
+      <DependentUpon>202003060928150_20200306003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003100248458_20200310001.cs" />
+    <Compile Include="Migrations\202003100248458_20200310001.Designer.cs">
+      <DependentUpon>202003100248458_20200310001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003100251050_20200310002.cs" />
+    <Compile Include="Migrations\202003100251050_20200310002.Designer.cs">
+      <DependentUpon>202003100251050_20200310002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003160631487_2020-03-16001.cs" />
+    <Compile Include="Migrations\202003160631487_2020-03-16001.Designer.cs">
+      <DependentUpon>202003160631487_2020-03-16001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003170157292_2020-03-17001.cs" />
+    <Compile Include="Migrations\202003170157292_2020-03-17001.Designer.cs">
+      <DependentUpon>202003170157292_2020-03-17001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003170233095_2020-03-17002.cs" />
+    <Compile Include="Migrations\202003170233095_2020-03-17002.Designer.cs">
+      <DependentUpon>202003170233095_2020-03-17002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003180251034_20200318001.cs" />
+    <Compile Include="Migrations\202003180251034_20200318001.Designer.cs">
+      <DependentUpon>202003180251034_20200318001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003181312184_20200318003.cs" />
+    <Compile Include="Migrations\202003181312184_20200318003.Designer.cs">
+      <DependentUpon>202003181312184_20200318003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003181313563_20200318004.cs" />
+    <Compile Include="Migrations\202003181313563_20200318004.Designer.cs">
+      <DependentUpon>202003181313563_20200318004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003181315194_20200318005.cs" />
+    <Compile Include="Migrations\202003181315194_20200318005.Designer.cs">
+      <DependentUpon>202003181315194_20200318005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003181315464_20200318006.cs" />
+    <Compile Include="Migrations\202003181315464_20200318006.Designer.cs">
+      <DependentUpon>202003181315464_20200318006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003200501152_xxx.cs" />
+    <Compile Include="Migrations\202003200501152_xxx.Designer.cs">
+      <DependentUpon>202003200501152_xxx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003200946456_xxx1.cs" />
+    <Compile Include="Migrations\202003200946456_xxx1.Designer.cs">
+      <DependentUpon>202003200946456_xxx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003200959559_20200320005.cs" />
+    <Compile Include="Migrations\202003200959559_20200320005.Designer.cs">
+      <DependentUpon>202003200959559_20200320005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003270920417_20200327001.cs" />
+    <Compile Include="Migrations\202003270920417_20200327001.Designer.cs">
+      <DependentUpon>202003270920417_20200327001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004030956283_20200403.cs" />
+    <Compile Include="Migrations\202004030956283_20200403.Designer.cs">
+      <DependentUpon>202004030956283_20200403.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004100319398_xxx2.cs" />
+    <Compile Include="Migrations\202004100319398_xxx2.Designer.cs">
+      <DependentUpon>202004100319398_xxx2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004100342592_20200410.cs" />
+    <Compile Include="Migrations\202004100342592_20200410.Designer.cs">
+      <DependentUpon>202004100342592_20200410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004131003191_20200413.cs" />
+    <Compile Include="Migrations\202004131003191_20200413.Designer.cs">
+      <DependentUpon>202004131003191_20200413.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004140322419_20200414.cs" />
+    <Compile Include="Migrations\202004140322419_20200414.Designer.cs">
+      <DependentUpon>202004140322419_20200414.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004160153210_20200416.cs" />
+    <Compile Include="Migrations\202004160153210_20200416.Designer.cs">
+      <DependentUpon>202004160153210_20200416.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004170249291_20200417.cs" />
+    <Compile Include="Migrations\202004170249291_20200417.Designer.cs">
+      <DependentUpon>202004170249291_20200417.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004170759161_20200417001.cs" />
+    <Compile Include="Migrations\202004170759161_20200417001.Designer.cs">
+      <DependentUpon>202004170759161_20200417001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004200646016_20200420.cs" />
+    <Compile Include="Migrations\202004200646016_20200420.Designer.cs">
+      <DependentUpon>202004200646016_20200420.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004210830203_20200421.cs" />
+    <Compile Include="Migrations\202004210830203_20200421.Designer.cs">
+      <DependentUpon>202004210830203_20200421.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004220547305_20200422.cs" />
+    <Compile Include="Migrations\202004220547305_20200422.Designer.cs">
+      <DependentUpon>202004220547305_20200422.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005070257002_20200507.cs" />
+    <Compile Include="Migrations\202005070257002_20200507.Designer.cs">
+      <DependentUpon>202005070257002_20200507.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005080938258_xxx3.cs" />
+    <Compile Include="Migrations\202005080938258_xxx3.Designer.cs">
+      <DependentUpon>202005080938258_xxx3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005080939109_20200508.cs" />
+    <Compile Include="Migrations\202005080939109_20200508.Designer.cs">
+      <DependentUpon>202005080939109_20200508.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005080948342_20200508001.cs" />
+    <Compile Include="Migrations\202005080948342_20200508001.Designer.cs">
+      <DependentUpon>202005080948342_20200508001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005180931375_20200518.cs" />
+    <Compile Include="Migrations\202005180931375_20200518.Designer.cs">
+      <DependentUpon>202005180931375_20200518.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005220723224_20200522.cs" />
+    <Compile Include="Migrations\202005220723224_20200522.Designer.cs">
+      <DependentUpon>202005220723224_20200522.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005220735173_20200522002.cs" />
+    <Compile Include="Migrations\202005220735173_20200522002.Designer.cs">
+      <DependentUpon>202005220735173_20200522002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSPC_One_HCP.Core\SSPC_One_HCP.Core.csproj">
+      <Project>{765E4550-3E01-4222-A806-7D81428626B0}</Project>
+      <Name>SSPC_One_HCP.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EF执行命令.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202002210807023_20200221001.resx">
+      <DependentUpon>202002210807023_20200221001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002250905322_20200225001.resx">
+      <DependentUpon>202002250905322_20200225001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002250909466_20200225002.resx">
+      <DependentUpon>202002250909466_20200225002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002260823256_20200226001.resx">
+      <DependentUpon>202002260823256_20200226001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002280627456_20200228001.resx">
+      <DependentUpon>202002280627456_20200228001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003030749384_20200303001.resx">
+      <DependentUpon>202003030749384_20200303001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003060854078_20200306001.resx">
+      <DependentUpon>202003060854078_20200306001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003060920466_20200306002.resx">
+      <DependentUpon>202003060920466_20200306002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003060928150_20200306003.resx">
+      <DependentUpon>202003060928150_20200306003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003100248458_20200310001.resx">
+      <DependentUpon>202003100248458_20200310001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003100251050_20200310002.resx">
+      <DependentUpon>202003100251050_20200310002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003160631487_2020-03-16001.resx">
+      <DependentUpon>202003160631487_2020-03-16001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003170157292_2020-03-17001.resx">
+      <DependentUpon>202003170157292_2020-03-17001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003170233095_2020-03-17002.resx">
+      <DependentUpon>202003170233095_2020-03-17002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003180251034_20200318001.resx">
+      <DependentUpon>202003180251034_20200318001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003181312184_20200318003.resx">
+      <DependentUpon>202003181312184_20200318003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003181313563_20200318004.resx">
+      <DependentUpon>202003181313563_20200318004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003181315194_20200318005.resx">
+      <DependentUpon>202003181315194_20200318005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003181315464_20200318006.resx">
+      <DependentUpon>202003181315464_20200318006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003200501152_xxx.resx">
+      <DependentUpon>202003200501152_xxx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003200946456_xxx1.resx">
+      <DependentUpon>202003200946456_xxx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003200959559_20200320005.resx">
+      <DependentUpon>202003200959559_20200320005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003270920417_20200327001.resx">
+      <DependentUpon>202003270920417_20200327001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004030956283_20200403.resx">
+      <DependentUpon>202004030956283_20200403.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004100319398_xxx2.resx">
+      <DependentUpon>202004100319398_xxx2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004100342592_20200410.resx">
+      <DependentUpon>202004100342592_20200410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004131003191_20200413.resx">
+      <DependentUpon>202004131003191_20200413.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004140322419_20200414.resx">
+      <DependentUpon>202004140322419_20200414.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004160153210_20200416.resx">
+      <DependentUpon>202004160153210_20200416.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004170249291_20200417.resx">
+      <DependentUpon>202004170249291_20200417.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004170759161_20200417001.resx">
+      <DependentUpon>202004170759161_20200417001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004200646016_20200420.resx">
+      <DependentUpon>202004200646016_20200420.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004210830203_20200421.resx">
+      <DependentUpon>202004210830203_20200421.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004220547305_20200422.resx">
+      <DependentUpon>202004220547305_20200422.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005070257002_20200507.resx">
+      <DependentUpon>202005070257002_20200507.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005080938258_xxx3.resx">
+      <DependentUpon>202005080938258_xxx3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005080939109_20200508.resx">
+      <DependentUpon>202005080939109_20200508.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005080948342_20200508001.resx">
+      <DependentUpon>202005080948342_20200508001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005180931375_20200518.resx">
+      <DependentUpon>202005180931375_20200518.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005220723224_20200522.resx">
+      <DependentUpon>202005220723224_20200522.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005220735173_20200522002.resx">
+      <DependentUpon>202005220735173_20200522002.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

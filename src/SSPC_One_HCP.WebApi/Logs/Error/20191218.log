@@ -1,0 +1,60 @@
+2019-12-18 15:38:51,375 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-18 15:38:51,380 ErrorFileLogger -- [MSG]:The model backing the 'FacDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).;
+
+2019-12-18 15:38:51,386 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-18 15:38:51,387 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.Where[T](Expression`1 includeProperties) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 346
+   在 Castle.Proxies.Invocations.IEfRepository_Where.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-18 15:38:51,387 ErrorFileLogger -- [StackTrace]:InitializeDatabase
+
+2019-12-18 15:38:51,387 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Where]]
+
+2019-12-18 15:38:51,388 ErrorFileLogger -- [Arguments]：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-18 15:38:51,388 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-18 15:38:52,478 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-18 15:38:52,478 ErrorFileLogger -- [MSG]:The model backing the 'FacDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).;
+
+2019-12-18 15:38:52,478 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-18 15:38:52,478 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.Where[T](Expression`1 includeProperties) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 346
+   在 Castle.Proxies.Invocations.IEfRepository_Where.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-18 15:38:52,478 ErrorFileLogger -- [StackTrace]:InitializeDatabase
+
+2019-12-18 15:38:52,478 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Where]]
+
+2019-12-18 15:38:52,479 ErrorFileLogger -- [Arguments]：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-18 15:38:52,479 ErrorFileLogger -- --------------------------------------------------------------------------------

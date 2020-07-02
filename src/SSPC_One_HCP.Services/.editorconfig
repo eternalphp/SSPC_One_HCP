@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0037: 使用推断的成员名称
+dotnet_style_prefer_inferred_tuple_names = true:suggestion

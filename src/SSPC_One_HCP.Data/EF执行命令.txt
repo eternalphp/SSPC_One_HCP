@@ -1,0 +1,5 @@
+﻿add-migration xxx
+
+update-database
+
+enable-migrations

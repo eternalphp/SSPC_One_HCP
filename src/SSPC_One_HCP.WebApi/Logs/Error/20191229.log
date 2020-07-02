@@ -1,0 +1,253 @@
+2019-12-29 11:38:41,821 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 11:38:41,826 ErrorFileLogger -- [MSG]:The model backing the 'FacDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).;
+
+2019-12-29 11:38:41,834 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 11:38:41,835 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.Where[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 346
+   在 Castle.Proxies.Invocations.IEfRepository_Where.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 11:38:41,835 ErrorFileLogger -- [StackTrace]:InitializeDatabase
+
+2019-12-29 11:38:41,835 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Where]]
+
+2019-12-29 11:38:41,835 ErrorFileLogger -- [Arguments]：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-29 11:38:41,835 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 11:38:42,222 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 11:38:42,222 ErrorFileLogger -- [MSG]:The model backing the 'FacDbContext' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).;
+
+2019-12-29 11:38:42,222 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 11:38:42,223 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 System.Data.Entity.Internal.InternalContext.Initialize()
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.Where[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 346
+   在 Castle.Proxies.Invocations.IEfRepository_Where.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 11:38:42,223 ErrorFileLogger -- [StackTrace]:InitializeDatabase
+
+2019-12-29 11:38:42,223 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Where]]
+
+2019-12-29 11:38:42,223 ErrorFileLogger -- [Arguments]：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-29 11:38:42,223 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:09:01,556 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:09:01,556 ErrorFileLogger -- [MSG]:An error occurred while executing the command definition. See the inner exception for details.;
+
+2019-12-29 15:09:01,562 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 15:09:01,562 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 15:09:01,562 ErrorFileLogger -- [StackTrace]:ExecuteStoreCommands
+
+2019-12-29 15:09:01,562 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2019-12-29 15:09:01,562 ErrorFileLogger -- [Arguments]：[[s => ((((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.Id == value(SSPC_One_HCP.Services.Bot.TaskService+<>c__DisplayClass3_0).workUser.WxSaleUser.Id)) AndAlso (s.SsoId != null))]]
+2019-12-29 15:09:01,562 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:16:55,995 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:16:55,995 ErrorFileLogger -- [MSG]:An error occurred while executing the command definition. See the inner exception for details.;
+
+2019-12-29 15:16:56,001 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 15:16:56,002 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 15:16:56,002 ErrorFileLogger -- [StackTrace]:ExecuteStoreCommands
+
+2019-12-29 15:16:56,002 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2019-12-29 15:16:56,002 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.Id == value(SSPC_One_HCP.Services.Bot.TaskService+<>c__DisplayClass3_0).workUser.WxSaleUser.Id))]]
+2019-12-29 15:16:56,002 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:17:23,795 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:17:23,795 ErrorFileLogger -- [MSG]:An error occurred while executing the command definition. See the inner exception for details.;
+
+2019-12-29 15:17:23,796 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 15:17:23,796 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 15:17:23,796 ErrorFileLogger -- [StackTrace]:ExecuteStoreCommands
+
+2019-12-29 15:17:23,796 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2019-12-29 15:17:23,796 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.Id == value(SSPC_One_HCP.Services.Bot.TaskService+<>c__DisplayClass3_0).workUser.WxSaleUser.Id))]]
+2019-12-29 15:17:23,796 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:19:05,022 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 15:19:05,022 ErrorFileLogger -- [MSG]:An error occurred while executing the command definition. See the inner exception for details.;
+
+2019-12-29 15:19:05,022 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 15:19:05,022 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 15:19:05,023 ErrorFileLogger -- [StackTrace]:ExecuteStoreCommands
+
+2019-12-29 15:19:05,023 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2019-12-29 15:19:05,023 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.Id == value(SSPC_One_HCP.Services.Bot.TaskService+<>c__DisplayClass3_0).workUser.WxSaleUser.Id))]]
+2019-12-29 15:19:05,023 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:47:10,923 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:47:10,923 ErrorFileLogger -- [MSG]:The entity type UserInfo is not part of the model for the current context.;
+
+2019-12-29 18:47:10,927 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 18:47:10,929 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync[T](Expression`1 expression) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 387
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefaultAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 18:47:10,929 ErrorFileLogger -- [StackTrace]:UpdateEntitySetMappingsForType
+
+2019-12-29 18:47:10,929 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]]
+
+2019-12-29 18:47:10,929 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.ADAccount == value(SSPC_One_HCP.Services.Bot.ADVerifyService+<>c__DisplayClass4_0).dto.UserName))]]
+2019-12-29 18:47:10,929 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:47:32,913 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:47:32,913 ErrorFileLogger -- [MSG]:The entity type UserInfo is not part of the model for the current context.;
+
+2019-12-29 18:47:32,913 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 18:47:32,913 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync[T](Expression`1 expression) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 387
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefaultAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 18:47:32,913 ErrorFileLogger -- [StackTrace]:UpdateEntitySetMappingsForType
+
+2019-12-29 18:47:32,913 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]]
+
+2019-12-29 18:47:32,913 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.ADAccount == value(SSPC_One_HCP.Services.Bot.ADVerifyService+<>c__DisplayClass4_0).dto.UserName))]]
+2019-12-29 18:47:32,913 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:49:06,527 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-29 18:49:06,527 ErrorFileLogger -- [MSG]:The entity type UserInfo is not part of the model for the current context.;
+
+2019-12-29 18:49:06,532 ErrorFileLogger -- [Source]:EntityFramework
+
+2019-12-29 18:49:06,533 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   在 System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   在 System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   在 System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   在 System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync[T](Expression`1 expression) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 387
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefaultAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2019-12-29 18:49:06,534 ErrorFileLogger -- [StackTrace]:UpdateEntitySetMappingsForType
+
+2019-12-29 18:49:06,534 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]]
+
+2019-12-29 18:49:06,534 ErrorFileLogger -- [Arguments]：[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso (s.ADAccount == value(SSPC_One_HCP.Services.Bot.ADVerifyService+<>c__DisplayClass4_0).dto.UserName))]]
+2019-12-29 18:49:06,534 ErrorFileLogger -- --------------------------------------------------------------------------------

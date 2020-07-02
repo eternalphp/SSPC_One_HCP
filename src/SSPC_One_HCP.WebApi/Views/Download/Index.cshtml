@@ -1,0 +1,54 @@
+﻿@model SSPC_One_HCP.WebApi.Models.DownloadInfo
+@*@{
+        ViewBag.Title = "Index";
+    }*@
+<link href="~/Content/downloadLogin.css" rel="stylesheet" />
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script src="~/Scripts/sweetalert.min.js"></script>
+<div class="container body-content">
+    <div class="page_reg">
+        <div class="reg-title">
+            <img mode="widthFix" class="logoImg" src="https://drfk.fresenius-kabi.com.cn/static/images/fs_login_logo@3x.png" />
+        </div>
+        <div class="logo-sub">
+            <img  class="logoImg" src="~/Content/images/WechatIMG392.jpeg" />
+        </div>
+	
+        <form id="askform" class="reg_form" action="/web/Download/Download" method="post">
+            <div class="title-area-outter clearfix inputbox">
+                @Html.HiddenFor(o => o.UserId)
+                @Html.HiddenFor(o => o.DataInfoId)
+                <p class="inputWrap">
+                    <!-- <div>账号： </div> -->
+                    @Html.TextBoxFor(o => o.UserName, new { @class = "input", placeholder = "用户名:kabi\\cn086300xxxx" })
+                </p>
+                <div class="tips">
+                    <span>?</span>
+                </div>
+                <p class="inputWrap">
+                    <!-- <div>密码：</div> -->
+                    @Html.PasswordFor(o => o.PassWord, new { @class = "input", placeholder = "密码" })
+                </p>
+                <p> <input class="btn_teacherReg" type="submit" id="submit" value="登录"></p>
+                @*<p class="forgot">
+                    <a href="https://fkcit.fresenius-kabi.com.cn/fkcit/Account/ResetPassword" class="text">忘记密码?</a>
+
+                </p>*@
+            </div>
+        </form>
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(function ($) {
+        $('body').on('click', '.tips', function (event) {
+            event.preventDefault();
+            /* Act on the event */
+            swal({
+                title: "用户名格式",
+                button: "好的",
+                text: "1、sspc-> kabi\\cn086300xxxx\r\n2、fkc   -> kabi\\cn008620xxxx",
+            });
+        });
+
+    });</script>

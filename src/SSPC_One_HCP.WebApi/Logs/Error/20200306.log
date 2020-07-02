@@ -1,0 +1,79 @@
+2020-03-06 17:54:35,549 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 17:54:35,550 ErrorFileLogger -- [MSG]:值对于 Int64 太大或太小。
+
+2020-03-06 17:54:35,557 ErrorFileLogger -- [Source]:mscorlib
+
+2020-03-06 17:54:35,557 ErrorFileLogger -- [StackTrace]:   在 System.Number.ParseInt64(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Int64.Parse(String s)
+   在 SSPC_One_HCP.KBS.Tool.GetTimeFromNowTimestamp(Int64 timestamp)
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 84
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-06 17:54:35,559 ErrorFileLogger -- [TargetSite]:ParseInt64
+
+2020-03-06 17:54:35,559 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-03-06 17:54:35,559 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-03-06 17:54:35,559 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 18:00:52,323 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 18:00:52,323 ErrorFileLogger -- [MSG]:要添加的值超出范围。
+参数名: value
+
+2020-03-06 18:00:52,331 ErrorFileLogger -- [Source]:mscorlib
+
+2020-03-06 18:00:52,331 ErrorFileLogger -- [StackTrace]:   在 System.DateTime.Add(Double value, Int32 scale)
+   在 System.DateTime.AddSeconds(Double value)
+   在 SSPC_One_HCP.KBS.Tool.GetTimeFromNowTimestamp(Int64 timestamp)
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 84
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-06 18:00:52,331 ErrorFileLogger -- [TargetSite]:Add
+
+2020-03-06 18:00:52,331 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-03-06 18:00:52,331 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-03-06 18:00:52,331 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 18:06:14,591 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 18:06:15,028 ErrorFileLogger -- [MSG]:添加或减去的值产生无法表示的 DateTime。
+参数名: value
+
+2020-03-06 18:06:15,238 ErrorFileLogger -- [Source]:mscorlib
+
+2020-03-06 18:06:15,412 ErrorFileLogger -- [StackTrace]:   在 System.DateTime.AddTicks(Int64 value)
+   在 System.DateTime.Add(TimeSpan value)
+   在 SSPC_One_HCP.KBS.Tool.GetDateTime(Int64 timeStamp)
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 85
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-06 18:06:15,598 ErrorFileLogger -- [TargetSite]:AddTicks
+
+2020-03-06 18:06:15,757 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-03-06 18:06:15,972 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-03-06 18:06:16,137 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 20:49:06,900 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-06 20:49:06,900 ErrorFileLogger -- [MSG]:要添加的值超出范围。
+参数名: value
+
+2020-03-06 20:49:06,908 ErrorFileLogger -- [Source]:mscorlib
+
+2020-03-06 20:49:06,908 ErrorFileLogger -- [StackTrace]:   在 System.DateTime.Add(Double value, Int32 scale)
+   在 System.DateTime.AddSeconds(Double value)
+   在 SSPC_One_HCP.KBS.Tool.GetDateTimeSeconds(Int64 timeStamp)
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 91
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-06 20:49:06,908 ErrorFileLogger -- [TargetSite]:Add
+
+2020-03-06 20:49:06,908 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-03-06 20:49:06,908 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-03-06 20:49:06,908 ErrorFileLogger -- --------------------------------------------------------------------------------

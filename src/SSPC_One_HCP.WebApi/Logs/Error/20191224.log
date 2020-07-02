@@ -1,0 +1,112 @@
+2019-12-24 20:29:29,965 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:29:29,966 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:29:29,970 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:29:29,970 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:29:29,970 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:29:29,970 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:29:29,970 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:29:29,970 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:29:56,407 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:29:56,407 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:29:56,407 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:29:56,407 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:29:56,407 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:29:56,407 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:29:56,407 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:29:56,407 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:31:08,132 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:31:08,133 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:31:08,133 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:31:08,133 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:31:08,133 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:31:08,133 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:31:08,133 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:31:08,133 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:31:56,664 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:31:56,664 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:31:56,665 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:31:56,665 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:31:56,665 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:31:56,665 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:31:56,665 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:31:56,665 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:33:05,152 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:33:05,152 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:33:05,156 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:33:05,156 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 105
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:33:05,156 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:33:05,156 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:33:05,156 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:33:05,156 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:41:59,642 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:41:59,642 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:41:59,646 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:41:59,647 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:41:59,647 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:41:59,647 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:41:59,647 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:41:59,647 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:42:29,810 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-24 20:42:29,810 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-24 20:42:29,810 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-24 20:42:29,810 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.SaleConfigure.cs:行号 99
+   在 Castle.Proxies.Invocations.IBotManageService_GetMenusSaleConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-24 20:42:29,810 ErrorFileLogger -- [TargetSite]:GetMenusSaleConfigureList
+
+2019-12-24 20:42:29,810 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMenusSaleConfigureList]]
+
+2019-12-24 20:42:29,810 ErrorFileLogger -- [Arguments]：[[,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-24 20:42:29,810 ErrorFileLogger -- --------------------------------------------------------------------------------

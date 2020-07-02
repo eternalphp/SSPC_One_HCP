@@ -1,0 +1,16 @@
+2020-04-20 15:13:28,366 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-20 15:13:28,366 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-20 15:13:28,382 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-04-20 15:13:28,382 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Services.HCP.Implementations.SeriesCoursesService.AddOrUpdate(SeriesCoursesInputDto dto, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\HCP\Implementations\SeriesCoursesService.cs:行号 97
+   在 Castle.Proxies.Invocations.ISeriesCoursesService_AddOrUpdate.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-20 15:13:28,382 ErrorFileLogger -- [TargetSite]:AddOrUpdate
+
+2020-04-20 15:13:28,382 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.HCP.Implementations.SeriesCoursesService.AddOrUpdate]]
+
+2020-04-20 15:13:28,382 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.Services.HCP.Dto.SeriesCoursesInputDto,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2020-04-20 15:13:28,382 ErrorFileLogger -- --------------------------------------------------------------------------------

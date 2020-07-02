@@ -1,0 +1,512 @@
+2020-03-05 10:34:43,273 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:34:43,274 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 10:34:43,280 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 10:34:43,280 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 10:34:43,280 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 10:34:43,280 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 10:34:43,280 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 10:34:43,280 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:39:15,511 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:39:15,511 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 10:39:15,516 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 10:39:15,516 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 10:39:15,516 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 10:39:15,516 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 10:39:15,516 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 10:39:15,516 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:40:02,510 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:40:02,510 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 10:40:02,510 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 10:40:02,511 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 10:40:02,511 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 10:40:02,511 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 10:40:02,511 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 10:40:02,511 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:40:22,906 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 10:40:22,906 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 10:40:22,906 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 10:40:22,907 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 10:40:22,907 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 10:40:22,907 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 10:40:22,907 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 10:40:22,907 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:19:02,867 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:19:02,867 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 13:19:02,879 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 13:19:02,879 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 13:19:02,879 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 13:19:02,879 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 13:19:02,879 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 13:19:02,879 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:24:35,031 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:24:35,031 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 13:24:35,043 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 13:24:35,043 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 13:24:35,043 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 13:24:35,043 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 13:24:35,043 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 13:24:35,043 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:35:44,822 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 13:35:44,822 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 13:35:44,833 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 13:35:44,833 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 13:35:44,833 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 13:35:44,833 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 13:35:44,833 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 13:35:44,833 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:08:01,702 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:08:01,702 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:08:01,710 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:08:01,710 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:08:01,710 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:08:01,710 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:08:01,710 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:08:01,710 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:10:16,110 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:10:16,110 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:10:16,118 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:10:16,118 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:10:16,118 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:10:16,118 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:10:16,118 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:10:16,118 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:29:15,434 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:29:15,434 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:29:15,440 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:29:15,441 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:29:15,441 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:29:15,441 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:29:15,441 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:29:15,441 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:33:44,880 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:33:44,880 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:33:44,885 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:33:44,885 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:33:44,885 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:33:44,885 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:33:44,885 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:33:44,885 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:36:50,145 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:36:50,145 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:36:50,151 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:36:50,151 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:36:50,151 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:36:50,151 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:36:50,151 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:36:50,151 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:50:20,572 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:50:20,572 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:50:20,577 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:50:20,577 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:50:20,577 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:50:20,577 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:50:20,577 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:50:20,577 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:50:50,391 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:50:50,391 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:50:50,391 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:50:50,391 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:50:50,391 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:50:50,391 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:50:50,391 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:50:50,391 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:53:11,974 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 14:53:11,974 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 14:53:11,979 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 14:53:11,979 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 14:53:11,979 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 14:53:11,979 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 14:53:11,979 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 14:53:11,979 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 15:03:16,284 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 15:03:16,284 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 15:03:16,289 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 15:03:16,290 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 15:03:16,290 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 15:03:16,290 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 15:03:16,290 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 15:03:16,290 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:06:10,409 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:06:10,410 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:06:10,416 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:06:10,416 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:06:10,416 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:06:10,416 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:06:10,416 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:06:10,416 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:19:31,676 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:19:31,676 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:19:31,682 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:19:31,682 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:19:31,682 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:19:31,682 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:19:31,682 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:19:31,682 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:20:24,658 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:20:24,658 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:20:24,664 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:20:24,664 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:20:24,664 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:20:24,664 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:20:24,664 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:20:24,664 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:21:05,283 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:21:05,283 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:21:05,289 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:21:05,289 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:21:05,289 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:21:05,289 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:21:05,289 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:21:05,289 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:22:58,473 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:22:58,473 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:22:58,479 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:22:58,479 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:22:58,479 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:22:58,479 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:22:58,479 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:22:58,479 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:28:15,894 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:28:15,894 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:28:15,899 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:28:15,899 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:28:15,899 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:28:15,899 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:28:15,899 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:28:15,899 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:30:05,046 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:30:05,046 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:30:05,052 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:30:05,052 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:30:05,052 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:30:05,052 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:30:05,052 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:30:05,052 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:33:26,636 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:33:26,636 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:33:26,642 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:33:26,642 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:33:26,642 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:33:26,642 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:33:26,642 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:33:26,642 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:36:14,474 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:36:14,474 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:36:14,479 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:36:14,479 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:36:14,479 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:36:14,479 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:36:14,479 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:36:14,479 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:38:34,422 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:38:34,422 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:38:34,428 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:38:34,428 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:38:34,428 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:38:34,428 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:38:34,428 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:38:34,428 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:40:08,034 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:40:08,034 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:40:08,039 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:40:08,039 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:40:08,039 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:40:08,039 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:40:08,039 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:40:08,040 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:41:33,778 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:41:33,778 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:41:33,782 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:41:33,782 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:41:33,782 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:41:33,782 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:41:33,783 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:41:33,783 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:44:10,011 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:44:10,011 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:44:10,017 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:44:10,017 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:44:10,017 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:44:10,017 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:44:10,017 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:44:10,017 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:47:49,193 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:47:49,193 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:47:49,198 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:47:49,198 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:47:49,199 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:47:49,199 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:47:49,199 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:47:49,199 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:48:42,758 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:48:42,758 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:48:42,759 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:48:42,760 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:48:42,760 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:48:42,760 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:48:42,760 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:48:42,760 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:48:58,780 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-05 16:48:58,780 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-03-05 16:48:58,780 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-03-05 16:48:58,797 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn(RowNumModel`1 rowNum, Boolean IsExported) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\ADDoctorService.cs:行号 767
+   在 Castle.Proxies.Invocations.IADDoctorService_GetDoctorLearn.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-05 16:48:58,797 ErrorFileLogger -- [TargetSite]:GetDoctorLearn
+
+2020-03-05 16:48:58,797 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.ADDoctorService.GetDoctorLearn]]
+
+2020-03-05 16:48:58,797 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel],True]]
+2020-03-05 16:48:58,797 ErrorFileLogger -- --------------------------------------------------------------------------------

@@ -1,0 +1,48 @@
+2019-12-26 17:22:10,641 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-26 17:22:10,641 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-26 17:22:10,648 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-26 17:22:10,648 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.WxManageService.GetWxUserInfo(WxManageInputDto dto)
+   在 Castle.Proxies.Invocations.IWxManageService_GetWxUserInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-26 17:22:10,648 ErrorFileLogger -- [TargetSite]:GetWxUserInfo
+
+2019-12-26 17:22:10,648 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.WxManageService.GetWxUserInfo]]
+
+2019-12-26 17:22:10,648 ErrorFileLogger -- [Arguments]：[[]]
+2019-12-26 17:22:10,648 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-26 17:22:17,352 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-26 17:22:17,352 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-26 17:22:17,352 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-26 17:22:17,352 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.WxManageService.GetWxUserInfo(WxManageInputDto dto)
+   在 Castle.Proxies.Invocations.IWxManageService_GetWxUserInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-26 17:22:17,352 ErrorFileLogger -- [TargetSite]:GetWxUserInfo
+
+2019-12-26 17:22:17,352 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.WxManageService.GetWxUserInfo]]
+
+2019-12-26 17:22:17,352 ErrorFileLogger -- [Arguments]：[[]]
+2019-12-26 17:22:17,352 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-26 17:32:06,680 ErrorFileLogger -- --------------------------------------------------------------------------------
+2019-12-26 17:32:06,680 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2019-12-26 17:32:06,685 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2019-12-26 17:32:06,685 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Bot.BotManageService.GetMedalStandardConfigureList(RowNumModel`1 row, WorkUser workUser) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.Services\Bot\BotManageService.MedalStandardConfigure.cs:行号 107
+   在 Castle.Proxies.Invocations.IBotManageService_GetMedalStandardConfigureList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\gongzuowendang\OneHCPService\master\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2019-12-26 17:32:06,685 ErrorFileLogger -- [TargetSite]:GetMedalStandardConfigureList
+
+2019-12-26 17:32:06,685 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.BotManageService.GetMedalStandardConfigureList]]
+
+2019-12-26 17:32:06,685 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel`1[SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalStandardConfigure],SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2019-12-26 17:32:06,685 ErrorFileLogger -- --------------------------------------------------------------------------------

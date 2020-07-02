@@ -1,0 +1,55 @@
+2020-01-02 14:27:05,356 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:05,363 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 14:27:05,363 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2020-01-02 14:27:05,363 ExcuteTimeLogFileLogger -  Take[[1254]]Milliseconds
+2020-01-02 14:27:05,363 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:05,364 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:05,365 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 14:27:05,365 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-01-02 14:27:05,365 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-01-02 14:27:05,365 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:05,367 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:05,368 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 14:27:05,368 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-01-02 14:27:05,368 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-01-02 14:27:05,368 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:57,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:57,644 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2020-01-02 14:27:57,644 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.ADAccount == value(SSPC_One_HCP.Services.Bot.ADVerifyService+<>c__DisplayClass8_0).adaccount))]]
+2020-01-02 14:27:57,644 ExcuteTimeLogFileLogger -  Take[[26]]Milliseconds
+2020-01-02 14:27:57,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:57,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 14:27:57,657 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.Bot.ADVerifyService.GetSaleUserInfo]] 
+2020-01-02 14:27:57,657 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.Bot.Dto.VerifyInputDto]]
+2020-01-02 14:27:57,657 ExcuteTimeLogFileLogger -  Take[[15782]]Milliseconds
+2020-01-02 14:27:57,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,954 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,960 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:44:17,961 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2020-01-02 16:44:17,961 ExcuteTimeLogFileLogger -  Take[[1579]]Milliseconds
+2020-01-02 16:44:17,961 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,962 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,962 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:44:17,962 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-01-02 16:44:17,962 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-01-02 16:44:17,962 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,965 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:44:17,965 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:44:17,965 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-01-02 16:44:17,965 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-01-02 16:44:17,965 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,135 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,135 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:49:16,135 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2020-01-02 16:49:16,135 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-01-02 16:49:16,135 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger - ******************************************************************
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-01-02 16:49:16,136 ExcuteTimeLogFileLogger - ******************************************************************

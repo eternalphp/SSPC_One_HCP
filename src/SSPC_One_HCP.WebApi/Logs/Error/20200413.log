@@ -1,0 +1,16 @@
+2020-04-13 14:02:02,297 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-13 14:02:02,297 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-13 14:02:02,309 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-04-13 14:02:02,309 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Implementations.WxRegisterService.SendVerifyCode(WorkUser workUser, String mobile) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Implementations\WxRegisterService.cs:行号 150
+   在 Castle.Proxies.Invocations.IWxRegisterService_SendVerifyCode.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-13 14:02:02,309 ErrorFileLogger -- [TargetSite]:SendVerifyCode
+
+2020-04-13 14:02:02,309 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Implementations.WxRegisterService.SendVerifyCode]]
+
+2020-04-13 14:02:02,309 ErrorFileLogger -- [Arguments]：[[,string]]
+2020-04-13 14:02:02,309 ErrorFileLogger -- --------------------------------------------------------------------------------

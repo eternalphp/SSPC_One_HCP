@@ -1,0 +1,135 @@
+2019-12-03 17:56:56,349 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:56:56,356 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:56:56,357 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-03 17:56:56,357 ExcuteTimeLogFileLogger -  Take[[1223]]Milliseconds
+2019-12-03 17:56:56,357 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:56:56,358 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:56:56,358 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:56:56,359 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-03 17:56:56,359 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2019-12-03 17:56:56,359 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:56:56,361 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:56:56,362 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:56:56,362 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2019-12-03 17:56:56,362 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2019-12-03 17:56:56,362 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:41,641 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:41,641 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 17:57:41,641 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.Id == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).id) OrElse (s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).aDAccount)))]]
+2019-12-03 17:57:41,641 ExcuteTimeLogFileLogger -  Take[[34]]Milliseconds
+2019-12-03 17:57:41,641 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:41,642 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:41,642 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUserSSO]] 
+2019-12-03 17:57:41,642 ExcuteTimeLogFileLogger -  Arguments£º[[eeb02422-2335-40c4-9718-a23f5614467e,onehcp_testuser,,,testuser,testuser,4033]]
+2019-12-03 17:57:41,642 ExcuteTimeLogFileLogger -  Take[[34]]Milliseconds
+2019-12-03 17:57:41,642 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName) OrElse (s.Code == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName))) AndAlso (s.Password == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).password))]]
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUser]] 
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  Arguments£º[[onehcp_testuser,63161189-3161-4c5b-8704-f13055b39f98,]]
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 17:57:43,577 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,580 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,580 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 17:57:43,580 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 17:57:43,580 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 17:57:43,580 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,581 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:57:43,581 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 17:57:43,581 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 17:57:43,581 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 17:57:43,581 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,455 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,461 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:58:52,461 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-03 17:58:52,461 ExcuteTimeLogFileLogger -  Take[[1070]]Milliseconds
+2019-12-03 17:58:52,461 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,463 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,463 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:58:52,463 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-03 17:58:52,463 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2019-12-03 17:58:52,463 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,464 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:58:52,465 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 17:58:52,465 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2019-12-03 17:58:52,465 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 17:58:52,465 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:59:35,203 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:59:35,203 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 17:59:35,203 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.Id == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).id) OrElse (s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).aDAccount)))]]
+2019-12-03 17:59:35,204 ExcuteTimeLogFileLogger -  Take[[31]]Milliseconds
+2019-12-03 17:59:35,204 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:59:35,211 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 17:59:35,211 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUserSSO]] 
+2019-12-03 17:59:35,211 ExcuteTimeLogFileLogger -  Arguments£º[[eeb02422-2335-40c4-9718-a23f5614467e,onehcp_testuser,,,testuser,testuser,4033]]
+2019-12-03 17:59:35,211 ExcuteTimeLogFileLogger -  Take[[31]]Milliseconds
+2019-12-03 17:59:35,211 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName) OrElse (s.Code == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName))) AndAlso (s.Password == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).password))]]
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUser]] 
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  Arguments£º[[onehcp_testuser,63161189-3161-4c5b-8704-f13055b39f98,]]
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 18:00:06,831 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 18:00:06,835 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,838 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,845 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 18:05:16,845 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-03 18:05:16,845 ExcuteTimeLogFileLogger -  Take[[1052]]Milliseconds
+2019-12-03 18:05:16,845 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,847 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,847 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 18:05:16,847 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-03 18:05:16,847 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2019-12-03 18:05:16,847 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,849 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:16,849 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-03 18:05:16,849 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2019-12-03 18:05:16,850 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2019-12-03 18:05:16,850 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:38,548 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:38,548 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 18:05:38,549 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.Id == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).id) OrElse (s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass5_0).aDAccount)))]]
+2019-12-03 18:05:38,549 ExcuteTimeLogFileLogger -  Take[[33]]Milliseconds
+2019-12-03 18:05:38,549 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:38,556 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:38,556 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUserSSO]] 
+2019-12-03 18:05:38,556 ExcuteTimeLogFileLogger -  Arguments£º[[eeb02422-2335-40c4-9718-a23f5614467e,onehcp_testuser,,,testuser,testuser,4033]]
+2019-12-03 18:05:38,556 ExcuteTimeLogFileLogger -  Take[[33]]Milliseconds
+2019-12-03 18:05:38,556 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,459 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefaultAsync]] 
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((((s != null) AndAlso (s.IsDeleted != 1)) AndAlso ((s.ADAccount == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName) OrElse (s.Code == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).userName))) AndAlso (s.Password == value(SSPC_One_HCP.OAuth.Implementations.AuthRepository+<>c__DisplayClass6_0).password))]]
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.OAuth.Implementations.AuthRepository.FindUser]] 
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  Arguments£º[[onehcp_testuser,63161189-3161-4c5b-8704-f13055b39f98,]]
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2019-12-03 18:05:39,460 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,464 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,464 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 18:05:39,464 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 18:05:39,464 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 18:05:39,464 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,465 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-03 18:05:39,465 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2019-12-03 18:05:39,465 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2019-12-03 18:05:39,465 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-03 18:05:39,465 ExcuteTimeLogFileLogger - ******************************************************************

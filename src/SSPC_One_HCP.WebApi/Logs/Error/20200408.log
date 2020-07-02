@@ -1,0 +1,72 @@
+2020-04-08 14:30:05,205 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:30:05,205 ErrorFileLogger -- [MSG]:An error occurred while updating the entries. See the inner exception for details.;
+
+2020-04-08 14:30:05,217 ErrorFileLogger -- [Source]:EntityFramework
+
+2020-04-08 14:30:05,217 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-04-08 14:30:05,217 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-04-08 14:30:05,217 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-04-08 14:30:05,217 ErrorFileLogger -- [Arguments]：[[]]
+2020-04-08 14:30:05,217 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:30:29,397 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:30:29,397 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-08 14:30:29,397 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-04-08 14:30:29,397 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 136
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-08 14:30:29,397 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-04-08 14:30:29,397 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-04-08 14:30:29,397 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-08 14:30:29,397 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:31:20,030 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:31:20,030 ErrorFileLogger -- [MSG]:An error occurred while updating the entries. See the inner exception for details.;
+
+2020-04-08 14:31:20,030 ErrorFileLogger -- [Source]:EntityFramework
+
+2020-04-08 14:31:20,030 ErrorFileLogger -- [StackTrace]:   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-04-08 14:31:20,030 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-04-08 14:31:20,030 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-04-08 14:31:20,030 ErrorFileLogger -- [Arguments]：[[]]
+2020-04-08 14:31:20,030 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:31:36,302 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-08 14:31:36,302 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-08 14:31:36,303 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-04-08 14:31:36,305 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 136
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-08 14:31:36,305 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-04-08 14:31:36,305 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-04-08 14:31:36,305 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-08 14:31:36,305 ErrorFileLogger -- --------------------------------------------------------------------------------

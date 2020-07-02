@@ -1,0 +1,436 @@
+2020-05-08 17:41:02,624 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:02,624 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:41:02,629 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:41:02,629 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:41:02,629 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:41:02,629 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:41:02,629 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:41:02,629 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:02,644 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:02,644 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:41:02,644 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:41:02,644 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:41:02,644 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:41:02,644 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:41:02,644 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:41:02,644 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:02,656 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:02,656 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-05-08 17:41:02,658 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-05-08 17:41:02,658 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline(String meetInfoId, Int32 count) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\WeChat\Implementations\WcLiveBroadcastPVService.cs:行号 186
+   在 Castle.Proxies.Invocations.IWcLiveBroadcastPVService_AddLiveOnline.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-08 17:41:02,658 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-05-08 17:41:02,658 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline]]
+
+2020-05-08 17:41:02,658 ErrorFileLogger -- [Arguments]：[[1d7c80f4-dc36-4551-a92e-4aa12ab35418,1]]
+2020-05-08 17:41:02,658 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:39,200 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:39,200 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:41:39,200 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:41:39,200 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:41:39,200 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:41:39,200 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:41:39,200 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:41:39,200 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:40,499 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:40,499 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:41:40,499 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:41:40,499 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:41:40,499 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:41:40,499 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:41:40,499 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:41:40,499 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:56,558 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:41:56,558 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-05-08 17:41:56,558 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-05-08 17:41:56,558 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline(String meetInfoId, Int32 count) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\WeChat\Implementations\WcLiveBroadcastPVService.cs:行号 186
+   在 Castle.Proxies.Invocations.IWcLiveBroadcastPVService_AddLiveOnline.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-08 17:41:56,558 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-05-08 17:41:56,558 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline]]
+
+2020-05-08 17:41:56,558 ErrorFileLogger -- [Arguments]：[[1d7c80f4-dc36-4551-a92e-4aa12ab35418,2]]
+2020-05-08 17:41:56,558 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:42:08,382 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:42:08,382 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:42:08,382 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:42:08,382 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:42:08,382 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:42:08,382 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:42:08,382 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:42:08,382 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:42:09,031 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:42:09,031 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:42:09,031 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:42:09,031 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:42:09,031 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:42:09,031 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:42:09,031 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:42:09,031 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:05,483 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:05,483 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:44:05,488 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:44:05,488 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.get_Database() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 529
+   在 Castle.Proxies.Invocations.IEfRepository_get_Database.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:44:05,488 ErrorFileLogger -- [StackTrace]:get_Database
+
+2020-05-08 17:44:05,488 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.get_Database]]
+
+2020-05-08 17:44:05,488 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:44:05,488 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:06,016 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:06,016 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:44:06,016 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:44:06,016 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:44:06,016 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:44:06,016 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:44:06,016 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:44:06,016 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:07,566 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:44:07,566 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:44:07,566 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:44:07,567 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:44:07,567 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:44:07,567 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:44:07,567 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:44:07,567 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:46:37,243 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:46:37,243 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:46:37,247 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:46:37,247 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:46:37,247 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:46:37,247 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:46:37,247 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:46:37,247 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:46:37,576 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:46:37,576 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:46:37,576 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:46:37,576 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:46:37,576 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:46:37,576 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:46:37,576 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:46:37,576 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:53:45,727 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:53:45,727 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:53:45,731 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:53:45,732 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:53:45,732 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:53:45,732 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:53:45,732 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:53:45,732 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:53:45,910 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:53:45,910 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:53:45,910 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:53:45,911 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:53:45,911 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:53:45,911 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:53:45,911 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:53:45,911 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:36,852 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:36,852 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:54:36,857 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:54:36,857 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:54:36,857 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:54:36,857 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:54:36,857 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:54:36,857 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:37,098 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:37,098 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:54:37,098 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:54:37,098 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:54:37,098 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:54:37,098 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:54:37,098 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:54:37,098 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:43,132 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:43,132 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-05-08 17:54:43,132 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-05-08 17:54:43,133 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline(String meetInfoId, Int32 count) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\WeChat\Implementations\WcLiveBroadcastPVService.cs:行号 186
+   在 Castle.Proxies.Invocations.IWcLiveBroadcastPVService_AddLiveOnline.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-08 17:54:43,133 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-05-08 17:54:43,133 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline]]
+
+2020-05-08 17:54:43,133 ErrorFileLogger -- [Arguments]：[[1d7c80f4-dc36-4551-a92e-4aa12ab35418,1]]
+2020-05-08 17:54:43,133 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:48,204 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:48,204 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:54:48,204 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:54:48,204 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:54:48,204 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:54:48,204 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:54:48,204 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:54:48,204 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:49,700 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:54:49,700 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:54:49,700 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:54:49,700 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.get_Database() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 529
+   在 Castle.Proxies.Invocations.IEfRepository_get_Database.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:54:49,700 ErrorFileLogger -- [StackTrace]:get_Database
+
+2020-05-08 17:54:49,700 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.get_Database]]
+
+2020-05-08 17:54:49,700 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:54:49,700 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:55:51,812 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:55:51,812 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:55:51,817 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:55:51,817 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:55:51,817 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:55:51,817 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:55:51,817 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveBroadcastPV]]
+2020-05-08 17:55:51,817 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:55:52,173 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:55:52,173 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:55:52,173 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:55:52,173 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:55:52,173 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:55:52,173 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:55:52,173 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:55:52,173 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:32,145 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:32,145 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:57:32,149 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:57:32,149 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:57:32,149 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:57:32,149 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:57:32,149 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:57:32,149 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:32,586 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:32,586 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:57:32,586 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:57:32,586 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:57:32,586 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:57:32,586 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:57:32,586 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:57:32,586 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:36,856 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:57:37,153 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-05-08 17:57:37,570 ErrorFileLogger -- [Source]:DynamicProxyGenAssembly2
+
+2020-05-08 17:57:37,828 ErrorFileLogger -- [StackTrace]:   在 Castle.Proxies.IEfRepositoryProxy.SaveChanges()
+   在 SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline(String meetInfoId, Int32 count) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\WeChat\Implementations\WcLiveBroadcastPVService.cs:行号 185
+   在 Castle.Proxies.Invocations.IWcLiveBroadcastPVService_AddLiveOnline.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-08 17:57:38,082 ErrorFileLogger -- [TargetSite]:SaveChanges
+
+2020-05-08 17:57:38,461 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.AddLiveOnline]]
+
+2020-05-08 17:57:38,654 ErrorFileLogger -- [Arguments]：[[1d7c80f4-dc36-4551-a92e-4aa12ab35418,1]]
+2020-05-08 17:57:56,978 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:58:59,373 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:58:59,373 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:58:59,378 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:58:59,378 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.Insert[T](T entity) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 85
+   在 Castle.Proxies.Invocations.IEfRepository_Insert.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:58:59,378 ErrorFileLogger -- [StackTrace]:Insert
+
+2020-05-08 17:58:59,378 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]]
+
+2020-05-08 17:58:59,378 ErrorFileLogger -- [Arguments]：[[SSPC_One_HCP.Core.Domain.Models.DataModels.LiveOnline]]
+2020-05-08 17:58:59,378 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:58:59,744 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-08 17:58:59,744 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。;
+
+2020-05-08 17:58:59,744 ErrorFileLogger -- [Source]:SSPC_One_HCP.Data
+
+2020-05-08 17:58:59,744 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Data.Data.EfRepository.SaveChanges() 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 460
+   在 Castle.Proxies.Invocations.IEfRepository_SaveChanges.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-05-08 17:58:59,744 ErrorFileLogger -- [StackTrace]:SaveChanges
+
+2020-05-08 17:58:59,744 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]]
+
+2020-05-08 17:58:59,744 ErrorFileLogger -- [Arguments]：[[]]
+2020-05-08 17:58:59,744 ErrorFileLogger -- --------------------------------------------------------------------------------

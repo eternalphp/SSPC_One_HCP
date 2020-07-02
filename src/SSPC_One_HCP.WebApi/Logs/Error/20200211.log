@@ -1,0 +1,238 @@
+2020-02-11 17:10:18,417 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:10:18,417 ErrorFileLogger -- [MSG]:非静态方法需要一个目标。;
+
+2020-02-11 17:10:18,425 ErrorFileLogger -- [Source]:mscorlib
+
+2020-02-11 17:10:18,425 ErrorFileLogger -- [StackTrace]:   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-02-11 17:10:18,426 ErrorFileLogger -- [StackTrace]:CheckConsistency
+
+2020-02-11 17:10:18,426 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2020-02-11 17:10:18,426 ErrorFileLogger -- [Arguments]：[[s => (s.Id == value(SSPC_One_HCP.Services.HCPData.HcpDataInfoService+<>c__DisplayClass7_0).productInfoView.dataInfo.Id)]]
+2020-02-11 17:10:18,426 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:20,391 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:20,391 ErrorFileLogger -- [MSG]:非静态方法需要一个目标。;
+
+2020-02-11 17:11:20,398 ErrorFileLogger -- [Source]:mscorlib
+
+2020-02-11 17:11:20,399 ErrorFileLogger -- [StackTrace]:   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-02-11 17:11:20,399 ErrorFileLogger -- [StackTrace]:CheckConsistency
+
+2020-02-11 17:11:20,399 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2020-02-11 17:11:20,399 ErrorFileLogger -- [Arguments]：[[s => (s.Id == value(SSPC_One_HCP.Services.HCPData.HcpDataInfoService+<>c__DisplayClass7_0).productInfoView.dataInfo.Id)]]
+2020-02-11 17:11:20,399 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:29,091 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:29,091 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-02-11 17:11:29,091 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-02-11 17:11:29,092 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo(HcpDataInfoInputDto productInfoView, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPData\HcpDataInfoService.cs:行号 200
+   在 Castle.Proxies.Invocations.IHcpDataInfoService_AddOrUpdateProductInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-02-11 17:11:29,092 ErrorFileLogger -- [TargetSite]:AddOrUpdateProductInfo
+
+2020-02-11 17:11:29,092 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo]]
+
+2020-02-11 17:11:29,092 ErrorFileLogger -- [Arguments]：[[,]]
+2020-02-11 17:11:29,092 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:34,233 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:11:34,233 ErrorFileLogger -- [MSG]:非静态方法需要一个目标。;
+
+2020-02-11 17:11:34,233 ErrorFileLogger -- [Source]:mscorlib
+
+2020-02-11 17:11:34,233 ErrorFileLogger -- [StackTrace]:   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-02-11 17:11:34,234 ErrorFileLogger -- [StackTrace]:CheckConsistency
+
+2020-02-11 17:11:34,234 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2020-02-11 17:11:34,234 ErrorFileLogger -- [Arguments]：[[s => (s.Id == value(SSPC_One_HCP.Services.HCPData.HcpDataInfoService+<>c__DisplayClass7_0).productInfoView.dataInfo.Id)]]
+2020-02-11 17:11:34,234 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:13:13,448 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:13:13,448 ErrorFileLogger -- [MSG]:非静态方法需要一个目标。;
+
+2020-02-11 17:13:13,456 ErrorFileLogger -- [Source]:mscorlib
+
+2020-02-11 17:13:13,457 ErrorFileLogger -- [StackTrace]:   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-02-11 17:13:13,457 ErrorFileLogger -- [StackTrace]:CheckConsistency
+
+2020-02-11 17:13:13,457 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2020-02-11 17:13:13,457 ErrorFileLogger -- [Arguments]：[[s => (s.Id == value(SSPC_One_HCP.Services.HCPData.HcpDataInfoService+<>c__DisplayClass7_0).productInfoView.dataInfo.Id)]]
+2020-02-11 17:13:13,457 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:44,786 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:44,786 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-02-11 17:14:44,789 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-02-11 17:14:44,789 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo(HcpDataInfoInputDto productInfoView, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPData\HcpDataInfoService.cs:行号 200
+   在 Castle.Proxies.Invocations.IHcpDataInfoService_AddOrUpdateProductInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-02-11 17:14:44,789 ErrorFileLogger -- [TargetSite]:AddOrUpdateProductInfo
+
+2020-02-11 17:14:44,789 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo]]
+
+2020-02-11 17:14:44,789 ErrorFileLogger -- [Arguments]：[[,]]
+2020-02-11 17:14:44,789 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:57,271 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:57,271 ErrorFileLogger -- [MSG]:非静态方法需要一个目标。;
+
+2020-02-11 17:14:57,271 ErrorFileLogger -- [Source]:mscorlib
+
+2020-02-11 17:14:57,271 ErrorFileLogger -- [StackTrace]:   在 System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   在 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object& memberValue)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression& constantExpression)
+   在 System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault[T](Expression`1 includeProperties) 位置 D:\工作\HCP\src\SSPC_One_HCP.Data\Data\EfRepository.cs:行号 268
+   在 Castle.Proxies.Invocations.IEfRepository_FirstOrDefault.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.RepositoryInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\RepositoryInterceptor.cs:行号 29
+
+2020-02-11 17:14:57,271 ErrorFileLogger -- [StackTrace]:CheckConsistency
+
+2020-02-11 17:14:57,271 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]]
+
+2020-02-11 17:14:57,271 ErrorFileLogger -- [Arguments]：[[s => (s.Id == value(SSPC_One_HCP.Services.HCPData.HcpDataInfoService+<>c__DisplayClass7_0).productInfoView.dataInfo.Id)]]
+2020-02-11 17:14:57,271 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:57,403 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-11 17:14:57,403 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-02-11 17:14:57,403 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-02-11 17:14:57,403 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo(HcpDataInfoInputDto productInfoView, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPData\HcpDataInfoService.cs:行号 200
+   在 Castle.Proxies.Invocations.IHcpDataInfoService_AddOrUpdateProductInfo.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-02-11 17:14:57,403 ErrorFileLogger -- [TargetSite]:AddOrUpdateProductInfo
+
+2020-02-11 17:14:57,403 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPData.HcpDataInfoService.AddOrUpdateProductInfo]]
+
+2020-02-11 17:14:57,403 ErrorFileLogger -- [Arguments]：[[,]]
+2020-02-11 17:14:57,403 ErrorFileLogger -- --------------------------------------------------------------------------------

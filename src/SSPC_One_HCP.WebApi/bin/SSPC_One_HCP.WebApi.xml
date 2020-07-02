@@ -1,0 +1,3159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSPC_One_HCP.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:SSPC_One_HCP.WebApi.App_Start.AutofacConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.App_Start.AutofacConfig.AutofacIoc(System.Web.Http.HttpConfiguration)">
+            <summary>
+            IOC 
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.WeChat.WcDocumentPDFController">
+            <summary>
+            智多星-文献PDF
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChat.WcDocumentPDFController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IDocumentManagerService)">
+            <summary>
+            
+            </summary>
+            <param name="documentManager"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChat.WcDocumentPDFController.PreviewPdf(System.String)">
+            <summary>
+            获取PDF文件流
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.HcpDataOperationInfoController">
+            <summary>
+            资料库操作记录
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.HcpDataOperationInfoController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcHcpDataOperationInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.HcpDataOperationInfoController.AddHcpDataOperationInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.HcpDataOperationInfo)">
+            <summary>
+            新增 资料库操作记录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController">
+            <summary>
+            小程序-资料库
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcHcpDataInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.GetFileList(System.String)">
+            <summary>
+            目录列表
+            </summary>
+            <param name="buName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.GetDataPageList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Services.Bot.Dto.WeChatHcpDataInfoInputDto})">
+            <summary>
+            分页查询资料列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.GetData(System.String)">
+            <summary>
+            根据ID查询数据
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.PreviewPdf(System.String)">
+            <summary>
+            预览PDF
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WeChatHcpDataInfoController.GetRedDot(System.String)">
+            <summary>
+            资料是否显示红点
+            </summary>
+            <param name="buName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.ADVerifyController">
+            <summary>
+             销售：AD认证
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.ADVerifyController.#ctor(SSPC_One_HCP.Services.Bot.IADVerifyService)">
+            <summary>
+            
+            </summary>
+            <param name="aDVerifyService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.ADVerifyController.AdminVerify(SSPC_One_HCP.Services.Bot.Dto.VerifyAdminInputDto)">
+            <summary>
+             销售：管理后台AD验证
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.ADVerifyController.WxVerify(SSPC_One_HCP.Services.Bot.Dto.AuthorizedOrNotInputDto)">
+            <summary>
+            销售：验证小程序AD是否授权过
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.ADVerifyController.GetSaleUserInfo(SSPC_One_HCP.Services.Bot.Dto.VerifyInputDto)">
+            <summary>
+            销售：小程序AD验证
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController">
+            <summary>
+            Bot 管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.#ctor(SSPC_One_HCP.Services.Bot.IBotApiService,SSPC_One_HCP.Services.Bot.IBotManageService)">
+            <summary>
+            
+            </summary>
+            <param name="botApiService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetBotInfo">
+            <summary>
+             获取KBS bot信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetByBotIdPacks(System.String)">
+            <summary>
+            根据KBS BOT ID查询知识包
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.AddOrUpdateSaleConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotSaleConfigure)">
+            <summary>
+            BOT配置-新增或修改
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMenusSaleConfigure">
+            <summary>
+            BOT配置- 获取配置信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMenusSaleConfigureList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.BotSaleConfigure})">
+            <summary>
+            BOT配置- 获取配置列表信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.DeleteMenusSaleConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotSaleConfigure)">
+            <summary>
+             BOT配置- 删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.AddOrUpdateMedalStandardConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalStandardConfigure)">
+            <summary>
+            勋章标准规则配置-新增或修改(次数)
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMedalStandardConfigure(System.String)">
+            <summary>
+            勋章标准规则配置- 根据ID获取配置信息(次数)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMedalStandardConfigureList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalStandardConfigure})">
+            <summary>
+            勋章标准规则配置- 分页查询(次数)
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.DeleteMedalStandardConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalStandardConfigure)">
+            <summary>
+            勋章标准规则配置- 删除(次数)
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.AddOrUpdateMedalBusinessConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalBusinessConfigure)">
+            <summary>
+            勋章业务规则配置-新增或修改
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMedalBusinessConfigure(System.String)">
+            <summary>
+            勋章业务规则配置- 根据ID获取配置信息
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.GetMedalBusinessConfigureList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalBusinessConfigure})">
+            <summary>
+            勋章业务规则配置- 分页查询
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.DeleteMedalBusinessConfigure(SSPC_One_HCP.Core.Domain.Models.DataModels.BotMedalBusinessConfigure)">
+            <summary>
+            勋章标准规则配置- 删除
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotManageController.Upload">
+            <summary>
+            KBS上传文件 通用接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController">
+            <summary>
+            会话任务
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController.#ctor(SSPC_One_HCP.Services.Bot.ITaskService)">
+            <summary>
+            
+            </summary>
+            <param name="taskService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController.BOTWelcoming(System.String,System.Int32)">
+            <summary>
+            欢迎语
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController.Entrance(SSPC_One_HCP.KBS.InputDto.TaskInputDto)">
+            <summary>
+            获取销售 Bot 信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController.SatisfactionDegree(SSPC_One_HCP.Services.Bot.Dto.SatisfactionDegreeInputDto)">
+            <summary>
+            获取销售 Bot 信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.TaskController.BOTRecommend(System.String)">
+            <summary>
+            获取销售 Bot 信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController">
+            <summary>
+            Bot 标签管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.#ctor(SSPC_One_HCP.Services.Bot.IBotApiService)">
+            <summary>
+            
+            </summary>
+            <param name="botApiService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.CreateAutomaticContentTag(SSPC_One_HCP.Services.Bot.Dto.AutomaticContentTagInputDto)">
+            <summary>
+            内容自动标签-添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.GetAutomaticContentTag(System.String)">
+            <summary>
+            内容自动标签-根据内容ID 获取自动标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.DeleteAutomaticContentTag(System.String)">
+            <summary>
+            内容自动标签-删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.CreateBusinessContentTag(SSPC_One_HCP.Services.Bot.Dto.BusinessContentTagInputDto)">
+            <summary>
+            内容业务标签-添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.GetBusinessContentTagDto(System.String)">
+            <summary>
+            内容业务标签-根据内容ID 获取业务标签
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.BotTagManageController.DeleteBusinessContentTagDto(System.String)">
+            <summary>
+            内容自动标签-删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Bot.WxSaleBaseApiController">
+            <summary>
+            销售微信小程序基础控制器，用于扩展
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Controllers.Bot.WxSaleBaseApiController.WorkUser">
+            <summary>
+            当前操作用户
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WxManageController.#ctor(SSPC_One_HCP.Services.Bot.IWxManageService)">
+            <summary>
+            
+            </summary>
+            <param name="wxManageService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WxManageController.GetWxUserInfo(SSPC_One_HCP.Services.Bot.Dto.WxManageInputDto)">
+            <summary>
+            小程序获取用户信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WxManageController.GetSSOId(System.String)">
+            <summary>
+            获取用户SSOID
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Bot.WxManageController.GetMedal(System.String)">
+            <summary>
+            获取用户已获取的勋章 和 未获取的勋章
+            </summary>
+            <param name="appId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController">
+            <summary>
+            融云API
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.#ctor(SSPC_One_HCP.Services.RongCloud.IRongCloudService)">
+            <summary>
+            融云API
+            </summary>
+            <param name="rongCloudService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.TemplateRouteCallback(SSPC_One_HCP.Services.RongCloud.Dto.TemplateRouteInputDto)">
+            <summary>
+             融云-模板路由回调
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomStatusSync(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomStatusSyncDto)">
+            <summary>
+             融云-聊天室 状态同步
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.MessageRecall(SSPC_One_HCP.Services.RongCloud.Dto.RecallMessageInputDto)">
+            <summary>
+            融云-消息撤回
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomSend(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomSendInputDto)">
+            <summary>
+            以发送聊天室消息方法实现：业务处理聊天室禁言与解禁
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.MessageHistory(System.String)">
+            <summary>
+            消息历史记录下载地址获取
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomCreate(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomInputDto)">
+            <summary>
+            融云-创建聊天室
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomQuery(System.String)">
+            <summary>
+            融云-聊天室ID查询聊天室
+            </summary>
+            <param name="chatroomId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomDestroy(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomInputDto)">
+            <summary>
+            融云-销毁聊天室
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomKeepaliveAdd(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomInputDto)">
+            <summary>
+            融云-添加-聊天室保活服务
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomKeepaliveRemove(SSPC_One_HCP.Services.RongCloud.Dto.ChatroomInputDto)">
+            <summary>
+            融云-删除-聊天室保活服务
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.RongCloudController.ChatroomKeepaliveGetList">
+            <summary>
+            融云-删除-获取聊天室保活
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.HCPData.WxRongCloudController">
+            <summary>
+            融云-医生端API
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.WxRongCloudController.#ctor(SSPC_One_HCP.Services.RongCloud.YsWeChat.IWxRongCloudService)">
+            <summary>
+            融云API
+            </summary>
+            <param name="wxRongCloudService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.WxRongCloudController.GetToken">
+            <summary>
+             融云-获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.HCPData.WxRongCloudController.UserChatroom(SSPC_One_HCP.Services.RongCloud.Dto.UserChatroomDto)">
+            <summary>
+             融云-用户是否在聊天室
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController._meetInfoSubscribeService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController.#ctor(SSPC_One_HCP.ServicesOut.Interfaces.IMeetInfoSubscribeService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="meetInfoSubscribeService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController.AddMeetInfo(SSPC_One_HCP.ServicesOut.Dto.MeetInfoSubscribeDto)">
+            <summary>
+            新增会议
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController.MeetListOfQA(SSPC_One_HCP.ServicesOut.Dto.MeetInfoSubscribeDto)">
+            <summary>
+            获取会议列表，用于选择过往会议的问卷
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController.QuestionList(SSPC_One_HCP.ServicesOut.Dto.MeetInfoSubscribeDto)">
+            <summary>
+            获取问卷列表
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.ServicesOut.MeetInfoSubscribeController.AddMeetQA(SSPC_One_HCP.ServicesOut.Dto.MeetInfoSubscribeDto)">
+            <summary>
+            
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController">
+            <summary>
+            目录管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IHcpCatalogueManageService)">
+            <summary>
+            
+            </summary>
+            <param name="hcpCatalogueManageService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController.GetHcpCatalogueList(System.String)">
+            <summary>
+            目录管理-根据BU名称获取列表
+            </summary>
+            <param name="buName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController.GetHcpCataloguePageList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.HcpCatalogueManage})">
+            <summary>
+            目录管理-分页获取详情列表
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController.AddOrUpdateCatalogue(SSPC_One_HCP.Core.Domain.Models.DataModels.HcpCatalogueManage)">
+            <summary>
+            目录管理-新增或修改信息
+            </summary>
+            <param name="view"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpCatalogueManageController.DeleteDataInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.HcpCatalogueManage)">
+            <summary>
+            目录管理-删除
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDocumentManagerController">
+            <summary>
+            文献管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDocumentManagerController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IDocumentManagerService)">
+            <summary>
+            
+            </summary>
+            <param name="documentManager"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDocumentManagerController.GetList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DocumentManagerSearchInputDto})">
+            <summary>
+            文献管理-获取详情列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDocumentManagerController.AddOrUpdate(SSPC_One_HCP.Services.Services.HCP.Dto.DocumentManagerInputDto)">
+            <summary>
+            文献管理-新增或修改资料信息
+            </summary>
+            <param name="inputDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDocumentManagerController.Delete(SSPC_One_HCP.Core.Domain.Models.DataModels.DocumentManager)">
+            <summary>
+            文献管理-删除资料
+            </summary>
+            <param name="dataInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDataInfoController">
+            <summary>
+            资料库管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDataInfoController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IHcpDataInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDataInfoController.GetProductInfoList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DataInfoSearchViewModel})">
+            <summary>
+            资料库-获取详情列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDataInfoController.AddOrUpdateProductInfo(SSPC_One_HCP.Services.Services.HCP.Dto.HcpDataInfoInputDto)">
+            <summary>
+            资料库-新增或修改资料信息
+            </summary>
+            <param name="productInfoView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpDataInfoController.DeleteDataInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.HcpDataInfo)">
+            <summary>
+            资料库-删除资料
+            </summary>
+            <param name="dataInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController">
+            <summary>
+            横幅管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IHcpBannerInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="bannerInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.GetList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.BannerInfo})">
+            <summary>
+            横幅管理-获取表列
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.GetById(System.String)">
+            <summary>
+            横幅管理- ID获取明细
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.AddOrUpdate(SSPC_One_HCP.Core.Domain.Models.DataModels.BannerInfo)">
+            <summary>
+            横幅管理- 新增或修改
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.AddOrUpdateBannerInfoItem(SSPC_One_HCP.Core.Domain.Models.DataModels.BannerInfoItem)">
+            <summary>
+            横幅管理- 明细新增或修改
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.Delete(SSPC_One_HCP.Core.Domain.Models.DataModels.BannerInfo)">
+            <summary>
+            横幅管理- 删除
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpBannerInfoController.DeleteBannerInfoItem(SSPC_One_HCP.Core.Domain.Models.DataModels.BannerInfoItem)">
+            <summary>
+            横幅管理- 明细删除
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController">
+            <summary>
+            系列课程
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController.#ctor(SSPC_One_HCP.Services.Services.HCP.Interfaces.IHcpSeriesCoursesService)">
+            <summary>
+            
+            </summary>
+            <param name="seriesCoursesService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController.GetList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.SeriesCourses})">
+            <summary>
+            系列课程-获取表列
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController.Get(System.String)">
+            <summary>
+            系列课程-获取明细
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController.AddOrUpdate(SSPC_One_HCP.Services.Services.HCP.Dto.SeriesCoursesInputDto)">
+            <summary>
+            系列课程-新增或修改资料信息
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.HCP.HcpSeriesCoursesController.Delete(SSPC_One_HCP.Core.Domain.Models.DataModels.SeriesCourses)">
+            <summary>
+            系列课程-删除
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PdfController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcHcpDataInfoService)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PdfController.GetTitle(System.String)">
+            <summary>
+            获取文件Title
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PdfController.GetLiterature(System.String)">
+            <summary>
+            预览PDF
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.LiveBroadcastPVController">
+            <summary>
+            PV
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.LiveBroadcastPVController._liveBroadcastPVService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.LiveBroadcastPVController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcLiveBroadcastPVService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="liveBroadcastPVService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.LiveBroadcastPVController.AddLiveBroadcastPV(SSPC_One_HCP.Core.Domain.Models.DataModels.LiveBroadcastPV)">
+            <summary>
+            记录明细
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.LiveBroadcastPVController.AddPneumoniaBotOperationRecord(System.String)">
+            <summary>
+            查询累计点击数
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.MeetSubscribeController">
+            <summary>
+            小程序会议订阅
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.MeetSubscribeController._meetSubscribeService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.MeetSubscribeController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcMeetSubscribeService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="meetInfoSubscribeService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.MeetSubscribeController.AddMeetSubscribe(SSPC_One_HCP.Services.Services.WeChat.Dto.MeetSubscribeInputDto)">
+            <summary>
+            小程序会议订阅-添加
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController">
+            <summary>
+            肺炎Bot
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController._pneumoniaBotService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcPneumoniaBotService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="pneumoniaBotService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController.AddPneumoniaBotForward(SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotForward)">
+            <summary>
+            肺炎Bot转发记录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController.AddPneumoniaBotOperationRecord(SSPC_One_HCP.Services.Services.WeChat.Dto.PneumoniaBotOperationRecordInputDto)">
+            <summary>
+            新增 肺炎Bot操作记录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController.GetAiBroadcastPageList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Services.Services.WeChat.Dto.AiBroadcastInputDto})">
+            <summary>
+            分页查询AI主播知识播报
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.PneumoniaBotController.GetAiBroadcast(SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo)">
+            <summary>
+            获取音频媒体详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcSeriesCoursesController">
+            <summary>
+            小程序 系列课程
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcSeriesCoursesController._wcSeriesCoursesService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcSeriesCoursesController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcSeriesCoursesService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wcSeriesCoursesService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcSeriesCoursesController.GetSeriesCoursesList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.SeriesCourses})">
+            <summary>
+            系列课程- 获取表列
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcSeriesCoursesController.GetSeriesCoursesMeetRelList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.SeriesCourses})">
+            <summary>
+            系列课程-  获取明细列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcBannerInfoController">
+            <summary>
+            小程序 横幅管理
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcBannerInfoController._wcBannerInfoService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcBannerInfoController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcBannerInfoService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="bannerInfoService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.WcBannerInfoController.GetByBusinessTag(System.String)">
+            <summary>
+            横幅管理- 归属获取明细
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.SaleAdController">
+            <summary>
+            小程序 销售注册
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.SaleAdController._saleAdService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.SaleAdController.#ctor(SSPC_One_HCP.Services.Services.WeChat.Interfaces.IWcSaleAdService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="saleAdService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Services.WeChat.SaleAdController.Login(SSPC_One_HCP.Services.Services.WeChat.Dto.LoginInputDto)">
+            <summary>
+            内部员工 登录
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.SMSController">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.#ctor(SSPC_One_HCP.Services.Interfaces.IADDoctorService,SSPC_One_HCP.Core.Cache.ICacheManager)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.send(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="secret"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.getAccessToken">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WvRegistrationFormController">
+            <summary>
+            H5-参会报名表
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WvRegistrationFormController.#ctor(SSPC_One_HCP.Services.Services.WebView.Interfaces.IRegistrationFormService)">
+            <summary>
+             构造函数
+            </summary>
+            <param name="registrationFormService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WvRegistrationFormController.GetUserInfo(System.String)">
+            <summary>
+            通过code换取网页授权access_token
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WvRegistrationFormController.AddOrUpdate(SSPC_One_HCP.Services.Services.WebView.Dto.RegistrationFormInputDto)">
+            <summary>
+            新增修改 参会报名表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WechatActionHistoryController">
+            <summary>
+            微信对接外部接口 记录行为模式
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WechatActionHistoryController.#ctor(SSPC_One_HCP.Services.Interfaces.IWechatActionHistoryService)">
+            <summary>
+             构造函数
+            </summary>
+            <param name="iWechatActionHistoryService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WechatActionHistoryController.AddActionHistory(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.WechatActionHistory})">
+            <summary>
+            微信接口-新增用户行为记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WechatActionHistoryController.GetMagaZineList">
+            <summary>
+            获取期刊热搜词
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBusinessCardController">
+            <summary>
+            名片夹
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBusinessCardController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxBusinessCardService)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBusinessCardController.AddBusinessCard(SSPC_One_HCP.Core.Domain.ViewModels.AddBusinessCardViewModel)">
+            <summary>
+            添加名片夹
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBusinessCardController.GetBusinessCardList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.BusinessCard})">
+            <summary>
+            我的名片夹
+            </summary>
+            <param name="rowData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDiscoveryController">
+            <summary>
+            发现模块
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDiscoveryController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxDiscoveryService)">
+            <summary>
+            
+            </summary>
+            <param name="wxDiscoveryService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDiscoveryController.WxDisMainPage">
+            <summary>
+            获取发现首页的会议、学术知识
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBaseApiController">
+            <summary>
+            微信基础控制器，用于扩展
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Controllers.WeChat.WxBaseApiController.WorkUser">
+            <summary>
+            当前操作用户
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCollectionController">
+            <summary>
+            收藏控制器
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCollectionController.#ctor(SSPC_One_HCP.Services.Interfaces.ICollectionService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="collectionService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCollectionController.CollectionMeet(SSPC_One_HCP.Core.Domain.Models.DataModels.MyCollectionInfo)">
+            <summary>
+            收藏会议
+            </summary>
+            <param name="collectionInfo">收藏信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCollectionController.Collection(SSPC_One_HCP.Core.Domain.Models.DataModels.MyCollectionInfo)">
+            <summary>
+            收藏会议
+            </summary>
+            <param name="collectionInfo">收藏信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCollectionController.CollectionList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.CollectionViewModel})">
+            <summary>
+            收藏列表
+            </summary>
+            <param name="rowCollection">分页、搜索</param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCommonController">
+            <summary>
+            小程序通用
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCommonController._wxCommonService">
+            <summary>
+            声明
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCommonController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxCommonService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wxCommonService">小程序通用服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCommonController.GetHospital(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.HospitalInfo})">
+            <summary>
+            获取医院
+            </summary>
+            <param name="rowNum">模糊搜索，HospitalName</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxCommonController.GetDept(SSPC_One_HCP.Core.Domain.Models.DataModels.DepartmentInfo)">
+            <summary>
+            获取科室
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController">
+            <summary>
+            资料下载
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.#ctor(SSPC_One_HCP.Services.Interfaces.IwxDownLoadService)">
+            <summary>
+            
+            </summary>
+            <param name="iwxDownLoadService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.DownLoadDecode(System.String)">
+            <summary>
+            显示加密后的数据
+            </summary>
+            <param name="UrlContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.GetDownLoadDecryptUrl(System.String)">
+            <summary>
+            显示解密后的数据
+            </summary>
+            <param name="UrlContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.DownloadFile(System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="url">文件路径</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.GetDecode(System.String)">
+            <summary>
+            临床指南解码测试
+            </summary>
+            <param name="UrlContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxDownLoadController.GuidTest">
+            <summary>
+            临床指南测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxExtensionController">
+            <summary>
+            公众号推广
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxExtensionController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxExtensionService)">
+            <summary>
+            
+            </summary>
+            <param name="WxExtensionService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxExtensionController.WxGetPublicAccount(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.PublicAccount})">
+            <summary>
+            根据微信用户科室获取公众号推广信息
+            </summary>
+            <param name="publicaccount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController">
+            <summary>
+            主要信息
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxHomeService)">
+            <summary>
+            
+            </summary>
+            <param name="wxHomeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.GetWxCurrentUser">
+            <summary>
+            获取当前微信用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.GetAttendMeetings(System.DateTime)">
+            <summary>
+            参加会议次数
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.GetLeaningTimes(System.DateTime)">
+            <summary>
+            学习时间
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.GetVisitCitys(System.DateTime)">
+            <summary>
+            访问城市
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.Feedback(SSPC_One_HCP.Core.Domain.ViewModels.FeedbackViewModel)">
+            <summary>
+            提交意见反馈
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.DeleteMyAccount">
+            <summary>
+            删除个人信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxHomeController.GetCompetingProduct">
+            <summary>
+            费森竞争产品
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController">
+            <summary>
+            知识库相关
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxKnowledgeService)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.GetWxKnowledgePage">
+            <summary>
+            知识库页面数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.PodcastList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo})">
+            <summary>
+            播客列表
+            </summary>
+            <param name="rowData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.IsReadStatus(SSPC_One_HCP.Core.Domain.Models.DataModels.MyReadRecord)">
+            <summary>
+            更改已读未读状态
+            </summary>
+            <param name="myReadRecord">阅读记录</param>
+            <remarks>
+            myReadRecord-DataInfoId 传入当前的播客ID
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.GetProductMediaList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MediaDataRelViewModel})">
+            <summary>
+            产品资料列表
+            </summary>
+            <param name="dataInfo">
+               非主页面 传入ProductTypeInfoId
+               主页面 主需要传入Title
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.AudioMediaDetail(SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo)">
+            <summary>
+            播客详情
+            </summary>
+            <param name="dataInfo">传入Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.GetGuideList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo})">
+            <summary>
+            临床指南列表
+            </summary>
+            <param name="dataInfo">分页、搜索</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.WxKnowledgeDetail(SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo)">
+            <summary>
+            知识库详情
+            </summary>
+            <param name="dataInfo">传入Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.ClinicalguidelinesByUser">
+            <summary>
+            根据用户获取临床指南
+            </summary>
+            <param name="wxuser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxKownledgeController.IsApproveProductDetails(SSPC_One_HCP.Core.Domain.ViewModels.ProductInfoLikeView)">
+            <summary>
+            赞同或不赞同
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxLearnController">
+            <summary>
+            学习相关
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxLearnController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxLearnService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wxLearnService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxLearnController.AddLearn(SSPC_One_HCP.Core.Domain.Models.DataModels.MyLRecord)">
+            <summary>
+            记录学习时间
+            </summary>
+            <param name="myLRecord">学习记录信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxLearnController.AddLearnForTest(System.String,System.DateTime)">
+            <summary>
+            批量插入数据
+            </summary>
+            <param name="userid"></param>
+            <param name="NowDate"></param>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMedicineController">
+            <summary>
+            微信-用药接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMedicineController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxMedicineService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wxHomeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMedicineController.AddHotSearch(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MedicineHotSearchViewModel})">
+            <summary>
+            增加热搜记录和个人搜索记录
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMedicineController.DeleteSearchHistory(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.WxMedicine.WxMedicineDelViewModel})">
+            <summary>
+            批量删除个人搜索记录
+            </summary>
+            <param name="historyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMedicineController.GetHotSearchList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MedicineHotSearch})">
+            <summary>
+            查询热搜列表和个人搜索列表
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController">
+            <summary>
+            微信端会议接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxMeetService)">
+            <summary>
+            
+            </summary>
+            <param name="wxMeetService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            会议详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetCalendar(System.DateTime)">
+            <summary>
+            获取会议日历
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetDetail(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            获取会议
+            </summary>
+            <param name="meetInfo">会议信息，之传入Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetHistoryMeeting(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取历史参会列表
+            </summary>
+            <param name="rowMeet">分页</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取会议列表
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetLists(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取所有会议列表（推荐会和历史会）
+            </summary>
+            <param name="rowMeet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetDepartmentInfo(System.Int32)">
+            <summary>
+            搜索 条件
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetRecommendSearch(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Services.Implementations.Dto.MeetSearchInputDto})">
+            <summary>
+            推荐会议搜索
+            </summary>
+            <param name="rowMeet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetHistorySearch(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Services.Implementations.Dto.MeetSearchInputDto})">
+            <summary>
+            历史会议搜索
+            </summary>
+            <param name="rowMeet"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.MeetingOrder(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MyMeetOrderViewModel)">
+            <summary>
+            会议报名
+            </summary>
+            <param name="mmo">传入MeetId,IsRemind,WarnMinutes</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.MeetingSignUp(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetSignUpViewModel)">
+            <summary>
+            会议签到
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.KnownMeetingDetail(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetSignUp)">
+            <summary>
+            更新状态：已查看会议详情 (导出会议报告时需要)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.NotStartMeet">
+            <summary>
+            未开始的会议
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetQAInfo(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQARelationViewModel)">
+            <summary>
+            根据会议id和问卷类型获取问卷
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.CommitQAResult(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.WxMeetQAResultViewModel)">
+            <summary>
+            提交会议问卷结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxMeetController.GetMeetByDate(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            根据日期和用户查询Id
+            </summary>
+            <param name="meet"></param>
+            <param name="wxuser"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController">
+            <summary>
+            微信API
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxOpenService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wxOpenService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController.GetUnionId(SSPC_One_HCP.Core.Domain.ViewModels.WxUserInfoRequestModel)">
+            <summary>
+            获取UnionID
+            </summary>
+            <param name="wxUserInfoRequestModel">传入微信获取的相关信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController.WKLogin(SSPC_One_HCP.Core.Domain.ViewModels.WKUser)">
+            <summary>
+            文库登录验证
+            </summary>
+            <param name="user">传入微信获取的相关信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController.FormID(SSPC_One_HCP.Core.Domain.Models.DataModels.TemplateForm)">
+            <summary>
+            保存FormID
+            </summary>
+            <param name="form"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxOpenController.GetWXPhone(SSPC_One_HCP.Core.Domain.ViewModels.DecodePhoneModel)">
+            <summary>
+            解析手机号
+            </summary>
+            <param name="phoneModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController">
+            <summary>
+            微信医生注册流程
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.#ctor(SSPC_One_HCP.Services.Interfaces.IWxRegisterService)">
+            <summary>
+            
+            </summary>
+            <param name="wxRegisterService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.SendCode(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.WxUserModel)">
+            <summary>
+            发送验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.VerifyCode(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.WxUserModel)">
+            <summary>
+            验证验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.CheckMoblie(System.String)">
+            <summary>
+            验证手机号
+            </summary>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.RegisterDoctor(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.WxUserModel)">
+            <summary>
+            注册医生
+            </summary>
+            <param name="wxUserModel">
+            微信用户信息：
+            HospitalName，
+            DepartmentName
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.UpdateDocHospitalOrDept(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.WxUserModel)">
+            <summary>
+            更新医生医院及科室
+            </summary>
+            <param name="wxUserModel">
+            微信用户信息：
+            HospitalName，
+            DepartmentName
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.UploadPicture">
+            <summary>
+            上传医生个人信息证明图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.UploadSign">
+            <summary>
+            上传签名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxRegisterController.IsQualified(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.WxUserModel)">
+            <summary>
+            判断输入的姓名是否合格
+            </summary>
+            <param name="wxUserModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxSmsController">
+            <summary>
+            短信验证码
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxSmsController.#ctor(SSPC_One_HCP.Services.Interfaces.ISmsService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="smsService"></param>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitModulesController">
+            <summary>
+            微信小程序访问模块记录
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitModulesController.#ctor(SSPC_One_HCP.Services.Interfaces.IVisitModulesService)">
+            <summary>
+            
+            </summary>
+            <param name="wxHomeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitModulesController.AddVisitModules(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.VisitModulesViewModel})">
+            <summary>
+            新增用户访问模块记录
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitTimesController">
+            <summary>
+            微信小程序访问次数
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitTimesController.#ctor(SSPC_One_HCP.Services.Interfaces.IVisitTimesService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="wxHomeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.WeChat.WxVisitTimesController.AddVisitTimes(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.VisitTimesViewModel})">
+            <summary>
+            新增访问次数
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Controllers.Admin.BaseApiController.WorkUser">
+            <summary>
+            当前操作用户
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController">
+            <summary>
+            推广二维码
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController.GetSpreadQRCodeList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.SpreadQRCode})">
+            <summary>
+            获取推广二维码列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController.GetSpreadQRCode(SSPC_One_HCP.Core.Domain.Models.DataModels.SpreadQRCode)">
+            <summary>
+            获取推广二维码详情
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController.AddOrUpdate(SSPC_One_HCP.Core.Domain.Models.DataModels.SpreadQRCode)">
+            <summary>
+            新增推广二维码
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController.DeleteItem(SSPC_One_HCP.Core.Domain.Models.DataModels.SpreadQRCode)">
+            <summary>
+            删除推广二维码
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SpreadQRCodeController.Visitor(System.String)">
+            <summary>
+            访问数+1
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController">
+            <summary>
+            科室
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController.#ctor(SSPC_One_HCP.Services.Interfaces.IDepartmentService)">
+            <summary>
+            科室
+            </summary>
+            <param name="departmentService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController.GetDepartmentList(SSPC_One_HCP.Core.Domain.Models.DataModels.DepartmentInfo)">
+            <summary>
+            获取科室列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController.AddOrUpdateDepartment(SSPC_One_HCP.Core.Domain.Models.DataModels.DepartmentInfo)">
+            <summary>
+            新增或修改科室信息
+            </summary>
+            <param name="department"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController.GetAllBUList">
+            <summary>
+            获取全部BU列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DepartmentController.GetBUList">
+            <summary>
+            获取当前登录用户所属的BU列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController">
+            <summary>
+            后台医生接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetDoctorList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel})">
+            <summary>
+            获取医生列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetDoctorDetail(SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel)">
+            <summary>
+            获取医生详情
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.UpdateTagsOfDoctor(SSPC_One_HCP.Core.Domain.ViewModels.DoctorModels.DoctorTagView)">
+            <summary>
+            手动给医生加标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.AddOrUpdateTagInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.TagInfo)">
+            <summary>
+            新增或编辑标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.DeleteTagInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.TagInfo)">
+            <summary>
+            删除标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetTagList">
+            <summary>
+            获取医生手动标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.ExportDoctorList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel},System.Collections.Generic.List{System.String})">
+            <summary>
+            导出医生信息
+            </summary>
+            <param name="rowNum"></param>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetDoctorLearn(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel})">
+            <summary>
+            获取医生学习时间
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.ExportDoctorLearn(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorLearnViewModel})">
+            <summary>
+            导出-医生学习时间
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetStudyList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorModels.DoctorDetailViewModel})">
+            <summary>
+            获取医生学习时间详情列表
+            </summary>
+            <param name="wxuserId"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetVisitModulesList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorModels.DoctorDetailViewModel})">
+            <summary>
+            获取用户模块浏览详情列表
+            </summary>
+            <param name="wxuserId"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.DelWxUserModel(System.Collections.Generic.List{System.String})">
+            <summary>
+            批量删除用户(IsDeleted=1)
+            </summary>
+            <param name="wxuserids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.DoctorVerify(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorModels.DoctorVerifyViewModel})">
+            <summary>
+            用户后台认证
+            </summary>
+            <param name="rownum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.DoctorVerifyDetail(SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel)">
+            <summary>
+            申诉用户详情
+            </summary>
+            <param name="rownum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetDoctorByTagDep(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.DoctorMeeting})">
+            <summary>
+            医生列表
+            根据科室和标签分组
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.GetInternalStaffList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel})">
+            <summary>
+            获取内部员工
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.DoctorController.ExportInternalStaffList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel},System.Collections.Generic.List{System.String})">
+            <summary>
+            导出内部员工信息
+            </summary>
+            <param name="rowNum"></param>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController">
+            <summary>
+            公众号推广，二维码推广管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController.#ctor(SSPC_One_HCP.Services.Interfaces.IExtensionService)">
+            <summary>
+            
+            </summary>
+            <param name="ExtensionService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController.GetPublicAccount(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.PublicAccount})">
+            <summary>
+            获取公众号列表
+            </summary>
+            <param name="publicaccount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController.AddorUpdatePublicAccount(SSPC_One_HCP.Core.Domain.Models.DataModels.PublicAccount)">
+            <summary>
+            新增或更新公众号信息
+            </summary>
+            <param name="publicaccount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController.DeletePublicAccount(SSPC_One_HCP.Core.Domain.Models.DataModels.PublicAccount)">
+            <summary>
+            删除公众号信息
+            </summary>
+            <param name="publicaccount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ExtensionController.AddorUpdateQRCodeExtension(SSPC_One_HCP.Core.Domain.Models.DataModels.QRcodeExtension)">
+            <summary>
+            新增或更新二维码推广信息
+            </summary>
+            <param name="qRcodeExtension"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.HomeController">
+            <summary>
+            主页接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.HomeController.#ctor(SSPC_One_HCP.Services.Interfaces.ICommonService)">
+            <summary>
+            主页接口
+            </summary>
+            <param name="commonService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.HomeController.GetCurrentUser">
+            <summary>
+            获取当前用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController.#ctor(SSPC_One_HCP.Services.Interfaces.ILoginService)">
+            <summary>
+            
+            </summary>
+            <param name="loginService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController.MailLogin(System.String)">
+            <summary>
+            邮件链接登录
+            </summary>
+            <param name="info">信息加密字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController.UnLogin(System.String)">
+            <summary>
+            UN登录
+            </summary>
+            <param name="info">信息加密字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController.LoginSys(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.UserModel)">
+            <summary>
+            域账户登录
+            </summary>
+            <param name="userModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.LoginController.UpdatePassword(SSPC_One_HCP.Core.Domain.Models.IdentityEntities.UserModel)">
+            <summary>
+            修改账户密码
+            </summary>
+            <param name="userModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController">
+            <summary>
+            推广二维码 废弃
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController.#ctor(SSPC_One_HCP.Services.Interfaces.IQRCodeService)">
+            <summary>
+            构造器
+            </summary>
+            <param name="qRCodeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController.AddOrUpdateAdQRCode(SSPC_One_HCP.Core.Domain.Models.DataModels.AdQRCode)">
+            <summary>
+            新增或修改推广二维码信息
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController.DeleteAdQRCode(SSPC_One_HCP.Core.Domain.Models.DataModels.AdQRCode)">
+            <summary>
+            删除推广二维码信息
+            </summary>
+            <param name="viewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController.AnalyzeAdQRCode(System.String)">
+            <summary>
+            解析推广二维码, 获取推广的公众号或小程序的相关信息, 同时二维码访问次数+1
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.AdQRCodeController.GetAdQRCodeList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.AdQRCode})">
+            <summary>
+            获取推广二维码的列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController">
+            <summary>
+            短信管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.#ctor(SSPC_One_HCP.Services.Interfaces.IManagementService)">
+            <summary>
+            
+            </summary>
+            <param name="ManagementService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.AddorUpdateManagement(SSPC_One_HCP.Core.Domain.Models.DataModels.Management)">
+            <summary>
+            新增或修改短信模板
+            </summary>
+            <param name="manage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.DeleteManagement(SSPC_One_HCP.Core.Domain.Models.DataModels.Management)">
+            <summary>
+            删除短信模板
+            </summary>
+            <param name="manage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.GetManagementList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.Management})">
+            <summary>
+            获取所有短信模板
+            </summary>
+            <param name="manage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.ManagementApproval(SSPC_One_HCP.Core.Domain.ViewModels.Approval.ApprovalResultViewModel)">
+            <summary>
+            提交审核结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ManagementController.RevokeUpdateManagement(SSPC_One_HCP.Core.Domain.Models.DataModels.Management)">
+            <summary>
+            撤销修改
+            </summary>
+            <param name="manage"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.SendRateController">
+            <summary>
+            发送频率
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SendRateController.GetItem(SSPC_One_HCP.Core.Domain.Models.DataModels.SendRate)">
+            <summary>
+            指定医生配置
+            </summary>
+            <param name="sendRate">DoctorID</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SendRateController.GeDefaultItem">
+            <summary>
+            获取默认配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SendRateController.SetSendRate(SSPC_One_HCP.Core.Domain.Models.DataModels.SendRate)">
+            <summary>
+            增改
+            </summary>
+            <param name="sendRate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController">
+            <summary>
+            报表管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.#ctor(SSPC_One_HCP.Services.Interfaces.IStatisticService)">
+            <summary>
+            初始化
+            </summary>
+            <param name="statisticService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetOverViewList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel})">
+            <summary>
+            获取概览统计
+            </summary>
+            <returns>_statisticService</returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetGrowthList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel})">
+            <summary>
+            获取增长趋势
+            </summary>
+            <returns>_statisticService</returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetDocStudyList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel})">
+            <summary>
+            医生学习趋势
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetActiveList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel})">
+            <summary>
+            活跃趋势 活跃趋势人数、Top 访问页、Top 访问模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetOpenTimesList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel})">
+            <summary>
+            活跃趋势-打开次数
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetDoctor(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{System.Collections.Generic.List{System.Int32}})">
+             <summary>
+             获取医生列表信息
+             1 认证通过 ; 
+            3,6 认证未通过人数（失败 和申诉拒绝）
+            2 认证 未定人数 
+            5,4 总待验证通过人数
+             </summary>
+             <param name="rowNum"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetAddRetain(SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel)">
+            <summary>
+            新增留存率
+            指定时间新增（即首次访问小程序）的用户，在之后的第N天，再次访问小程序的用户数占比
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.StatisticController.GetActiveRetain(SSPC_One_HCP.Core.Domain.ViewModels.StatisticsTimeViewModel)">
+            <summary>
+            活跃留存
+            指定时间活跃（即访问小程序）的用户，在之后的第N天，再次访问小程序的用户数占比
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController">
+            <summary>
+            系统设置
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.#ctor(SSPC_One_HCP.Services.Interfaces.IWechatPublicAccountService,SSPC_One_HCP.Services.Interfaces.ISystemService,SSPC_One_HCP.Services.Interfaces.IWordBlackListService)">
+            <summary>
+            系统设置
+            </summary>
+            <param name="wxPublicAccService">微信公众号</param>
+            <param name="systemService"></param>
+            <param name="wordBlackListService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetWechatPublicAccountList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.WechatPublicAccount})">
+            <summary>
+            获取微信公众号列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetWechatPublicAccountInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.WechatPublicAccount)">
+            <summary>
+            获取单个微信公众号信息
+            </summary>
+            <param name="accountInfo">微信公众号信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.AddOrUpdateWechatPublicAccount(SSPC_One_HCP.Core.Domain.Models.DataModels.WechatPublicAccount)">
+            <summary>
+            新增或修改微信公众号信息
+            </summary>
+            <param name="accountInfo">微信公众号信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.DeleteWechatPublicAccount(SSPC_One_HCP.Core.Domain.Models.DataModels.WechatPublicAccount)">
+            <summary>
+            删除微信公众号信息
+            </summary>
+            <param name="accountInfo">微信公众号信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetAdminApprovalEnabled">
+            <summary>
+            是否启用管理员审核功能
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.SetAdminApprovalEnabled(SSPC_One_HCP.Core.Domain.ViewModels.ConfigurationViewModel{System.Nullable{System.Boolean}})">
+            <summary>
+            设置是否启用管理员审核功能
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetFeedbackList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.FeedbackListViewModel})">
+            <summary>
+            获取意见反馈列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.AddOrUpdateWordBlackList(SSPC_One_HCP.Core.Domain.Models.DataModels.WordBlackList)">
+            <summary>
+            新增或更新关键词黑名单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.DeleteWordBlackList(SSPC_One_HCP.Core.Domain.Models.DataModels.WordBlackList)">
+            <summary>
+            删除关键词黑名单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetWordBlackLists(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.WordBlackList})">
+            <summary>
+            获取关键词列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.SystemController.GetConfig">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController">
+            <summary>
+            会议管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.#ctor(SSPC_One_HCP.Services.Interfaces.IMeetService)">
+            <summary>
+            会议管理
+            </summary>
+            <param name="meetService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetSearchViewModel})">
+            <summary>
+            获取会议列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetListOfQA(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetSearchViewModel})">
+            <summary>
+            获取会议列表，用于选择过往会议的问卷
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.AddOrUpdateMeetInfo(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetInfoViewModel)">
+            <summary>
+            新增或更新会议
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.DeleteMeetInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            删除会议
+            </summary>
+            <param name="meetInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            获取会议详情
+            </summary>
+            <param name="meetInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetSituation(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取参会医生报告一览
+            </summary>
+            <param name="rowNum">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.ExportMeetSituation(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            导出参会医生报告
+            </summary>
+            <param name="meetInfo">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetSignUpList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取会议签到一览
+            </summary>
+            <param name="rowNum">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.ExportMeetSignUpList(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            导出会议签到列表
+            </summary>
+            <param name="meetInfo">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetOrderList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取会议报名一览
+            </summary>
+            <param name="rowNum">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.ExportMeetOrderList(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            导出会议报名列表
+            </summary>
+            <param name="meetInfo">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetQAResultList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取会议调研报告一览
+            </summary>
+            <param name="rowNum">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.ExportMeetQAResultReport(SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo)">
+            <summary>
+            导出会议调研报告
+            </summary>
+            <param name="meetInfo">会议信息（只需会议ID）</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetMeetQAInfo(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQARelationViewModel)">
+            <summary>
+            根据会议id和问卷类型获取问卷
+            </summary>
+            <param name="meetQA"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.AddOrUpdateMeetQA(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQARelationViewModel)">
+            <summary>
+            新增或修改会议的问卷列表
+            </summary>
+            <param name="meetQA"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.DeleteMeetQAInfo(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQARelationViewModel)">
+            <summary>
+            删除会议问卷
+            </summary>
+            <param name="meetQA"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.Approval(SSPC_One_HCP.Core.Domain.ViewModels.Approval.ApprovalResultViewModel)">
+            <summary>
+            提交会议的审核结果
+            </summary>
+            <param name="approvalResult">审核结果</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetController.GetDoctorMeeting(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo})">
+            <summary>
+            获取单个会议可参加的人员
+            </summary>
+            <param name="rowNum"></param>      
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController">
+            <summary>
+            会议问卷接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController.GetMeetQAList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQAContentViewModel})">
+            <summary>
+            获取会议问卷列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController.GetQuestionList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.QuestionModel})">
+            <summary>
+            获取问卷列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController.AddOrUpdateMeetQA(SSPC_One_HCP.Core.Domain.ViewModels.MeetModels.MeetQAContentViewModel)">
+            <summary>
+            新增或修改题目和答案
+            </summary>
+            <param name="meetQA"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController.DeleteMeetQA(SSPC_One_HCP.Core.Domain.Models.DataModels.QuestionModel)">
+            <summary>
+            删除会议问卷
+            </summary>
+            <param name="meetQA"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MeetQAController.GetMeetQA(SSPC_One_HCP.Core.Domain.Models.DataModels.QuestionModel)">
+            <summary>
+            获取会议问卷详情
+            </summary>
+            <param name="question"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.#ctor(SSPC_One_HCP.Services.Interfaces.IMenuService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="menuService">菜单服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.GetMenusByRole">
+            <summary>
+            根据用户权限显示菜单
+            </summary>
+            <response code="400">请求错误</response>
+            <response code="401">无权访问</response>
+            <response code="500">服务器错误</response>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.AddOrUpdateMenu(SSPC_One_HCP.Core.Domain.Models.DataModels.MenuInfo)">
+            <summary>
+            新增或更新菜单信息
+            </summary>
+            <param name="menuInfo">菜单信息</param>
+            <response code="400">请求错误</response>
+            <response code="401">无权访问</response>
+            <response code="500">服务器错误</response>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.MenuList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.MenuInfoViewModel})">
+            <summary>
+            菜单列表
+            </summary>
+            <param name="rowMenu">分页、搜索</param>
+            <response code="400">请求错误</response>
+            <response code="401">无权访问</response>
+            <response code="500">服务器错误</response>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.ParentMenus">
+            <summary>
+            父级菜单下拉
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.DelMenu(SSPC_One_HCP.Core.Domain.Models.DataModels.MenuInfo)">
+            <summary>
+            逻辑删除菜单
+            </summary>
+            <param name="menuInfo">菜单信息，传入主键Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.MenuController.UpdateNormal(System.Collections.Generic.List{System.String})">
+            <summary>
+            更新菜单是否都可访问
+            </summary>
+            <param name="menuIds">菜单主键的集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController">
+            <summary>
+            产品控制器
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.#ctor(SSPC_One_HCP.Services.Interfaces.IProductService)">
+            <summary>
+            构造器
+            </summary>
+            <param name="productService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.GetProductList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.ProductModels.SearchProductViewModel})">
+            <summary>
+            获取产品列表
+            </summary>
+            <param name="rowPro">分页、搜索</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.AddOrUpdateProduct(SSPC_One_HCP.Core.Domain.ViewModels.ProductModels.ProductDetailViewModel)">
+            <summary>
+            新增或更新产品信息
+            </summary>
+            <param name="productInfo">
+            产品信息，Id存在则更新，否则新增
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.DelProduct(System.Collections.Generic.List{SSPC_One_HCP.Core.Domain.Models.DataModels.ProductInfo})">
+            <summary>
+            删除产品
+            </summary>
+            <param name="proList">传入模型数组，只需要Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.ProductDetail(SSPC_One_HCP.Core.Domain.Models.DataModels.ProductInfo)">
+            <summary>
+            产品详情
+            </summary>
+            <param name="productInfo">只需传入Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.BuProDeptRelMap(SSPC_One_HCP.Core.Domain.ViewModels.ProductModels.ProductBuDeptSelectionViewModel)">
+            <summary>
+            获取BuProDept对应关系
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.ProductController.GetProList">
+            <summary>
+            产品列表（下拉框）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.#ctor(SSPC_One_HCP.Services.Interfaces.IRoleService)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="roleService">权限服务</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.GetRoleList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.RoleInfo})">
+            <summary>
+            角色列表
+            </summary>
+            <param name="rowRole">分页、搜索</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.AddOrUpdateRole(SSPC_One_HCP.Core.Domain.Models.DataModels.RoleInfo)">
+            <summary>
+            新增或删除角色
+            </summary>
+            <param name="roleInfo">角色基本信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.AddOrUpdateUserRole(SSPC_One_HCP.Core.Domain.ViewModels.UserRoleViewModel)">
+            <summary>
+            角色绑定用户
+            </summary>
+            <param name="userRoleViewModel">角色用户绑定信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.BindUserRole(SSPC_One_HCP.Core.Domain.Models.DataModels.RoleInfo)">
+            <summary>
+            绑定用户角色
+            </summary>
+            <param name="roleInfo">权限信息，是需要传入角色Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.BindRoleMenu(SSPC_One_HCP.Core.Domain.ViewModels.RoleMenuViewModel)">
+            <summary>
+            角色绑定可查看菜单
+            </summary>
+            <param name="roleMenuViewModel">角色菜单信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.RoleController.GetRoleMenus(SSPC_One_HCP.Core.Domain.Models.DataModels.RoleInfo)">
+            <summary>
+            获取菜单
+            </summary>
+            <param name="roleInfo">当前角色,传入Id</param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController">
+            <summary>
+            知识库管理
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.#ctor(SSPC_One_HCP.Services.Interfaces.IKnowledgeService)">
+            <summary>
+            
+            </summary>
+            <param name="knowledgeService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.GetProductInfoList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DataInfoSearchViewModel})">
+            <summary>
+            获取资料详情列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.GetAcademicList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DataInfoSearchViewModel})">
+            <summary>
+            获取学术资料列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.GetPodcastList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DataInfoSearchViewModel})">
+            <summary>
+            获取播客列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.GetClinicalguidelines(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.FsysArticle})">
+            <summary>
+            获取临床指南列表
+            </summary>
+            <param name="fsysArticle">分页参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.AddOrUpdateProductInfo(SSPC_One_HCP.Core.Domain.ViewModels.ProductInfoModels.ProductInfoViewModel)">
+            <summary>
+            新增或修改产品资料信息
+            </summary>
+            <param name="productInfoView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.AddOrUpdatePodcast(SSPC_One_HCP.Core.Domain.ViewModels.ProductInfoModels.ProductInfoViewModel)">
+            <summary>
+            新增或修改播客
+            </summary>
+            <param name="productInfoView"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.AddOrUpdateClinicalguidelines(SSPC_One_HCP.Core.Domain.Models.DataModels.FsysArticle)">
+            <summary>
+            新增或修改临床指南
+            </summary>
+            <param name="fsysArticle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.DeleteClinicalguidelines(SSPC_One_HCP.Core.Domain.Models.DataModels.FsysArticle)">
+            <summary>
+            删除临床指南
+            </summary>
+            <param name="fsysArticle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.DeleteDataInfo(SSPC_One_HCP.Core.Domain.Models.DataModels.DataInfo)">
+            <summary>
+            删除资料
+            </summary>
+            <param name="dataInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.GetDocumentType(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.DocumentType})">
+            <summary>
+            获取文档类型列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.AddOrUpdateDocumentType(SSPC_One_HCP.Core.Domain.Models.DataModels.DocumentType)">
+            <summary>
+            新增或修改文档类型
+            </summary>
+            <param name="documentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.DeleteDocumentType(SSPC_One_HCP.Core.Domain.Models.DataModels.DocumentType)">
+            <summary>
+            删除文档类型
+            </summary>
+            <param name="documentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.PodcastApproval(SSPC_One_HCP.Core.Domain.ViewModels.Approval.ApprovalResultViewModel)">
+            <summary>
+            提交播客审核结果
+            </summary>
+            <param name="approvalResult">审核结果</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.ProductDataApproval(SSPC_One_HCP.Core.Domain.ViewModels.Approval.ApprovalResultViewModel)">
+            <summary>
+            提交产品资料审核结果
+            </summary>
+            <param name="approvalResult">审核结果</param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.KnowledgeController.ApproveProductList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.Models.DataModels.ProductInfoLike})">
+            <summary>
+            赞同不赞同人员列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController">
+            <summary>
+            手动标签组
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.#ctor(SSPC_One_HCP.Services.Interfaces.ITagGroupService)">
+            <summary>
+            初始化
+            </summary>
+            <param name="tagGroupService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.AddOrUpdateTagGroupRelation(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.TagGroup.TagGroupRelViewModel})">
+            <summary>
+            新增标签和标签组关联
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.DeleteTagGroup(SSPC_One_HCP.Core.Domain.Models.DataModels.TagGroup)">
+            <summary>
+            删除标签组以及标签
+            </summary>
+            <param name="tagGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.TagGroupUpdateTags(SSPC_One_HCP.Core.Domain.ViewModels.TagGroup.TagGroupTagViewModel)">
+            <summary>
+            保存-标签组编辑标签
+            </summary>
+            <param name="tags"></param>
+            <param name="tagGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.GetGroupUpdateTagsList(SSPC_One_HCP.Core.Domain.Models.DataModels.TagGroup)">
+            <summary>
+             编辑时获取标签组和标签明细
+            </summary>
+            <param name="tagGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.GetTagGroupList(SSPC_One_HCP.Core.Domain.Models.DataModels.TagGroup)">
+            <summary>
+            获得标签组列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.GetTagSearchList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.TagGroup.TagGroupViewModel})">
+            <summary>
+            获取医生列表和标签列表
+            </summary>
+            <param name="tagGroup"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.Admin.TagGroupController.GetManualTagList(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.TagGroup.TagGroupViewModel})">
+            <summary>
+            获取医生手动标签列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController">
+            <summary>
+            云势医生接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.#ctor(SSPC_One_HCP.Services.Interfaces.IYSDoctoService)">
+            <summary>
+            云势医生接口构造函数
+            </summary>
+            <param name="iYSDoctoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.GetDoctorInfo(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.DoctorViewModel})">
+            <summary>
+            获取清洗医生列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.AddUpdateDoctorInfo(System.Collections.Generic.List{SSPC_One_HCP.Core.Domain.ViewModels.YXDoctorViewModel})">
+            <summary>
+            批量清洗医生
+            </summary>
+            <param name="DoctorInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.UpdateDoctorInfo(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.YXDoctorViewModel})">
+            <summary>
+            獲取已清洗醫生列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.GetAppealInfo">
+            <summary>
+            获取批量申诉医生列表
+            </summary>
+            <param name="rowNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSDoctoController.UpdateApperalInfo(System.Collections.Generic.List{SSPC_One_HCP.Core.Domain.ViewModels.YXDoctorViewModel})">
+            <summary>
+            批量保存申诉医生列表
+            </summary>
+            <param name="DoctorInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.External.YSHospitalController">
+            <summary>
+            云势医院接口
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSHospitalController.GetHospitalInfo(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.HospitalViewModel})">
+            <summary>
+            获取清洗医院列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSHospitalController.AddUpdateHospitalInfo(System.Collections.Generic.List{SSPC_One_HCP.Core.Domain.ViewModels.YXHospitalViewModel})">
+            <summary>
+            批量清洗医院
+            </summary>
+            <param name="HospitalInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSHospitalController.UpdateHospitalInfo(SSPC_One_HCP.Core.Domain.CommonModels.RowNumModel{SSPC_One_HCP.Core.Domain.ViewModels.YXHospitalViewModel})">
+            <summary>
+            获取已清洗医院列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSUserInfoController.#ctor(SSPC_One_HCP.Services.Interfaces.IYSUserInfoService)">
+            <summary>
+            云势医生接口构造函数
+            </summary>
+            <param name="iYSDoctoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSUserInfoController.GetUserInfo(System.String)">
+            <summary>
+            获取人员信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.External.YSUserInfoController.DelUserInfo(System.String)">
+            <summary>
+            删除人员
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.TestController">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.TestController.#ctor(SSPC_One_HCP.Services.Interfaces.IADDoctorService,SSPC_One_HCP.Core.Cache.ICacheManager)">
+            <summary>
+            
+            </summary>
+            <param name="hcpDataInfoService"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.TestController.GetSecret(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="secret"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Controllers.UploadFileController">
+            <summary>
+            上传文件
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadImg">
+            <summary>
+            上传照片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadMeetData">
+            <summary>
+            上传会议文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadProductIcon">
+            <summary>
+            上传产品资料图标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadPodcastFile">
+            <summary>
+            上传播客文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadProductFile">
+            <summary>
+            上传产品资料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadMeetCoverPic">
+            <summary>
+            会议封面图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadMeetLivePicture">
+            <summary>
+            播放图片上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.UploadBanner">
+            <summary>
+            横幅上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.UploadFileController.DownloadFile(System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.Send.touser">
+            <summary>
+            接收者（用户）的 openid
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.Send.template_id">
+            <summary>
+            所需下发的订阅模板id
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.Send.miniprogram_state">
+            <summary>
+            跳转小程序类型：developer为开发版；trial为体验版；formal为正式版；默认为正式版
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.Send.lang">
+            <summary>
+            zh_CN
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.Send.page">
+            <summary>
+            zh_CN
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.SendData.thing1">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.SendData.time2">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.JobScheduler">
+            <summary>
+            后台计划任务
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.JobScheduler.Start">
+            <summary>
+            启动后台计划任务
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.RemindBeyondMeet">
+            <summary>
+            超期未审核的会议邮件提醒
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.RemindBeyondMeet.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行会议超期审核提醒
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.RemindBeyondMeet.RemindMeetBeyond">
+            <summary>
+            会议超期审核提醒
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.RemindJob">
+            <summary>
+            短信提示
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.RemindJob.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行会议提醒工作线程
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.RemindJob.RemindMeet">
+            <summary>
+            会议提醒
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.SyncFkLibUsersJob">
+            <summary>
+            同步费卡文库的人员信息
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncFkLibUsersJob.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行工作线程
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncFkLibUsersJob.SyncUsers">
+            <summary>
+            同步费卡文库的人员信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.SyncFkLibMeetingsJob">
+            <summary>
+            同步费卡文库的科室会
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncFkLibMeetingsJob.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行工作线程
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncFkLibMeetingsJob.SyncMettings">
+            <summary>
+            同步费卡文库的科室会
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob">
+            <summary>
+            临床接口定时任务 触发器
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.GuidUrl">
+            <summary>
+            临床接口地址
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.GuidProjectId">
+            <summary>
+            临床接口 ProjectId
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.AESGuidKeyCode">
+            <summary>
+            临床接口 KeyCode
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行工作线程
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.SyncGuid">
+            <summary>
+            同步临床接口数据 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.AddGuid(SSPC_One_HCP.Core.Domain.GuidModels.GuidItem[])">
+            <summary>
+            临床指南数据批量新增
+            </summary>
+            <param name="guiditems"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.ConvertDateTimeToInt(System.DateTime)">
+            <summary>  
+            将c# DateTime时间格式转换为Unix时间戳格式  
+            </summary>  
+            <param name="time">时间</param>  
+            <returns>long</returns>  
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.SyncGuidJob.ConvertStringToDateTime(System.String)">
+            <summary>
+            时间戳转为C#格式时间  
+            </summary>
+            <param name="timeStamp"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Jobs.wxAnalysisDailyVisitTrend">
+            <summary>
+            微信接口-获取用户访问小程序数据日趋势
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.wxAnalysisDailyVisitTrend.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            异步执行
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Jobs.wxAnalysisDailyVisitTrend.GetAnalysisDailyVisitTrend">
+            <summary>
+            获取用户访问小程序数据日趋势
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.CustomerAuth.AllowUnregisteredAttribute">
+            <summary>
+            允许未注册用户访问的自定义属性
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute">
+            <summary>
+            销售微信小程序用户身份认证自定义属性
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.ErrorCode.ERROR">
+            <summary>
+            发生异常
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.ErrorCode.NOT_LOGIN">
+            <summary>
+            未登录
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.ErrorCode.UNREGISTERED">
+            <summary>
+            用户未注册
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.ErrorCode.UNVERIFIED">
+            <summary>
+            用户未验证
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.OnAuthorization(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            微信小程序用户身份认证
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.HandleUnauthorizedRequest(System.Web.Http.Controllers.HttpActionContext,SSPC_One_HCP.WebApi.CustomerAuth.WxSaleAuthAttribute.ErrorCode,System.String)">
+            <summary>
+            返回自定义的状态
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute">
+            <summary>
+            微信小程序用户身份认证自定义属性
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.ErrorCode.ERROR">
+            <summary>
+            发生异常
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.ErrorCode.NOT_LOGIN">
+            <summary>
+            未登录
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.ErrorCode.UNREGISTERED">
+            <summary>
+            用户未注册
+            </summary>
+        </member>
+        <member name="F:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.ErrorCode.UNVERIFIED">
+            <summary>
+            用户未验证
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.OnAuthorization(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            微信小程序用户身份认证
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.HandleUnauthorizedRequest(System.Web.Http.Controllers.HttpActionContext,SSPC_One_HCP.WebApi.CustomerAuth.WxAuthAttribute.ErrorCode,System.String)">
+            <summary>
+            返回自定义的状态
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Startup.Configuration(Owin.IAppBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Startup.ConfigureOAuth(Owin.IAppBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Startup.PushOptions_OnException(System.Exception)">
+            <summary>
+            主数据接收异常
+            </summary>
+            <param name="exception">错误</param>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.SwaggerExtend.HttpAuthHeaderFilter">
+            <summary>
+            swagger 增加 AUTH 选项
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.SwaggerExtend.HttpAuthHeaderFilter.Apply(Swashbuckle.Swagger.Operation,Swashbuckle.Swagger.SchemaRegistry,System.Web.Http.Description.ApiDescription)">
+            <summary>
+            应用
+            </summary>
+            <param name="operation"></param>
+            <param name="schemaRegistry"></param>
+            <param name="apiDescription"></param>
+        </member>
+        <member name="T:SSPC_One_HCP.WebApi.SwaggerExtend.SwaggerCacheProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.SwaggerExtend.SwaggerCacheProvider.#ctor(Swashbuckle.Swagger.ISwaggerProvider,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="swaggerProvider"></param>
+            <param name="xml">xml文档路径</param>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.SwaggerExtend.SwaggerCacheProvider.GetControllerDesc">
+            <summary>
+            从API文档中读取控制器描述
+            </summary>
+            <returns>所有控制器描述</returns>
+        </member>
+    </members>
+</doc>

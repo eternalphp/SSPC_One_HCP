@@ -1,0 +1,16 @@
+2020-02-12 10:00:54,682 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-02-12 10:00:54,682 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-02-12 10:00:54,691 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-02-12 10:00:54,691 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPData.HcpCatalogueManageService.GetHcpCatalogueList(String buName, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPData\HcpCatalogueManageService.cs:行号 82
+   在 Castle.Proxies.Invocations.IHcpCatalogueManageService_GetHcpCatalogueList.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-02-12 10:00:54,692 ErrorFileLogger -- [TargetSite]:GetHcpCatalogueList
+
+2020-02-12 10:00:54,692 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPData.HcpCatalogueManageService.GetHcpCatalogueList]]
+
+2020-02-12 10:00:54,692 ErrorFileLogger -- [Arguments]：[[PN,]]
+2020-02-12 10:00:54,692 ErrorFileLogger -- --------------------------------------------------------------------------------

@@ -1,0 +1,585 @@
+2020-04-27 10:48:46,346 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:48:46,356 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:48:46,357 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 10:48:46,357 ExcuteTimeLogFileLogger -  Take[[3103]]Milliseconds
+2020-04-27 10:48:46,357 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:48:46,359 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:48:46,359 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:48:46,359 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 10:48:46,359 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 10:48:46,359 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:48:46,363 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:48:46,363 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:48:46,363 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 10:48:46,363 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 10:48:46,363 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,030 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,037 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:54:52,037 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 10:54:52,038 ExcuteTimeLogFileLogger -  Take[[3025]]Milliseconds
+2020-04-27 10:54:52,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,039 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,039 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:54:52,039 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 10:54:52,039 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 10:54:52,039 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,043 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:54:52,043 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:54:52,043 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 10:54:52,043 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 10:54:52,043 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,208 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,215 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:58:09,216 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 10:58:09,216 ExcuteTimeLogFileLogger -  Take[[2826]]Milliseconds
+2020-04-27 10:58:09,216 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,217 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,218 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:58:09,218 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 10:58:09,218 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 10:58:09,218 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,222 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 10:58:09,222 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 10:58:09,222 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 10:58:09,222 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 10:58:09,222 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,075 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,082 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:00:23,083 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:00:23,083 ExcuteTimeLogFileLogger -  Take[[3001]]Milliseconds
+2020-04-27 11:00:23,083 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,084 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,084 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:00:23,084 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:00:23,084 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:00:23,084 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,088 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:00:23,088 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:00:23,088 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:00:23,088 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:00:23,088 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,297 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,305 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:07:43,306 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:07:43,306 ExcuteTimeLogFileLogger -  Take[[3016]]Milliseconds
+2020-04-27 11:07:43,306 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,307 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,307 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:07:43,307 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:07:43,307 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:07:43,307 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,311 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:07:43,312 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:07:43,312 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:07:43,312 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:07:43,312 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,039 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,046 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:09:31,047 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:09:31,047 ExcuteTimeLogFileLogger -  Take[[2966]]Milliseconds
+2020-04-27 11:09:31,047 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,048 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,048 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:09:31,048 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:09:31,048 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:09:31,048 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,052 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:09:31,052 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:09:31,052 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:09:31,052 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:09:31,052 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,257 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,264 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:12:14,264 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:12:14,264 ExcuteTimeLogFileLogger -  Take[[2906]]Milliseconds
+2020-04-27 11:12:14,264 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,266 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,266 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:12:14,266 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:12:14,266 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:12:14,266 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,270 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:12:14,270 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:12:14,270 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:12:14,270 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:12:14,270 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,879 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,887 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:13:28,887 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:13:28,887 ExcuteTimeLogFileLogger -  Take[[2999]]Milliseconds
+2020-04-27 11:13:28,887 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,889 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,889 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:13:28,889 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:13:28,889 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:13:28,889 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,893 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:13:28,893 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:13:28,893 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:13:28,893 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:13:28,893 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,674 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,681 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:17:49,682 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:17:49,682 ExcuteTimeLogFileLogger -  Take[[3084]]Milliseconds
+2020-04-27 11:17:49,682 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,683 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,683 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:17:49,683 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:17:49,683 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:17:49,683 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,687 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:17:49,687 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:17:49,687 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:17:49,687 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:17:49,687 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,984 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,991 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:18:36,991 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:18:36,991 ExcuteTimeLogFileLogger -  Take[[2945]]Milliseconds
+2020-04-27 11:18:36,991 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,993 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,993 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:18:36,993 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:18:36,993 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:18:36,993 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,997 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:18:36,997 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:18:36,997 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:18:36,997 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:18:36,997 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,480 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,487 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:19:16,488 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:19:16,488 ExcuteTimeLogFileLogger -  Take[[2999]]Milliseconds
+2020-04-27 11:19:16,488 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,490 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,490 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:19:16,490 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:19:16,490 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:19:16,490 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,494 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:19:16,494 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:19:16,495 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:19:16,495 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:19:16,495 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,260 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,267 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:22:56,267 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:22:56,268 ExcuteTimeLogFileLogger -  Take[[3079]]Milliseconds
+2020-04-27 11:22:56,268 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,269 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,269 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:22:56,269 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:22:56,269 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:22:56,269 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,273 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:22:56,273 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:22:56,273 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:22:56,273 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:22:56,273 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,003 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,011 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:27:39,011 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:27:39,011 ExcuteTimeLogFileLogger -  Take[[3057]]Milliseconds
+2020-04-27 11:27:39,011 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,013 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,013 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:27:39,013 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:27:39,013 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:27:39,013 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,017 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:27:39,017 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:27:39,017 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:27:39,017 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:27:39,017 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,361 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,368 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:35:51,369 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:35:51,369 ExcuteTimeLogFileLogger -  Take[[3023]]Milliseconds
+2020-04-27 11:35:51,369 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,370 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,370 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:35:51,370 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:35:51,370 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:35:51,370 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,374 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:35:51,375 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:35:51,375 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:35:51,375 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-27 11:35:51,375 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:40:48,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:45:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:45:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:45:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:45:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:50:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:50:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:50:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:55:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 11:55:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:55:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 11:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:00:48,029 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:00:48,029 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:00:48,029 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:00:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:05:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:05:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:10:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:10:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:10:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:10:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:15:48,029 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:15:48,029 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:15:48,029 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:15:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:20:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:20:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:20:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:20:48,029 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:25:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:25:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:25:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:30:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:30:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:30:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:30:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:35:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:35:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:40:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:40:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:40:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:45:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:45:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:45:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:45:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:50:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:50:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:50:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:50:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:55:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 12:55:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:55:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 12:55:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:00:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:00:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:00:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:00:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:05:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:05:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:05:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:05:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:05:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:10:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:10:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:10:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:10:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:10:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:15:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:20:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:20:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:25:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:30:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:35:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:35:48,028 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:35:48,028 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:35:48,028 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:35:48,028 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,026 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,026 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.Mobile != null))]]
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-27 13:40:48,027 ExcuteTimeLogFileLogger - ******************************************************************

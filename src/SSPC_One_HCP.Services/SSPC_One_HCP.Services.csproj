@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7DB5DBCA-03F5-4FEA-AF23-63C18C771A30}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSPC_One_HCP.Services</RootNamespace>
+    <AssemblyName>SSPC_One_HCP.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetZip, Version=1.11.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.11.0\lib\net20\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended, Version=6.0.0.0, Culture=neutral, PublicKeyToken=05b7e29bdd433584, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.168\lib\net45\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FNC.MDS.Api, Version=1.2.7.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FNC.MDS.Api.1.2.7\lib\net452\FNC.MDS.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.0.0.999, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.0.0\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaInfoDotNet, Version=0.7.79.40925, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MediaInfoDotNet.0.7.79.40925\lib\net45\MediaInfoDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.4.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.4.1\lib\net45\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.4.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.4.1\lib\net45\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.4.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.4.1\lib\net45\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.4.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\NPOI.2.4.1\lib\net45\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.3.5\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.CO2NET, Version=0.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Senparc.CO2NET.0.4.2\lib\net45\Senparc.CO2NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.CO2NET.APM, Version=0.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Senparc.CO2NET.APM.0.2.0\lib\net45\Senparc.CO2NET.APM.dll</HintPath>
+    </Reference>
+    <Reference Include="Senparc.NeuChar, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Senparc.NeuChar.0.5.1\lib\net45\Senparc.NeuChar.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bot\Dto\BotManageOutDto.cs" />
+    <Compile Include="Bot\Dto\WeChatHcpDataInfoInputDto.cs" />
+    <Compile Include="Bot\WeChat\WxSaleUserService.cs" />
+    <Compile Include="Bot\WeChat\ADVerifyService.cs" />
+    <Compile Include="Bot\BotManageService.MedalBusinessConfigure.cs" />
+    <Compile Include="Bot\BotManageService.MedalStandardConfigure.cs" />
+    <Compile Include="Bot\BotManageService.SaleConfigure.cs" />
+    <Compile Include="Bot\BotApiService.cs" />
+    <Compile Include="Bot\Dto\AutomaticContentTagInputDto.cs" />
+    <Compile Include="Bot\Dto\BusinessContentTagInputDto.cs" />
+    <Compile Include="Bot\Dto\ContentInputDto.cs" />
+    <Compile Include="Bot\Dto\EntranceOutDto.cs" />
+    <Compile Include="Bot\Dto\UserMedalOutDto.cs" />
+    <Compile Include="Bot\Dto\SaleUserMedalOutDto.cs" />
+    <Compile Include="Bot\Dto\SatisfactionDegreeInputDto.cs" />
+    <Compile Include="Bot\Dto\VerifyInputDto.cs" />
+    <Compile Include="Bot\Dto\WxManageInputDto.cs" />
+    <Compile Include="Bot\WeChat\IADVerifyService.cs" />
+    <Compile Include="Bot\IBotManageService.cs" />
+    <Compile Include="Bot\IBotApiService.cs" />
+    <Compile Include="Bot\WeChat\IWxSaleUserService.cs" />
+    <Compile Include="Bot\WeChat\ITaskService.cs" />
+    <Compile Include="Bot\WeChat\IWxManageService.cs" />
+    <Compile Include="Bot\WeChat\TaskService.cs" />
+    <Compile Include="Bot\WeChat\WxManageService.cs" />
+    <Compile Include="Implementations\ADDoctorService.cs" />
+    <Compile Include="Implementations\CollectionService.cs" />
+    <Compile Include="Implementations\CommonService.cs" />
+    <Compile Include="Implementations\Dto\DoctorLearnDto.cs" />
+    <Compile Include="Implementations\Dto\MeetSearchInputDto.cs" />
+    <Compile Include="Implementations\Dto\MeetSearchOutDto.cs" />
+    <Compile Include="Implementations\ExtensionService.cs" />
+    <Compile Include="Implementations\GuidService.cs" />
+    <Compile Include="Implementations\ManagementService.cs" />
+    <Compile Include="Implementations\SendRateService.cs" />
+    <Compile Include="Implementations\SpreadQRCodeService.cs" />
+    <Compile Include="Implementations\StatisticService.cs" />
+    <Compile Include="Implementations\SystemService.cs" />
+    <Compile Include="Implementations\DepartmentService.cs" />
+    <Compile Include="Implementations\DiscoveryService.cs" />
+    <Compile Include="Implementations\KnowledgeService.cs" />
+    <Compile Include="Implementations\LoginService.cs" />
+    <Compile Include="Implementations\MeetQAService.cs" />
+    <Compile Include="Implementations\MeetService.cs" />
+    <Compile Include="Implementations\MenuService.cs" />
+    <Compile Include="Implementations\ProductService.cs" />
+    <Compile Include="Implementations\QRCodeService.cs" />
+    <Compile Include="Implementations\RoleService.cs" />
+    <Compile Include="Implementations\SmsService.cs" />
+    <Compile Include="Implementations\TagGroupService.cs" />
+    <Compile Include="Implementations\VisitModulesService.cs" />
+    <Compile Include="Implementations\VisitTimesService.cs" />
+    <Compile Include="Implementations\WechatActionHistoryService.cs" />
+    <Compile Include="Implementations\WechatPublicAccountService.cs" />
+    <Compile Include="Implementations\WordBlackListService.cs" />
+    <Compile Include="Implementations\WxBusinessCardService.cs" />
+    <Compile Include="Implementations\WxCommonService.cs" />
+    <Compile Include="Implementations\WxDiscoveryService.cs" />
+    <Compile Include="Implementations\WxDownLoadService.cs" />
+    <Compile Include="Implementations\WxExtensionService.cs" />
+    <Compile Include="Implementations\WxHomeService.cs" />
+    <Compile Include="Implementations\WxKnowledgeService.cs" />
+    <Compile Include="Implementations\WxLearnService.cs" />
+    <Compile Include="Implementations\WxMedicineService.cs" />
+    <Compile Include="Implementations\WxMeetService.cs" />
+    <Compile Include="Implementations\WxOpenService.cs" />
+    <Compile Include="Implementations\WxRegisterService.cs" />
+    <Compile Include="Implementations\FKLibService.cs" />
+    <Compile Include="Implementations\YSDoctoService.cs" />
+    <Compile Include="Implementations\YSHospitalService.cs" />
+    <Compile Include="Implementations\YSUserInfoService.cs" />
+    <Compile Include="Interfaces\IADDoctorService.cs" />
+    <Compile Include="Interfaces\IBaseService.cs" />
+    <Compile Include="Interfaces\ICollectionService.cs" />
+    <Compile Include="Interfaces\ICommonService.cs" />
+    <Compile Include="Interfaces\IDepartmentService.cs" />
+    <Compile Include="Interfaces\IDiscoveryService.cs" />
+    <Compile Include="Interfaces\IExtensionService.cs" />
+    <Compile Include="Interfaces\IKnowledgeService.cs" />
+    <Compile Include="Interfaces\ILoginService.cs" />
+    <Compile Include="Interfaces\IManagementService.cs" />
+    <Compile Include="Interfaces\IMeetQAService.cs" />
+    <Compile Include="Interfaces\IMeetService.cs" />
+    <Compile Include="Interfaces\IMenuService.cs" />
+    <Compile Include="Interfaces\IProductService.cs" />
+    <Compile Include="Interfaces\IQRCodeService.cs" />
+    <Compile Include="Interfaces\IRoleService.cs" />
+    <Compile Include="Interfaces\ISmsService.cs" />
+    <Compile Include="Interfaces\IStatisticService.cs" />
+    <Compile Include="Interfaces\ISystemService.cs" />
+    <Compile Include="Interfaces\ITagGroupService.cs" />
+    <Compile Include="Interfaces\IVisitModulesService.cs" />
+    <Compile Include="Interfaces\IVisitTimesService.cs" />
+    <Compile Include="Interfaces\IWechatActionHistoryService.cs" />
+    <Compile Include="Interfaces\IWechatPublicAccountService.cs" />
+    <Compile Include="Interfaces\IWordBlackListService.cs" />
+    <Compile Include="Interfaces\IWxBusinessCardService.cs" />
+    <Compile Include="Interfaces\IWxCommonService.cs" />
+    <Compile Include="Interfaces\IWxDiscoveryService.cs" />
+    <Compile Include="Interfaces\IwxDownLoadService.cs" />
+    <Compile Include="Interfaces\IWxExtensionService.cs" />
+    <Compile Include="Interfaces\IWxHomeService.cs" />
+    <Compile Include="Interfaces\IWxKnowledgeService.cs" />
+    <Compile Include="Interfaces\IWxLearnService.cs" />
+    <Compile Include="Interfaces\IWxMedicineService.cs" />
+    <Compile Include="Interfaces\IWxMeetService.cs" />
+    <Compile Include="Interfaces\IWxOpenService.cs" />
+    <Compile Include="Interfaces\IWxRegisterService.cs" />
+    <Compile Include="Interfaces\IYSDoctoService.cs" />
+    <Compile Include="Interfaces\IFKLibService.cs" />
+    <Compile Include="Interfaces\IYSHospitalService.cs" />
+    <Compile Include="Interfaces\IYSUserInfoService.cs" />
+    <Compile Include="MasterData\MasterDataPush.cs" />
+    <Compile Include="MasterData\OrganizationPushListener.cs" />
+    <Compile Include="MasterData\PositionPushListener.cs" />
+    <Compile Include="MasterData\UserPushListener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RongCloud\Dto\ChatroomInputDto.cs" />
+    <Compile Include="RongCloud\Dto\ChatroomSendInputDto.cs" />
+    <Compile Include="RongCloud\Dto\ChatroomStatusSyncDto.cs" />
+    <Compile Include="RongCloud\Dto\ChatroomUserGagAddDto.cs" />
+    <Compile Include="RongCloud\Dto\RecallMessageInputDto.cs" />
+    <Compile Include="RongCloud\Dto\TemplateRouteInputDto.cs" />
+    <Compile Include="RongCloud\Dto\UserChatroomDto.cs" />
+    <Compile Include="RongCloud\Dto\YsWeChat\RongCloudTokenInputDto.cs" />
+    <Compile Include="RongCloud\IRongCloudService.cs" />
+    <Compile Include="RongCloud\RongCloudService.cs" />
+    <Compile Include="RongCloud\YsWeChat\IWxRongCloudService.cs" />
+    <Compile Include="RongCloud\YsWeChat\WxRongCloudService.cs" />
+    <Compile Include="Services\HCP\Dto\DocumentManagerSearchInputDto.cs" />
+    <Compile Include="Services\HCP\Dto\DocumentManagerInputDto.cs" />
+    <Compile Include="Services\HCP\Dto\HcpDataInfoInputDto.cs" />
+    <Compile Include="Services\HCP\Dto\DocumentManagerOutDto.cs" />
+    <Compile Include="Services\HCP\Dto\HcpDataInfoOutDto.cs" />
+    <Compile Include="Services\HCP\Dto\SeriesCoursesInputDto.cs" />
+    <Compile Include="Services\HCP\Implementations\HcpBannerInfoService.cs" />
+    <Compile Include="Services\HCP\Implementations\HcpCatalogueManageService.cs" />
+    <Compile Include="Services\HCP\Implementations\DocumentManagerService.cs" />
+    <Compile Include="Services\HCP\Implementations\HcpDataInfoService.cs" />
+    <Compile Include="Services\HCP\Implementations\HcpSeriesCoursesService.cs" />
+    <Compile Include="Services\HCP\Interfaces\IHcpBannerInfoService.cs" />
+    <Compile Include="Services\HCP\Interfaces\IHcpCatalogueManageService.cs" />
+    <Compile Include="Services\HCP\Interfaces\IDocumentManagerService.cs" />
+    <Compile Include="Services\HCP\Interfaces\IHcpDataInfoService.cs" />
+    <Compile Include="Services\HCP\Interfaces\IHcpSeriesCoursesService.cs" />
+    <Compile Include="Services\WebView\Dto\RegistrationFormInputDto.cs" />
+    <Compile Include="Services\WebView\Dto\WxAccessTokenDto.cs" />
+    <Compile Include="Services\WebView\Dto\WxBaseDto.cs" />
+    <Compile Include="Services\WebView\Dto\WxUserInfoDto.cs" />
+    <Compile Include="Services\WebView\Implementations\RegistrationFormService.cs" />
+    <Compile Include="Services\WebView\Interfaces\IRegistrationFormService.cs" />
+    <Compile Include="Services\WeChat\Dto\AiBroadcastInputDto.cs" />
+    <Compile Include="Services\WeChat\Dto\HcpCatalogueManageOutDto.cs" />
+    <Compile Include="Services\WeChat\Dto\HcpDataInfoOutDto.cs" />
+    <Compile Include="Services\WeChat\Dto\LiveBroadcastPVDto.cs" />
+    <Compile Include="ServicesOut\Dto\MeetInfoSubscribeDto.cs" />
+    <Compile Include="Services\WeChat\Dto\PvCacheDto.cs" />
+    <Compile Include="Services\WeChat\Dto\SeriesCoursesMeetRelOutDto.cs" />
+    <Compile Include="Services\WeChat\Dto\MeetSubscribeInputDto.cs" />
+    <Compile Include="Services\WeChat\Dto\PneumoniaBotOperationRecordInputDto.cs" />
+    <Compile Include="Services\WeChat\Dto\LoginInputDto.cs" />
+    <Compile Include="Services\WeChat\Dto\SeriesCoursesOutDto.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcBannerInfoService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcLiveBroadcastPVService.cs" />
+    <Compile Include="ServicesOut\Implementations\MeetInfoSubscribeService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcMeetSubscribeService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcPneumoniaBotService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcHcpDataInfoService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcHcpDataOperationInfoService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcSaleAdService.cs" />
+    <Compile Include="Services\WeChat\Implementations\WcSeriesCoursesService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcBannerInfoService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcLiveBroadcastPVService.cs" />
+    <Compile Include="ServicesOut\Interfaces\IMeetInfoSubscribeService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcMeetSubscribeService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcPneumoniaBotService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcHcpDataInfoService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcHcpDataOperationInfoService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcSaleAdService.cs" />
+    <Compile Include="Services\WeChat\Interfaces\IWcSeriesCoursesService.cs" />
+    <Compile Include="Utils\DocumentHelper.cs" />
+    <Compile Include="Utils\EncryptHelper.cs" />
+    <Compile Include="Utils\ExcelHelper.cs" />
+    <Compile Include="Utils\HttpService.cs" />
+    <Compile Include="Utils\LdapAuthentication.cs" />
+    <Compile Include="Utils\LoggerHelper.cs" />
+    <Compile Include="Utils\MailUtil.cs" />
+    <Compile Include="Utils\RandomGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="MediaInfoDotNet.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSPC_One_HCP.AutofacManager\SSPC_One_HCP.AutofacManager.csproj">
+      <Project>{5CC1BF63-1AC2-41D0-BA15-288B92B25943}</Project>
+      <Name>SSPC_One_HCP.AutofacManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSPC_One_HCP.Core\SSPC_One_HCP.Core.csproj">
+      <Project>{765E4550-3E01-4222-A806-7D81428626B0}</Project>
+      <Name>SSPC_One_HCP.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSPC_One_HCP.KBS\SSPC_One_HCP.KBS.csproj">
+      <Project>{dee973d9-9d4a-48fb-8900-34612ceb6cf7}</Project>
+      <Name>SSPC_One_HCP.KBS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SSPC_One_HCP.RongCloud\SSPC_One_HCP.RongCloud.csproj">
+      <Project>{152ac01d-5ee4-4b16-b6ee-9f7a2e0a5d70}</Project>
+      <Name>SSPC_One_HCP.RongCloud</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="x64\MediaInfo.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\MediaInfo.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

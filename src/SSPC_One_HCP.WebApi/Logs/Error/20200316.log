@@ -1,0 +1,99 @@
+2020-03-16 19:25:53,031 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-16 19:25:53,031 ErrorFileLogger -- [MSG]:Unexpected character encountered while parsing value: {. Path 'chatRooms', line 1, position 26.
+
+2020-03-16 19:25:53,038 ErrorFileLogger -- [Source]:Newtonsoft.Json
+
+2020-03-16 19:25:53,039 ErrorFileLogger -- [StackTrace]:   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolvePropertyAndCreatorValues(JsonObjectContract contract, JsonProperty containerProperty, JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 SSPC_One_HCP.RongCloud.util.RongJsonUtil.JsonStringToObj[ObjType](String JsonString) 位置 D:\工作\HCP\src\SSPC_One_HCP.RongCloud\util\RongJsonUtil.cs:行号 10
+   在 SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery(String chatroomId, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\RongCloud\RongCloudService.cs:行号 158
+   在 Castle.Proxies.Invocations.IRongCloudService_ChatroomQuery.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-16 19:25:53,039 ErrorFileLogger -- [TargetSite]:ReadStringValue
+
+2020-03-16 19:25:53,039 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery]]
+
+2020-03-16 19:25:53,039 ErrorFileLogger -- [Arguments]：[[4911c32a-d6db-436f-91da-e6df3aa56070,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2020-03-16 19:25:53,039 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-16 19:27:38,561 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-16 19:27:38,561 ErrorFileLogger -- [MSG]:Unexpected character encountered while parsing value: {. Path 'chatRooms', line 1, position 26.
+
+2020-03-16 19:27:38,572 ErrorFileLogger -- [Source]:Newtonsoft.Json
+
+2020-03-16 19:27:38,572 ErrorFileLogger -- [StackTrace]:   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolvePropertyAndCreatorValues(JsonObjectContract contract, JsonProperty containerProperty, JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 SSPC_One_HCP.RongCloud.util.RongJsonUtil.JsonStringToObj[ObjType](String JsonString) 位置 D:\工作\HCP\src\SSPC_One_HCP.RongCloud\util\RongJsonUtil.cs:行号 10
+   在 SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery(String chatroomId, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\RongCloud\RongCloudService.cs:行号 158
+   在 Castle.Proxies.Invocations.IRongCloudService_ChatroomQuery.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-16 19:27:38,572 ErrorFileLogger -- [TargetSite]:ReadStringValue
+
+2020-03-16 19:27:38,572 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery]]
+
+2020-03-16 19:27:38,572 ErrorFileLogger -- [Arguments]：[[4911c32a-d6db-436f-91da-e6df3aa56070,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2020-03-16 19:27:38,572 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-16 19:30:05,018 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-03-16 19:30:05,018 ErrorFileLogger -- [MSG]:Unexpected character encountered while parsing value: {. Path 'chatRooms', line 1, position 26.
+
+2020-03-16 19:30:05,018 ErrorFileLogger -- [Source]:Newtonsoft.Json
+
+2020-03-16 19:30:05,019 ErrorFileLogger -- [StackTrace]:   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolvePropertyAndCreatorValues(JsonObjectContract contract, JsonProperty containerProperty, JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 SSPC_One_HCP.RongCloud.util.RongJsonUtil.JsonStringToObj[ObjType](String JsonString) 位置 D:\工作\HCP\src\SSPC_One_HCP.RongCloud\util\RongJsonUtil.cs:行号 10
+   在 SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery(String chatroomId, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\RongCloud\RongCloudService.cs:行号 158
+   在 Castle.Proxies.Invocations.IRongCloudService_ChatroomQuery.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-03-16 19:30:05,019 ErrorFileLogger -- [TargetSite]:ReadStringValue
+
+2020-03-16 19:30:05,019 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.RongCloud.RongCloudService.ChatroomQuery]]
+
+2020-03-16 19:30:05,019 ErrorFileLogger -- [Arguments]：[[4911c32a-d6db-436f-91da-e6df3aa56070,SSPC_One_HCP.Core.Domain.CommonModels.WorkUser]]
+2020-03-16 19:30:05,019 ErrorFileLogger -- --------------------------------------------------------------------------------

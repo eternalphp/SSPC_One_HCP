@@ -1,0 +1,25 @@
+2020-05-06 15:13:16,448 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-06 15:13:16,448 ErrorFileLogger -- [MSG]:Unexpected character encountered while parsing value: [. Path '', line 1, position 1.
+
+2020-05-06 15:13:16,464 ErrorFileLogger -- [Source]:Newtonsoft.Json
+
+2020-05-06 15:13:16,464 ErrorFileLogger -- [StackTrace]:   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 SSPC_One_HCP.KBS.Helpers.Json.ToObject[T](String json)
+   在 SSPC_One_HCP.Services.Bot.TaskService.BOTRecommend(String appId, WorkUser workUser) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Bot\WeChat\TaskService.cs:行号 391
+   在 Castle.Proxies.Invocations.ITaskService_BOTRecommend.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-06 15:13:16,464 ErrorFileLogger -- [TargetSite]:ReadStringValue
+
+2020-05-06 15:13:16,464 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Bot.TaskService.BOTRecommend]]
+
+2020-05-06 15:13:16,464 ErrorFileLogger -- [Arguments]：[[7931E750-A9DE-4B29-8909-3D78668E99E6,]]
+2020-05-06 15:13:16,464 ErrorFileLogger -- --------------------------------------------------------------------------------

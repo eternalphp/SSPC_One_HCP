@@ -1,0 +1,15 @@
+2019-12-06 14:08:13,511 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-06 14:08:13,519 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-06 14:08:13,519 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(DateTime.Now)))]]
+2019-12-06 14:08:13,519 ExcuteTimeLogFileLogger -  Take[[1393]]Milliseconds
+2019-12-06 14:08:13,519 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-06 14:08:13,520 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-06 14:08:13,520 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-06 14:08:13,521 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2019-12-06 14:08:13,521 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-06 14:08:13,521 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-06 14:08:13,523 ExcuteTimeLogFileLogger - ******************************************************************
+2019-12-06 14:08:13,523 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2019-12-06 14:08:13,523 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2019-12-06 14:08:13,523 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2019-12-06 14:08:13,523 ExcuteTimeLogFileLogger - ******************************************************************

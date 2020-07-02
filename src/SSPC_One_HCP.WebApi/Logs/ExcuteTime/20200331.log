@@ -1,0 +1,2027 @@
+2020-03-31 14:14:59,592 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:14:59,600 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:14:59,601 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:14:59,601 ExcuteTimeLogFileLogger -  Take[[3084]]Milliseconds
+2020-03-31 14:14:59,601 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:14:59,602 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:14:59,603 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:14:59,603 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:14:59,603 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:14:59,603 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:14:59,606 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:14:59,606 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:14:59,606 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:14:59,606 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:14:59,606 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:19:56,082 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:19:56,083 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,137 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,144 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:28:56,145 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:28:56,145 ExcuteTimeLogFileLogger -  Take[[2938]]Milliseconds
+2020-03-31 14:28:56,145 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,146 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,146 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:28:56,146 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:28:56,146 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:28:56,146 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,149 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:28:56,149 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:28:56,149 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:28:56,149 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:28:56,149 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,805 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:30:13,806 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,812 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:30:13,812 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 14:30:13,812 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 14:30:13,812 ExcuteTimeLogFileLogger -  Take[[3429]]Milliseconds
+2020-03-31 14:30:13,812 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,508 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,516 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:31:33,516 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:31:33,516 ExcuteTimeLogFileLogger -  Take[[2865]]Milliseconds
+2020-03-31 14:31:33,516 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,518 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,518 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:31:33,518 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:31:33,518 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:31:33,518 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,521 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:31:33,521 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:31:33,521 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:31:33,521 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:31:33,521 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:10,280 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:10,281 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:10,281 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:10,281 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2020-03-31 14:32:10,281 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:10,810 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:10,810 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:10,810 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:10,810 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:32:10,810 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:11,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:11,700 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:11,700 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:11,700 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:32:11,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:35,055 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:35,055 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:35,055 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:35,055 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:32:35,055 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:35,447 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:35,447 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:35,447 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:35,447 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:32:35,447 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:36,147 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:36,147 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 14:32:36,147 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:32:36,147 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:32:36,147 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:42,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:32:42,038 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 14:32:42,038 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 14:32:42,038 ExcuteTimeLogFileLogger -  Take[[14916]]Milliseconds
+2020-03-31 14:32:42,038 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,331 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,331 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:36:30,331 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:36:30,331 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:36:30,331 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:36:30,332 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,516 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,523 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:40:59,524 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:40:59,524 ExcuteTimeLogFileLogger -  Take[[2893]]Milliseconds
+2020-03-31 14:40:59,524 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,525 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,525 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:40:59,525 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:40:59,525 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:40:59,525 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,528 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:40:59,528 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:40:59,528 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:40:59,528 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:40:59,528 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:10,802 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:10,802 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.get_Database]] 
+2020-03-31 14:44:10,802 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:10,802 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:10,802 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:29,567 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:29,568 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:29,568 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:44:29,568 ExcuteTimeLogFileLogger -  Take[[28]]Milliseconds
+2020-03-31 14:44:29,568 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:30,090 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:30,090 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:30,090 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:30,090 ExcuteTimeLogFileLogger -  Take[[157]]Milliseconds
+2020-03-31 14:44:30,090 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:33,104 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:33,104 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:33,104 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.DoctorMeeting]]
+2020-03-31 14:44:33,104 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2020-03-31 14:44:33,104 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:33,768 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:33,768 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:33,768 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:33,768 ExcuteTimeLogFileLogger -  Take[[332]]Milliseconds
+2020-03-31 14:44:33,768 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:36,622 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:36,622 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:36,622 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:36,622 ExcuteTimeLogFileLogger -  Take[[2]]Milliseconds
+2020-03-31 14:44:36,622 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,607 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,608 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,612 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,612 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,612 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetSpeaker]]
+2020-03-31 14:44:40,612 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:44:40,612 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,640 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,640 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:40,640 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:40,640 ExcuteTimeLogFileLogger -  Take[[27]]Milliseconds
+2020-03-31 14:44:40,640 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetSchedule]]
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,695 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,695 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:40,695 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:40,695 ExcuteTimeLogFileLogger -  Take[[51]]Milliseconds
+2020-03-31 14:44:40,695 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,697 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,697 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,697 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,697 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:44:40,697 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,698 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,698 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,698 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,698 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,698 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,699 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,700 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,701 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,702 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,703 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,704 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,705 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,706 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,707 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,708 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,709 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,711 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,712 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,713 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,714 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,715 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,716 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,717 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,718 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,719 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,720 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,721 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,722 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:40,723 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:44:40,723 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:44:40,723 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:44:40,723 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:41,973 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:41,973 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:44:41,973 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:44:41,973 ExcuteTimeLogFileLogger -  Take[[1250]]Milliseconds
+2020-03-31 14:44:41,973 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:41,992 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:44:41,992 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.AddMeetInfo]] 
+2020-03-31 14:44:41,992 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto,{
+	"Meet": {
+		"MeetType": 1,
+		"MeetAddress": "32323",
+		"ReplayAddress": "",
+		"IsChoiceness": 1,
+		"IsHot": 1,
+		"MeetStartTime": "2020-04-01",
+		"MeetEndTime": "2020-04-03",
+		"MeetTitle": "12333",
+		"IsChat": 1,
+		"MeetIntroduction": "333",
+		"InvitationDetail": "333",
+		"MeetSite": ",",
+		"Remark": "",
+		"SpeakerDetail": "ggggggggggggggggg"
+	},
+	"DoctorList": null,
+	"TagGroupList": [],
+	"Schedules": [{
+		"id": 0,
+		"Date": 1585612800000,
+		"ScheduleDate": "2020-03-31",
+		"ScheduleViews": [{
+			"Schedule": {
+				"ScheduleContent": "2",
+				"ScheduleStart": "05:30",
+				"ScheduleEnd": "06:30"
+			},
+			"Speaker": {
+				"SpeakerName": "2"
+			}
+		}]
+	}],
+	"Files": [],
+	"CoverPictures": [{
+		"MeetPicName": "",
+		"MeetPicType": "",
+		"MeetPicUrl": ""
+	}, {
+		"MeetPicName": "",
+		"MeetPicType": "",
+		"MeetPicUrl": ""
+	}],
+	"ProductAndDeps": {
+		"BuNameList": ["BUS"],
+		"Products": [{
+			"ProId": "4de56111-9812-4e33-ac11-61f94c821f6c",
+			"ProName": "COM.TEC"
+		}],
+		"Departments": [{
+			"DeptId": "7B801D02-0E2C-428F-AF95-8B4DB6E063F5",
+			"DeptName": "血液科",
+			"DeptType": 1
+		}, {
+			"DeptId": "02A4ACA6-1B74-45F9-9889-1EEE2EAB4F66",
+			"DeptName": "传染科",
+			"DeptType": 2
+		}, {
+			"DeptId": "1124E740-2EEF-4621-8EFF-E486DBB21D11",
+			"DeptName": "中西医结合科",
+			"DeptType": 1
+		}, {
+			"DeptId": "129AE76A-E49C-4970-BE48-FD73B82A7796",
+			"DeptName": "全科医疗科",
+			"DeptType": 1
+		}, {
+			"DeptId": "13FF1CE6-28AA-42E1-AD7A-25105FD81AEB",
+			"DeptName": "乳腺甲状腺外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "1FBF84D5-34EB-441B-8DD3-BBFFFC6903C4",
+			"DeptName": "麻醉科",
+			"DeptType": 1
+		}, {
+			"DeptId": "22921037-8FF3-4862-B1E2-43A8EEA11F58",
+			"DeptName": "耳鼻喉科",
+			"DeptType": 2
+		}, {
+			"DeptId": "28634FD1-32C4-4AFD-8441-41E14C0916B1",
+			"DeptName": "透析中心",
+			"DeptType": 1
+		}, {
+			"DeptId": "31A5944B-2BC3-47A9-ABA5-50576FA922CA",
+			"DeptName": "急诊科",
+			"DeptType": 1
+		}, {
+			"DeptId": "33B62A21-E732-48A3-B348-5BC174D27ABF",
+			"DeptName": "行政科室",
+			"DeptType": 1
+		}, {
+			"DeptId": "34BB87AF-5D3B-4273-9622-31BE6D5D0976",
+			"DeptName": "神经内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "3E761F3F-F7B2-4DE4-A2A4-92CC314CBFDC",
+			"DeptName": "口腔科",
+			"DeptType": 2
+		}, {
+			"DeptId": "432914F1-B434-4784-B953-A4353530B966",
+			"DeptName": "普外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "44DFBBA1-9CE8-45B0-BCFA-852D68E14725",
+			"DeptName": "骨科",
+			"DeptType": 1
+		}, {
+			"DeptId": "47225DEE-2985-471D-A121-A58666D6FB55",
+			"DeptName": "心脏大血管外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "4B0C73C7-6263-46A6-85B3-F03C25AC3285",
+			"DeptName": "神经外科/脑外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "57FBEB4C-055B-4873-A1A5-5D0A706C3BE7",
+			"DeptName": "精神科",
+			"DeptType": 2
+		}, {
+			"DeptId": "5FECCA4C-5C71-40BD-B5A5-E030E8A291E1",
+			"DeptName": "肿瘤科/放化疗科",
+			"DeptType": 2
+		}, {
+			"DeptId": "60EEE381-E6E7-4B73-8CF3-69F6C527D8A9",
+			"DeptName": "呼吸内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "6100BE34-6F93-4FEE-BD2D-684948E3EE3A",
+			"DeptName": "病理科",
+			"DeptType": 2
+		}, {
+			"DeptId": "6BC46185-BBC9-4C9F-A696-EFB65249A440",
+			"DeptName": "心内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "6E723A8A-6308-4606-A5DD-F8659C2769A7",
+			"DeptName": "疾病控制科",
+			"DeptType": 2
+		}, {
+			"DeptId": "722CDF5C-A6DA-49A6-8AED-5C15A0C8CA17",
+			"DeptName": "皮肤科",
+			"DeptType": 1
+		}, {
+			"DeptId": "75DDBAD3-4E20-4787-9F11-A156CAC8A5AD",
+			"DeptName": "儿科",
+			"DeptType": 2
+		}, {
+			"DeptId": "7D9FA964-841B-466F-A898-7458C3C29E78",
+			"DeptName": "普内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "805B26E8-AC40-457E-9B9E-40DC18D5A942",
+			"DeptName": "胃肠外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "81B56B0B-30D9-4BC0-B40B-5A569491A8C0",
+			"DeptName": "结核病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "822D9C79-1DC0-4A47-902C-9DE8BDFA9ED5",
+			"DeptName": "民族医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "879EE9A9-381F-4D1E-8699-E905179887F8",
+			"DeptName": "肝胆内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8963F771-8891-4C79-8D0A-783030022905",
+			"DeptName": "营养科",
+			"DeptType": 1
+		}, {
+			"DeptId": "8D4C312B-EFF5-40E5-8BAA-D094CA3BF5BE",
+			"DeptName": "小儿外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8DE6A776-32DC-4D43-A216-766309D89E42",
+			"DeptName": "血管外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8EDCF876-0C32-4530-91DA-C060F4F99F6B",
+			"DeptName": "老年科/高干科",
+			"DeptType": 1
+		}, {
+			"DeptId": "96A85898-A2ED-45D5-A4B0-C1B634C11B3E",
+			"DeptName": "眼科",
+			"DeptType": 2
+		}, {
+			"DeptId": "96C954F1-0BE4-4FEF-BFB8-1E71985D39C4",
+			"DeptName": "烧伤科",
+			"DeptType": 2
+		}, {
+			"DeptId": "98214BFD-CC5D-4E0D-B738-BDFAAE8079DC",
+			"DeptName": "管理科室",
+			"DeptType": 2
+		}, {
+			"DeptId": "9CA22854-EBD5-4498-938B-DBF26506D7C4",
+			"DeptName": "妇女保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A1D51C50-36AB-4F8C-90D7-E58F67D99197",
+			"DeptName": "整形外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "A250F1A3-FA84-4268-A90C-193828CA539E",
+			"DeptName": "感染科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A4829CC8-E776-496B-A8C7-FE333514074B",
+			"DeptName": "肝胆胰脾外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A5C32456-0AA4-4D15-819B-D0D21B7A6C9A",
+			"DeptName": "变态反应科",
+			"DeptType": 2
+		}, {
+			"DeptId": "ACFE1A22-8B09-4B7C-AE02-FAA061F7C109",
+			"DeptName": "心胸外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B26DA1E6-141E-4D45-9FBE-5513D0994F89",
+			"DeptName": "疼痛科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B2DCF4B7-4B52-455F-9DCD-4555955DD770",
+			"DeptName": "内分泌科/糖尿病科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B484A1CB-D680-447B-94C5-5C9295F6F69D",
+			"DeptName": "临终关怀科",
+			"DeptType": 2
+		}, {
+			"DeptId": "B6A9C6B7-D2A0-45BD-8444-A896351A5786",
+			"DeptName": "消化内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "BE821BF5-CDAE-435E-918A-E1E63CF922DF",
+			"DeptName": "移植科",
+			"DeptType": 1
+		}, {
+			"DeptId": "C32D9C44-7882-4531-876A-69027271FE7B",
+			"DeptName": "医学检验科",
+			"DeptType": 2
+		}, {
+			"DeptId": "C45E137F-78EB-4EC0-94D7-7F4DF4B25411",
+			"DeptName": "护理科",
+			"DeptType": 2
+		}, {
+			"DeptId": "C45E287C-1A9C-4C97-8FAB-E2AFCD4118B0",
+			"DeptName": "其它",
+			"DeptType": 2
+		}, {
+			"DeptId": "C954C53B-02DF-44F4-B1C2-1189ADF91A33",
+			"DeptName": "微创外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "CD325137-0738-459A-AFEC-D402E9BE5AAF",
+			"DeptName": "中医科",
+			"DeptType": 1
+		}, {
+			"DeptId": "D399A410-6DD6-45F9-93C8-4D471860B62B",
+			"DeptName": "泌尿外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "D76AABB6-9AC1-4FAE-BAED-1F6E5240F8E2",
+			"DeptName": "医学影像科",
+			"DeptType": 2
+		}, {
+			"DeptId": "D894D887-2334-49F8-8934-808B2FB4E23D",
+			"DeptName": "腹部外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "D8E1709F-E015-4215-8FDA-A6B2E6DFB631",
+			"DeptName": "康复医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "DD35AE47-14CE-44EA-A7BA-FD02433A17C7",
+			"DeptName": "风湿免疫科",
+			"DeptType": 2
+		}, {
+			"DeptId": "DE7ADACF-D83B-4450-8B19-1CB76C4C0109",
+			"DeptName": "儿童保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "E2A50261-5D47-4AA1-8067-56DDB1045BEC",
+			"DeptName": "ICU",
+			"DeptType": 2
+		}, {
+			"DeptId": "E40C7F46-82CB-4C78-9633-5D3D2764F988",
+			"DeptName": "地方病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "E9015E95-1FDC-43D4-A66C-B0F28BE9C26D",
+			"DeptName": "肾内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "ECC8C47C-6FF2-4E20-AABB-D18C95833B62",
+			"DeptName": "公共卫生科",
+			"DeptType": 2
+		}, {
+			"DeptId": "ED138218-FBFC-47A5-9666-BAC8A115D5A7",
+			"DeptName": "特种医学与军事医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F1BE1EB6-0B1D-4045-91AB-945AAB34F060",
+			"DeptName": "预防保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F33D3C52-AB3B-47F4-97D7-FC6AB125390F",
+			"DeptName": "关节科",
+			"DeptType": 1
+		}, {
+			"DeptId": "F3B14179-F02D-402B-B8AC-0865B1AFB3A3",
+			"DeptName": "医疗美容科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F597E509-1586-4D04-B98B-93DE011419FD",
+			"DeptName": "妇产科",
+			"DeptType": 1
+		}, {
+			"DeptId": "F73E705B-6EB3-4134-8718-D625088C0BDB",
+			"DeptName": "职业病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "FD80BB53-FDCF-494B-92C8-63023A247C67",
+			"DeptName": "运动医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "FF55B750-D7A1-417D-9379-466809DFE131",
+			"DeptName": "(标准)普外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "FF6580B3-E0D0-4EAE-A441-F92B7FAE8235",
+			"DeptName": "药剂科",
+			"DeptType": 2
+		}]
+	}
+}]]
+2020-03-31 14:44:41,992 ExcuteTimeLogFileLogger -  Take[[58503]]Milliseconds
+2020-03-31 14:44:41,992 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,544 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,544 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.get_Database]] 
+2020-03-31 14:45:50,544 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,544 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,544 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,551 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,551 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,551 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:45:50,551 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,551 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,568 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,568 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,568 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,568 ExcuteTimeLogFileLogger -  Take[[17]]Milliseconds
+2020-03-31 14:45:50,568 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,569 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,569 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,569 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.DoctorMeeting]]
+2020-03-31 14:45:50,569 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,569 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Take[[17]]Milliseconds
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,587 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,588 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,588 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,588 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,588 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,588 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,589 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,589 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,589 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetSpeaker]]
+2020-03-31 14:45:50,589 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,589 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,605 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,605 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,605 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,605 ExcuteTimeLogFileLogger -  Take[[15]]Milliseconds
+2020-03-31 14:45:50,605 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetSchedule]]
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetInfo]]
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,607 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,641 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,641 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:50,641 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:50,641 ExcuteTimeLogFileLogger -  Take[[34]]Milliseconds
+2020-03-31 14:45:50,641 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,642 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,642 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,642 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,642 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 14:45:50,642 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,643 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,643 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,643 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,643 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,644 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,645 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,646 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,647 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,648 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,649 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,650 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,651 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,652 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,653 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,654 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,655 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,656 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,657 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,658 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,659 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,660 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,661 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,662 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,663 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,664 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,665 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,666 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,667 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,668 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:50,668 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-03-31 14:45:50,668 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Core.Domain.Models.DataModels.MeetAndProAndDepRelation]]
+2020-03-31 14:45:50,668 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:50,668 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:51,973 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:51,973 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-03-31 14:45:51,973 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 14:45:51,973 ExcuteTimeLogFileLogger -  Take[[1305]]Milliseconds
+2020-03-31 14:45:51,973 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:51,981 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:51,981 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.AddMeetInfo]] 
+2020-03-31 14:45:51,981 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto,{
+	"Meet": {
+		"MeetType": 1,
+		"MeetAddress": "32323",
+		"ReplayAddress": "",
+		"IsChoiceness": 1,
+		"IsHot": 1,
+		"MeetStartTime": "2020-04-01",
+		"MeetEndTime": "2020-04-01",
+		"MeetTitle": "12333",
+		"IsChat": 1,
+		"MeetIntroduction": "333",
+		"InvitationDetail": "333",
+		"MeetSite": ",",
+		"Remark": "",
+		"SpeakerDetail": "ggggggggggggggggg"
+	},
+	"DoctorList": null,
+	"TagGroupList": [],
+	"Schedules": [{
+		"id": 0,
+		"Date": 1585612800000,
+		"ScheduleDate": "2020-04-01",
+		"ScheduleViews": [{
+			"Schedule": {
+				"ScheduleContent": "2",
+				"ScheduleStart": "05:30",
+				"ScheduleEnd": "06:30"
+			},
+			"Speaker": {
+				"SpeakerName": "2"
+			}
+		}]
+	}],
+	"Files": [],
+	"CoverPictures": [{
+		"MeetPicName": "",
+		"MeetPicType": "",
+		"MeetPicUrl": ""
+	}, {
+		"MeetPicName": "",
+		"MeetPicType": "",
+		"MeetPicUrl": ""
+	}],
+	"ProductAndDeps": {
+		"BuNameList": ["BUS"],
+		"Products": [{
+			"ProId": "4de56111-9812-4e33-ac11-61f94c821f6c",
+			"ProName": "COM.TEC"
+		}],
+		"Departments": [{
+			"DeptId": "7B801D02-0E2C-428F-AF95-8B4DB6E063F5",
+			"DeptName": "血液科",
+			"DeptType": 1
+		}, {
+			"DeptId": "02A4ACA6-1B74-45F9-9889-1EEE2EAB4F66",
+			"DeptName": "传染科",
+			"DeptType": 2
+		}, {
+			"DeptId": "1124E740-2EEF-4621-8EFF-E486DBB21D11",
+			"DeptName": "中西医结合科",
+			"DeptType": 1
+		}, {
+			"DeptId": "129AE76A-E49C-4970-BE48-FD73B82A7796",
+			"DeptName": "全科医疗科",
+			"DeptType": 1
+		}, {
+			"DeptId": "13FF1CE6-28AA-42E1-AD7A-25105FD81AEB",
+			"DeptName": "乳腺甲状腺外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "1FBF84D5-34EB-441B-8DD3-BBFFFC6903C4",
+			"DeptName": "麻醉科",
+			"DeptType": 1
+		}, {
+			"DeptId": "22921037-8FF3-4862-B1E2-43A8EEA11F58",
+			"DeptName": "耳鼻喉科",
+			"DeptType": 2
+		}, {
+			"DeptId": "28634FD1-32C4-4AFD-8441-41E14C0916B1",
+			"DeptName": "透析中心",
+			"DeptType": 1
+		}, {
+			"DeptId": "31A5944B-2BC3-47A9-ABA5-50576FA922CA",
+			"DeptName": "急诊科",
+			"DeptType": 1
+		}, {
+			"DeptId": "33B62A21-E732-48A3-B348-5BC174D27ABF",
+			"DeptName": "行政科室",
+			"DeptType": 1
+		}, {
+			"DeptId": "34BB87AF-5D3B-4273-9622-31BE6D5D0976",
+			"DeptName": "神经内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "3E761F3F-F7B2-4DE4-A2A4-92CC314CBFDC",
+			"DeptName": "口腔科",
+			"DeptType": 2
+		}, {
+			"DeptId": "432914F1-B434-4784-B953-A4353530B966",
+			"DeptName": "普外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "44DFBBA1-9CE8-45B0-BCFA-852D68E14725",
+			"DeptName": "骨科",
+			"DeptType": 1
+		}, {
+			"DeptId": "47225DEE-2985-471D-A121-A58666D6FB55",
+			"DeptName": "心脏大血管外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "4B0C73C7-6263-46A6-85B3-F03C25AC3285",
+			"DeptName": "神经外科/脑外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "57FBEB4C-055B-4873-A1A5-5D0A706C3BE7",
+			"DeptName": "精神科",
+			"DeptType": 2
+		}, {
+			"DeptId": "5FECCA4C-5C71-40BD-B5A5-E030E8A291E1",
+			"DeptName": "肿瘤科/放化疗科",
+			"DeptType": 2
+		}, {
+			"DeptId": "60EEE381-E6E7-4B73-8CF3-69F6C527D8A9",
+			"DeptName": "呼吸内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "6100BE34-6F93-4FEE-BD2D-684948E3EE3A",
+			"DeptName": "病理科",
+			"DeptType": 2
+		}, {
+			"DeptId": "6BC46185-BBC9-4C9F-A696-EFB65249A440",
+			"DeptName": "心内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "6E723A8A-6308-4606-A5DD-F8659C2769A7",
+			"DeptName": "疾病控制科",
+			"DeptType": 2
+		}, {
+			"DeptId": "722CDF5C-A6DA-49A6-8AED-5C15A0C8CA17",
+			"DeptName": "皮肤科",
+			"DeptType": 1
+		}, {
+			"DeptId": "75DDBAD3-4E20-4787-9F11-A156CAC8A5AD",
+			"DeptName": "儿科",
+			"DeptType": 2
+		}, {
+			"DeptId": "7D9FA964-841B-466F-A898-7458C3C29E78",
+			"DeptName": "普内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "805B26E8-AC40-457E-9B9E-40DC18D5A942",
+			"DeptName": "胃肠外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "81B56B0B-30D9-4BC0-B40B-5A569491A8C0",
+			"DeptName": "结核病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "822D9C79-1DC0-4A47-902C-9DE8BDFA9ED5",
+			"DeptName": "民族医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "879EE9A9-381F-4D1E-8699-E905179887F8",
+			"DeptName": "肝胆内科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8963F771-8891-4C79-8D0A-783030022905",
+			"DeptName": "营养科",
+			"DeptType": 1
+		}, {
+			"DeptId": "8D4C312B-EFF5-40E5-8BAA-D094CA3BF5BE",
+			"DeptName": "小儿外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8DE6A776-32DC-4D43-A216-766309D89E42",
+			"DeptName": "血管外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "8EDCF876-0C32-4530-91DA-C060F4F99F6B",
+			"DeptName": "老年科/高干科",
+			"DeptType": 1
+		}, {
+			"DeptId": "96A85898-A2ED-45D5-A4B0-C1B634C11B3E",
+			"DeptName": "眼科",
+			"DeptType": 2
+		}, {
+			"DeptId": "96C954F1-0BE4-4FEF-BFB8-1E71985D39C4",
+			"DeptName": "烧伤科",
+			"DeptType": 2
+		}, {
+			"DeptId": "98214BFD-CC5D-4E0D-B738-BDFAAE8079DC",
+			"DeptName": "管理科室",
+			"DeptType": 2
+		}, {
+			"DeptId": "9CA22854-EBD5-4498-938B-DBF26506D7C4",
+			"DeptName": "妇女保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A1D51C50-36AB-4F8C-90D7-E58F67D99197",
+			"DeptName": "整形外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "A250F1A3-FA84-4268-A90C-193828CA539E",
+			"DeptName": "感染科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A4829CC8-E776-496B-A8C7-FE333514074B",
+			"DeptName": "肝胆胰脾外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "A5C32456-0AA4-4D15-819B-D0D21B7A6C9A",
+			"DeptName": "变态反应科",
+			"DeptType": 2
+		}, {
+			"DeptId": "ACFE1A22-8B09-4B7C-AE02-FAA061F7C109",
+			"DeptName": "心胸外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B26DA1E6-141E-4D45-9FBE-5513D0994F89",
+			"DeptName": "疼痛科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B2DCF4B7-4B52-455F-9DCD-4555955DD770",
+			"DeptName": "内分泌科/糖尿病科",
+			"DeptType": 1
+		}, {
+			"DeptId": "B484A1CB-D680-447B-94C5-5C9295F6F69D",
+			"DeptName": "临终关怀科",
+			"DeptType": 2
+		}, {
+			"DeptId": "B6A9C6B7-D2A0-45BD-8444-A896351A5786",
+			"DeptName": "消化内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "BE821BF5-CDAE-435E-918A-E1E63CF922DF",
+			"DeptName": "移植科",
+			"DeptType": 1
+		}, {
+			"DeptId": "C32D9C44-7882-4531-876A-69027271FE7B",
+			"DeptName": "医学检验科",
+			"DeptType": 2
+		}, {
+			"DeptId": "C45E137F-78EB-4EC0-94D7-7F4DF4B25411",
+			"DeptName": "护理科",
+			"DeptType": 2
+		}, {
+			"DeptId": "C45E287C-1A9C-4C97-8FAB-E2AFCD4118B0",
+			"DeptName": "其它",
+			"DeptType": 2
+		}, {
+			"DeptId": "C954C53B-02DF-44F4-B1C2-1189ADF91A33",
+			"DeptName": "微创外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "CD325137-0738-459A-AFEC-D402E9BE5AAF",
+			"DeptName": "中医科",
+			"DeptType": 1
+		}, {
+			"DeptId": "D399A410-6DD6-45F9-93C8-4D471860B62B",
+			"DeptName": "泌尿外科",
+			"DeptType": 2
+		}, {
+			"DeptId": "D76AABB6-9AC1-4FAE-BAED-1F6E5240F8E2",
+			"DeptName": "医学影像科",
+			"DeptType": 2
+		}, {
+			"DeptId": "D894D887-2334-49F8-8934-808B2FB4E23D",
+			"DeptName": "腹部外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "D8E1709F-E015-4215-8FDA-A6B2E6DFB631",
+			"DeptName": "康复医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "DD35AE47-14CE-44EA-A7BA-FD02433A17C7",
+			"DeptName": "风湿免疫科",
+			"DeptType": 2
+		}, {
+			"DeptId": "DE7ADACF-D83B-4450-8B19-1CB76C4C0109",
+			"DeptName": "儿童保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "E2A50261-5D47-4AA1-8067-56DDB1045BEC",
+			"DeptName": "ICU",
+			"DeptType": 2
+		}, {
+			"DeptId": "E40C7F46-82CB-4C78-9633-5D3D2764F988",
+			"DeptName": "地方病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "E9015E95-1FDC-43D4-A66C-B0F28BE9C26D",
+			"DeptName": "肾内科",
+			"DeptType": 1
+		}, {
+			"DeptId": "ECC8C47C-6FF2-4E20-AABB-D18C95833B62",
+			"DeptName": "公共卫生科",
+			"DeptType": 2
+		}, {
+			"DeptId": "ED138218-FBFC-47A5-9666-BAC8A115D5A7",
+			"DeptName": "特种医学与军事医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F1BE1EB6-0B1D-4045-91AB-945AAB34F060",
+			"DeptName": "预防保健科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F33D3C52-AB3B-47F4-97D7-FC6AB125390F",
+			"DeptName": "关节科",
+			"DeptType": 1
+		}, {
+			"DeptId": "F3B14179-F02D-402B-B8AC-0865B1AFB3A3",
+			"DeptName": "医疗美容科",
+			"DeptType": 2
+		}, {
+			"DeptId": "F597E509-1586-4D04-B98B-93DE011419FD",
+			"DeptName": "妇产科",
+			"DeptType": 1
+		}, {
+			"DeptId": "F73E705B-6EB3-4134-8718-D625088C0BDB",
+			"DeptName": "职业病科",
+			"DeptType": 2
+		}, {
+			"DeptId": "FD80BB53-FDCF-494B-92C8-63023A247C67",
+			"DeptName": "运动医学科",
+			"DeptType": 2
+		}, {
+			"DeptId": "FF55B750-D7A1-417D-9379-466809DFE131",
+			"DeptName": "(标准)普外科",
+			"DeptType": 1
+		}, {
+			"DeptId": "FF6580B3-E0D0-4EAE-A441-F92B7FAE8235",
+			"DeptName": "药剂科",
+			"DeptType": 2
+		}]
+	}
+}]]
+2020-03-31 14:45:51,981 ExcuteTimeLogFileLogger -  Take[[4673]]Milliseconds
+2020-03-31 14:45:51,981 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,289 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:45:56,289 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:45:56,289 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:45:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:50:56,289 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:50:56,290 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:50:56,290 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:50:56,290 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:50:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:55:56,290 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,291 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 14:55:56,291 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 14:55:56,291 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 14:55:56,291 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 14:55:56,291 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,301 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,308 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:21:51,308 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:21:51,309 ExcuteTimeLogFileLogger -  Take[[3022]]Milliseconds
+2020-03-31 15:21:51,309 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,310 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,310 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:21:51,310 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:21:51,310 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 15:21:51,310 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,313 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:21:51,313 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:21:51,313 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:21:51,313 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 15:21:51,313 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:04,160 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:04,160 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 15:22:04,160 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 15:22:04,160 ExcuteTimeLogFileLogger -  Take[[10290]]Milliseconds
+2020-03-31 15:22:04,160 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:08,613 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:08,613 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 15:22:08,613 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 15:22:08,613 ExcuteTimeLogFileLogger -  Take[[1541]]Milliseconds
+2020-03-31 15:22:08,613 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:32,390 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:32,390 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:22:32,390 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:22:32,390 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:22:32,390 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:32,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:32,710 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:22:32,710 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:22:32,710 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:22:32,710 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:33,541 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:33,542 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:22:33,542 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:22:33,542 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:22:33,542 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:41,228 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:22:41,228 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 15:22:41,228 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 15:22:41,228 ExcuteTimeLogFileLogger -  Take[[14140]]Milliseconds
+2020-03-31 15:22:41,228 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:26:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,965 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:26:47,965 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:26:47,965 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:26:47,965 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:26:47,965 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,963 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:31:47,963 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:31:47,963 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:31:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:31:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:36:47,963 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:36:47,964 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:36:47,964 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:36:47,964 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:36:47,964 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,757 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,764 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:43:19,765 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:43:19,765 ExcuteTimeLogFileLogger -  Take[[3247]]Milliseconds
+2020-03-31 15:43:19,765 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,766 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,766 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:43:19,766 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:43:19,766 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 15:43:19,766 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,769 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:19,769 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:43:19,769 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:43:19,769 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 15:43:19,769 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:31,493 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:31,493 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:43:31,493 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:43:31,493 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:43:31,493 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:32,245 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:32,245 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:43:32,245 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:43:32,245 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:43:32,245 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:33,061 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:33,061 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:43:33,061 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:43:33,061 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:43:33,061 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:59,771 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:43:59,771 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:43:59,771 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:43:59,771 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:43:59,771 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:00,820 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:00,820 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:44:00,820 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:44:00,820 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:44:00,820 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:01,148 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:01,149 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Table]] 
+2020-03-31 15:44:01,149 ExcuteTimeLogFileLogger -  Arguments：[[]]
+2020-03-31 15:44:01,149 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:44:01,149 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:04,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:44:04,652 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Services.HCPYSData.WeChat.MeetInfoSubscribeService.GetBu]] 
+2020-03-31 15:44:04,652 ExcuteTimeLogFileLogger -  Arguments：[[SSPC_One_HCP.Services.HCPYSData.Dto.MeetInfoSubscribeDto]]
+2020-03-31 15:44:04,652 ExcuteTimeLogFileLogger -  Take[[17253]]Milliseconds
+2020-03-31 15:44:04,652 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,186 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:48:16,186 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:48:16,186 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:48:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:48:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:53:16,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,188 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:53:16,188 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:53:16,188 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:53:16,188 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:53:16,188 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,185 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,185 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:58:16,185 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 15:58:16,185 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:58:16,185 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 15:58:16,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,076 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,083 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:00:24,083 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:00:24,083 ExcuteTimeLogFileLogger -  Take[[3009]]Milliseconds
+2020-03-31 16:00:24,083 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,085 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,085 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:00:24,085 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:00:24,085 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-03-31 16:00:24,085 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,088 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:00:24,088 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:00:24,088 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:00:24,088 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:00:24,088 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:05:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,753 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:05:20,753 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:05:20,753 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:05:20,753 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:05:20,753 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:10:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:10:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:10:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:10:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:15:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:15:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:15:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:15:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:15:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:20:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:20:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:20:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:20:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:25:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:25:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:25:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:25:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:30:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:30:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:30:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:30:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,751 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:35:20,751 ExcuteTimeLogFileLogger -  Arguments：[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-03-31 16:35:20,751 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:35:20,751 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger - ******************************************************************
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  MethodName：[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  Arguments：[[s => (s.IsDeleted != 1)]]
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-03-31 16:35:20,752 ExcuteTimeLogFileLogger - ******************************************************************

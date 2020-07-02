@@ -1,0 +1,32 @@
+2020-04-09 16:44:28,940 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-09 16:44:28,940 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-09 16:44:28,954 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-04-09 16:44:28,954 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 64
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-09 16:44:28,954 ErrorFileLogger -- [TargetSite]:AddPneumoniaBotOperationRecord
+
+2020-04-09 16:44:28,954 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-04-09 16:44:28,954 ErrorFileLogger -- [Arguments]：[[]]
+2020-04-09 16:44:28,954 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-09 16:45:14,317 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-04-09 16:45:14,317 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-04-09 16:45:14,317 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-04-09 16:45:14,317 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord(PneumoniaBotOperationRecordInputDto dto) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\HCPYSData\WeChat\PneumoniaBotService.cs:行号 64
+   在 Castle.Proxies.Invocations.IPneumoniaBotService_AddPneumoniaBotOperationRecord.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-04-09 16:45:14,317 ErrorFileLogger -- [TargetSite]:AddPneumoniaBotOperationRecord
+
+2020-04-09 16:45:14,317 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]]
+
+2020-04-09 16:45:14,317 ErrorFileLogger -- [Arguments]：[[]]
+2020-04-09 16:45:14,317 ErrorFileLogger -- --------------------------------------------------------------------------------

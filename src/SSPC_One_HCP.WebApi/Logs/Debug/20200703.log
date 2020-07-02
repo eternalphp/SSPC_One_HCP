@@ -1,0 +1,6 @@
+2020-07-03 00:23:29,884 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 00:23:29,884 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 00:23:29,884 DebugFileLogger -- PostResponse postData: {"client_id":"client_id","client_secret":"client_secret ","scope":"scope ","grant_type":"client_credentials","state":"123"}
+2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------

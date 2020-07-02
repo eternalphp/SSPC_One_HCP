@@ -1,0 +1,570 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FNC.MDS.Api</name>
+    </assembly>
+    <members>
+        <member name="T:MDS.Api.Auth.ClientAuthenticationOptions">
+            <summary>
+            客户端授权选项
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.ClientAuthenticationOptions.AppId">
+            <summary>
+            AppId
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.ClientAuthenticationOptions.AppSecret">
+            <summary>
+            AppSecret
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.ClientAuthenticationOptions.TokenCache">
+            <summary>
+            使用的TokenCache
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.ClientAuthenticationOptions.Scopes">
+            <summary>
+            使用的权限范围
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.ClientAuthenticationOptions.PublicKey">
+            <summary>
+            加密的公钥
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Auth.ClientCredentialsHelper">
+            <summary>
+            客户端授权
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.SetOptions(MDS.Api.Auth.ClientAuthenticationOptions)">
+            <summary>
+            设置配置项
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.GetAccessToken">
+            <summary>
+            获取出AccessToken
+            </summary>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.VerifyToken(System.String,System.String[])">
+            <summary>
+            对于token的授权范围做验证
+            </summary>
+            <param name="accessToken">申请方的access_token</param>
+            <param name="scopes">需要验证的权限范围</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.AuthenticateByAD(System.String,System.String)">
+            <summary>
+            域验证
+            </summary>
+            <param name="adAccount">AD帐号</param>
+            <param name="passwrod">密码</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.AuthenticateById(System.String,System.String)">
+            <summary>
+            姓名身份证号验证
+            </summary>
+            <param name="userName">用户姓名</param>
+            <param name="idCardNumber">身份证号</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.WeChatGetBindedUser(System.String)">
+            <summary>
+            获取出绑定的用户信息
+            </summary>
+            <param name="unionId">微信union_id</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.WeChatBindByUserId(System.String,System.String)">
+            <summary>
+            绑定unionid与用户之间的关系
+            <param name="unionId">微信union_id</param>
+            <param name="userId">用户Id</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.WeChatBindByADAccount(System.String,System.String)">
+            <summary>
+            绑定unionid与用户之间的关系
+            <param name="unionId">微信union_id</param>
+            <param name="adAccount">域帐号</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.ClientCredentialsHelper.WeChatRemoveUserBinding(System.String)">
+            <summary>
+            解除unionid与用户之间的绑定关系
+            <param name="unionId">微信union_id</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Auth.DefaultTokenCache">
+            <summary>
+            默认的Token缓存工具
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.DefaultTokenCache.#ctor">
+            <summary>
+            默认构造函数
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.DefaultTokenCache.Get(System.String,System.String,System.String)">
+            <summary>
+            获取出AccessToken
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.DefaultTokenCache.Save(System.String,System.String,MDS.Api.Auth.Token,System.String)">
+            <summary>
+            保存AccessToken
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MDS.Api.Auth.ITokenCache">
+            <summary>
+            Token的缓存接口
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.ITokenCache.Get(System.String,System.String,System.String)">
+            <summary>
+            获取出AccessToken
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MDS.Api.Auth.ITokenCache.Save(System.String,System.String,MDS.Api.Auth.Token,System.String)">
+            <summary>
+            存储AccessToken
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MDS.Api.Auth.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.Token.AccessToken">
+            <summary>
+            AccessToken
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.Token.RefreshToken">
+            <summary>
+            RefreshToken
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.Token.ExpiresIn">
+            <summary>
+            过期时间（秒）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.Token.LastGetTime">
+            <summary>
+            最后一次获取时间
+            </summary>
+        </member>
+        <member name="M:MDS.Api.Auth.Token.IsValid">
+            <summary>
+            Token是否有效
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MDS.Api.Auth.UserInfo">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.UserInfo.Id">
+            <summary>
+            用户Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.UserInfo.ADAcount">
+            <summary>
+            域帐号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Auth.UserInfo.Code">
+            <summary>
+            用户编号
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Constants">
+            <summary>
+            授权
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.IsTestEnvironment">
+            <summary>
+            是否是测试环境
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Constants.AuthUri">
+            <summary>
+            认证服务地址
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_VerifyToken">
+            <summary>
+            允许验证Token是否有效
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_AuthenticateByAD">
+            <summary>
+            允许使用AD帐号加密码做验证
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_AuthenticateById">
+            <summary>
+            允许使用姓名加身份证号验证
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_WeChatUnionId">
+            <summary>
+            允许使用WeChat的unionid功能
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_SendEmail">
+            <summary>
+            允许发送邮件
+            </summary>
+        </member>
+        <member name="F:MDS.Api.Constants.Scope_SendSMS">
+            <summary>
+            允许发送短信
+            </summary>
+        </member>
+        <member name="T:MDS.Api.IPushListener`1">
+            <summary>
+            推送的监听器
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:MDS.Api.IPushListener`1.OnBegin">
+            <summary>
+            开始推送
+            </summary>
+        </member>
+        <member name="M:MDS.Api.IPushListener`1.OnReceiveItems(MDS.Api.Models.ReceiveItemsOptions{`0})">
+            <summary>
+            收到数据项时触发的事件
+            </summary>
+        </member>
+        <member name="M:MDS.Api.IPushListener`1.OnEnd">
+            <summary>
+            结束推送
+            <para>不能确保每一次OnEnd都能被调用到</para>
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Models.Organization">
+            <summary>
+            组织架构（部门信息）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.Code">
+            <summary>
+            编码（SAP编码）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.IsDisabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.ParentId">
+            <summary>
+            上级组织架构的编码
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.Path">
+            <summary>
+            组织架构层级
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.ManagerId">
+            <summary>
+            经理（主管）Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Organization.Level">
+            <summary>
+            层级
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Models.Position">
+            <summary>
+            职位
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.Code">
+            <summary>
+            编码（SAP编码）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.OrganizationId">
+            <summary>
+            组织架构Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.IsDisabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.ReporterId">
+            <summary>
+            汇报人Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.Position.HolderId">
+            <summary>
+            持有者Id
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Models.ReceiveItemsOptions`1">
+            <summary>
+            接收数据推送的项
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.StartIndex">
+            <summary>
+            开始索引号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.Category">
+            <summary>
+            数据类别
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.EndIndex">
+            <summary>
+            结束索引号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.Total">
+            <summary>
+            总的数据量
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.Datas">
+            <summary>
+            数据集合
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.ReceiveItemsOptions`1.IsEnd">
+            <summary>
+            是否为最后一次
+            </summary>
+        </member>
+        <member name="T:MDS.Api.Models.User">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.Code">
+            <summary>
+            SAP Code
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.EmployeeNo">
+            <summary>
+            员工号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.ChineseName">
+            <summary>
+            姓名（中文）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.EnglishName">
+            <summary>
+            姓名（英文）
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.ADAccount">
+            <summary>
+            域帐号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.PersonalEmail">
+            <summary>
+            个人邮箱
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.CompanyEmail">
+            <summary>
+            公司邮箱
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.MobileNo">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.IdCardNumber">
+            <summary>
+            身份证号
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.IsDisabled">
+            <summary>
+            是否可用
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.ReporterId">
+            <summary>
+            汇报人Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.OrganizationId">
+            <summary>
+            组织架构Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.Models.User.PositionId">
+            <summary>
+            职位Id
+            </summary>
+        </member>
+        <member name="T:MDS.Api.DataCategory">
+            <summary>
+            数据类别
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.None">
+            <summary>
+            空选项
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.Organization">
+            <summary>
+            组织架构（部门信息）
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.Position">
+            <summary>
+            职位
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.Supplier">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="F:MDS.Api.DataCategory.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:MDS.Api.PushOptions">
+            <summary>
+            推送的配置
+            </summary>
+        </member>
+        <member name="M:MDS.Api.PushOptions.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="E:MDS.Api.PushOptions.OnException">
+            <summary>
+            错误事件
+            </summary>
+        </member>
+        <member name="P:MDS.Api.PushOptions.ClientId">
+            <summary>
+            客户端Id
+            </summary>
+        </member>
+        <member name="P:MDS.Api.PushOptions.ClientKey">
+            <summary>
+            客户端密码
+            </summary>
+        </member>
+        <member name="M:MDS.Api.PushOptions.UsePushListener``1(MDS.Api.DataCategory)">
+            <summary>
+            设置推送监听器
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dataCategory"></param>
+        </member>
+        <member name="M:MDS.Api.PushOptions.UsePushListener``1(System.String)">
+            <summary>
+            设置推送监听器
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="category"></param>
+        </member>
+        <member name="M:MDS.Api.PushOptions.Validate">
+            <summary>
+            验证参数的有效性
+            </summary>
+        </member>
+        <member name="T:Owin.ServerExtension">
+            <summary>
+            服务器拓展
+            </summary>
+        </member>
+        <member name="M:Owin.ServerExtension.UseMasterDataPushServer(Owin.IAppBuilder,MDS.Api.PushOptions)">
+            <summary>
+            加载主数据推送服务
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Owin.ServerExtension.UseClientAuthentication(Owin.IAppBuilder,MDS.Api.Auth.ClientAuthenticationOptions)">
+            <summary>
+            使用客户端授权
+            </summary>
+            <param name="app"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

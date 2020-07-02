@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{765E4550-3E01-4222-A806-7D81428626B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSPC_One_HCP.Core</RootNamespace>
+    <AssemblyName>SSPC_One_HCP.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\SSPC_One_HCP.WebApi\App_Data\SSPC_One_HCP.Core.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=18.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>AsposeCells\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.4.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.4\lib\net45\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsposeCells\AsposeExcelTool.cs" />
+    <Compile Include="Cache\CacheExtensions.cs" />
+    <Compile Include="Cache\ICacheManager.cs" />
+    <Compile Include="Cache\MemoryCacheManager.cs" />
+    <Compile Include="Collection\DictionaryExtension.cs" />
+    <Compile Include="Collection\EnumerableExtension.cs" />
+    <Compile Include="Comm\ZConvert.cs" />
+    <Compile Include="Data\IDbContext.cs" />
+    <Compile Include="Data\IEfRepository.cs" />
+    <Compile Include="Data\IEfRepositoryGeneric.cs" />
+    <Compile Include="Domain\CommonModels\BaseRowNumModel.cs" />
+    <Compile Include="Domain\CommonModels\AccessTokenModel.cs" />
+    <Compile Include="Domain\CommonModels\ReturnValueModel.cs" />
+    <Compile Include="Domain\CommonModels\RowNumModel.cs" />
+    <Compile Include="Domain\CommonModels\SendSmsModel.cs" />
+    <Compile Include="Domain\CommonModels\SmsResult.cs" />
+    <Compile Include="Domain\CommonModels\SysToken.cs" />
+    <Compile Include="Domain\CommonModels\OAuthTokenModel.cs" />
+    <Compile Include="Domain\CommonModels\TokenModel.cs" />
+    <Compile Include="Domain\CommonModels\WorkUser.cs" />
+    <Compile Include="Domain\Enums\EnumApproval.cs" />
+    <Compile Include="Domain\Enums\EnumRecord.cs" />
+    <Compile Include="Domain\Enums\ModuleNames.cs" />
+    <Compile Include="Domain\GuidModels\GuidResult.cs" />
+    <Compile Include="Domain\Models\BaseEntity.cs" />
+    <Compile Include="Domain\Models\DataModels\AdQRCode.cs" />
+    <Compile Include="Domain\Models\DataModels\AnalysisDailyRetain.cs" />
+    <Compile Include="Domain\Models\DataModels\AnalysisDailyVisitTrend.cs" />
+    <Compile Include="Domain\Models\DataModels\AnswerModel.cs" />
+    <Compile Include="Domain\Models\DataModels\ApprovalRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\BannerInfoItem.cs" />
+    <Compile Include="Domain\Models\DataModels\BannerInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\BotMedalStandardConfigure.cs" />
+    <Compile Include="Domain\Models\DataModels\BotSaleConfigure.cs" />
+    <Compile Include="Domain\Models\DataModels\BotMedalBusinessConfigure.cs" />
+    <Compile Include="Domain\Models\DataModels\BotSaleUserInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\BotSaleUserTotalRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\BotSaleUserMedalInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\BotADWhiteName.cs" />
+    <Compile Include="Domain\Models\DataModels\BrowseRecords.cs" />
+    <Compile Include="Domain\Models\DataModels\CompetingProduct.cs" />
+    <Compile Include="Domain\Models\DataModels\DoctorMeeting.cs" />
+    <Compile Include="Domain\Models\DataModels\EdaCheckInRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\Feedback.cs" />
+    <Compile Include="Domain\Models\DataModels\FsysArticle.cs" />
+    <Compile Include="Domain\Models\DataModels\GroupTagRel.cs" />
+    <Compile Include="Domain\Models\DataModels\GuidVisit.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpDataCatalogueRel.cs" />
+    <Compile Include="Domain\Models\DataModels\DocumentManager.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpDataInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpDataOperationInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpDownloadInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpCatalogueManage.cs" />
+    <Compile Include="Domain\Models\DataModels\DocumentManagerRel.cs" />
+    <Compile Include="Domain\Models\DataModels\HcpMediaDataRel.cs" />
+    <Compile Include="Domain\Models\DataModels\LiveBroadcastPV.cs" />
+    <Compile Include="Domain\Models\DataModels\LiveOnline.cs" />
+    <Compile Include="Domain\Models\DataModels\Management.cs" />
+    <Compile Include="Domain\Models\DataModels\MedicineHotSearch.cs" />
+    <Compile Include="Domain\Models\DataModels\MedicineSearchHistory.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetSubscribe.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetQAResult.cs" />
+    <Compile Include="Domain\Models\DataModels\PneumoniaBotForward.cs" />
+    <Compile Include="Domain\Models\DataModels\PneumoniaBotOperationRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\ProductInfoLike.cs" />
+    <Compile Include="Domain\Models\DataModels\PublicAccount.cs" />
+    <Compile Include="Domain\Models\DataModels\QRcodeExtension.cs" />
+    <Compile Include="Domain\Models\DataModels\QRcodeRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\RongCloudChatRoomHandle.cs" />
+    <Compile Include="Domain\Models\DataModels\RongCloudChatroomStatus.cs" />
+    <Compile Include="Domain\Models\DataModels\SendRate.cs" />
+    <Compile Include="Domain\Models\DataModels\SeriesCourses.cs" />
+    <Compile Include="Domain\Models\DataModels\SeriesCoursesMeetRel.cs" />
+    <Compile Include="Domain\Models\DataModels\SpreadQRCode.cs" />
+    <Compile Include="Domain\Models\DataModels\TagGroup.cs" />
+    <Compile Include="Domain\Models\DataModels\TemplateForm.cs" />
+    <Compile Include="Domain\Models\DataModels\RongCloudContent.cs" />
+    <Compile Include="Domain\Models\DataModels\ThirdPartyKeyWord.cs" />
+    <Compile Include="Domain\Models\DataModels\VisitModules.cs" />
+    <Compile Include="Domain\Models\DataModels\VisitModulesName.cs" />
+    <Compile Include="Domain\Models\DataModels\VisitTimes.cs" />
+    <Compile Include="Domain\Models\DataModels\WechatActionHistory.cs" />
+    <Compile Include="Domain\Models\DataModels\WechatPublicAccount.cs" />
+    <Compile Include="Domain\Models\DataModels\BuInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\BuProDeptRel.cs" />
+    <Compile Include="Domain\Models\DataModels\BusinessCard.cs" />
+    <Compile Include="Domain\Models\DataModels\CompanyInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\Configuration.cs" />
+    <Compile Include="Domain\Models\DataModels\DataInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\DepartmentInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\DocGroup.cs" />
+    <Compile Include="Domain\Models\DataModels\DocTag.cs" />
+    <Compile Include="Domain\Models\DataModels\GroupInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\DoctorModel.cs" />
+    <Compile Include="Domain\Models\DataModels\MediaDataRel.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetPic.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetTag.cs" />
+    <Compile Include="Domain\Models\DataModels\ProductInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\TagInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\DocumentType.cs" />
+    <Compile Include="Domain\Models\DataModels\DropDownConfig.cs" />
+    <Compile Include="Domain\Models\DataModels\HospitalInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\LanguageConfig.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetAndProAndDepRelation.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetFile.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetQAModel.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetSchedule.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetSignUp.cs" />
+    <Compile Include="Domain\Models\DataModels\MeetSpeaker.cs" />
+    <Compile Include="Domain\Models\DataModels\MenuInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\MyReadRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\MyCollectionInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\MyLRecord.cs" />
+    <Compile Include="Domain\Models\DataModels\MyMeetOrder.cs" />
+    <Compile Include="Domain\Models\DataModels\MySettingsInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\Organization.cs" />
+    <Compile Include="Domain\Models\DataModels\Position.cs" />
+    <Compile Include="Domain\Models\DataModels\ProAndDepRelation.cs" />
+    <Compile Include="Domain\Models\DataModels\ProductTypeInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\ProtocolModel.cs" />
+    <Compile Include="Domain\Models\DataModels\QuestionModel.cs" />
+    <Compile Include="Domain\Models\DataModels\RegisterModel.cs" />
+    <Compile Include="Domain\Models\DataModels\RoleInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\RoleMenu.cs" />
+    <Compile Include="Domain\Models\DataModels\UserInfo.cs" />
+    <Compile Include="Domain\Models\DataModels\WordBlackList.cs" />
+    <Compile Include="Domain\Models\IdentityEntities\AccountLoginInfo.cs" />
+    <Compile Include="Domain\Models\IdentityEntities\AppClientInfo.cs" />
+    <Compile Include="Domain\Models\IdentityEntities\RefreshTokenInfo.cs" />
+    <Compile Include="Domain\Models\IdentityEntities\UserModel.cs" />
+    <Compile Include="Domain\Models\IdentityEntities\UserRole.cs" />
+    <Compile Include="Domain\SspcModels\FileUploadParams.cs" />
+    <Compile Include="Domain\SspcModels\SystemFiles.cs" />
+    <Compile Include="Domain\Enums\EnumComplete.cs" />
+    <Compile Include="Domain\FkLibSyncModels\PerInfoSyncModel.cs" />
+    <Compile Include="Domain\FkLibSyncModels\CheckInSyncModel.cs" />
+    <Compile Include="Domain\FkLibSyncModels\MeetingSyncModel.cs" />
+    <Compile Include="Domain\FkLibSyncModels\ReturnValueSyncModel.cs" />
+    <Compile Include="Domain\ViewModels\AddBusinessCardViewModel.cs" />
+    <Compile Include="Domain\ViewModels\Approval\ApprovalResultViewModel.cs" />
+    <Compile Include="Domain\ViewModels\BuProDeptModel.cs" />
+    <Compile Include="Domain\ViewModels\BuProDeptRelViewModel.cs" />
+    <Compile Include="Domain\ViewModels\BusinessCardViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DayList.cs" />
+    <Compile Include="Domain\ViewModels\CollectionViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DataInfoSearchViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DataInfoViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DecodedUserInfoModel.cs" />
+    <Compile Include="Domain\ViewModels\DecodePhoneModel.cs" />
+    <Compile Include="Domain\ViewModels\DepartmentModels\DepartmentViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DiscoveryViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DoctorModels\DoctorDetailViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DoctorModels\DoctorLearnViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DoctorModels\DoctorTagView.cs" />
+    <Compile Include="Domain\ViewModels\DoctorModels\DoctorVerifyViewModel.cs" />
+    <Compile Include="Domain\ViewModels\DoctorModels\DoctorViewModel.cs" />
+    <Compile Include="Domain\ViewModels\FeedbackListViewModel.cs" />
+    <Compile Include="Domain\ViewModels\FeedbackViewModel.cs" />
+    <Compile Include="Domain\ViewModels\FileInfoModel.cs" />
+    <Compile Include="Domain\ViewModels\HospitalViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MediaDataRelViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MedicineHotSearchViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetFileViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetSignUpViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetStudyViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\WxMeetQAResultViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\WxAnswerViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\WxMeetQAViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetSearchViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetInfoViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetQARelationViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetQAContentViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetScheduleView.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetScheduleViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetQAResultViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MeetSituationViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\MyMeetOrderViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\ScheduleView.cs" />
+    <Compile Include="Domain\ViewModels\MeetModels\TagView.cs" />
+    <Compile Include="Domain\ViewModels\MenuInfoViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MenuModels\MenuViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ConfigurationViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductInfoLikeView.cs" />
+    <Compile Include="Domain\ViewModels\ProductInfoModels\ProductInfoViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductBuDeptOtherDeptSelectionViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductBuDeptSelectionViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductListItemViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\DepartmentSelectionViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductSelectionViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductTypeViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\SearchProductViewModel.cs" />
+    <Compile Include="Domain\ViewModels\ProductModels\ProductDetailViewModel.cs" />
+    <Compile Include="Domain\ViewModels\RoleMenuViewModel.cs" />
+    <Compile Include="Domain\ViewModels\StaticModels\GrowthViewModel.cs" />
+    <Compile Include="Domain\ViewModels\StaticModels\OverViewModel.cs" />
+    <Compile Include="Domain\ViewModels\StatisticsTimeViewModel.cs" />
+    <Compile Include="Domain\ViewModels\TagGroup\TagGroupRelViewModel.cs" />
+    <Compile Include="Domain\ViewModels\TagGroup\TagGroupTagViewModel.cs" />
+    <Compile Include="Domain\ViewModels\TagGroup\TagGroupViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserModels\UserViewModel.cs" />
+    <Compile Include="Domain\ViewModels\UserRoleViewModel.cs" />
+    <Compile Include="Domain\ViewModels\VisitModulesViewModel.cs" />
+    <Compile Include="Domain\ViewModels\VisitTimesViewModel.cs" />
+    <Compile Include="Domain\ViewModels\VisitViewModels.cs" />
+    <Compile Include="Domain\ViewModels\WKUser.cs" />
+    <Compile Include="Domain\ViewModels\WxMedicine\WxMedicineDelViewModel.cs" />
+    <Compile Include="Domain\ViewModels\WxUserInfoRequestModel.cs" />
+    <Compile Include="Domain\ViewModels\YXDoctorViewModel.cs" />
+    <Compile Include="Domain\ViewModels\YXHospitalViewModel.cs" />
+    <Compile Include="Domain\WxModels\OpenModel.cs" />
+    <Compile Include="Domain\WxModels\WxBaseModel.cs" />
+    <Compile Include="ExpressionHelper\ConditionBuilder.cs" />
+    <Compile Include="ExpressionHelper\DbExpressionVisitor.cs" />
+    <Compile Include="ExpressionHelper\ExpressionExtand.cs" />
+    <Compile Include="ExpressionHelper\ParameterReset.cs" />
+    <Compile Include="ExpressionHelper\PartialEvaluator.cs" />
+    <Compile Include="GDI\GDIHelp.cs" />
+    <Compile Include="LinqExtented\LinqExpressExtent.cs" />
+    <Compile Include="ModelConvertExtension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReflectionExtend\IPropertyAccessor.cs" />
+    <Compile Include="ReflectionExtend\PropertyAccessor.cs" />
+    <Compile Include="ReflectionExtend\ReflectionExtensions.cs" />
+    <Compile Include="ReflectionExtend\ReflectionFactory.cs" />
+    <Compile Include="Singleton\SingletonManager.cs" />
+    <Compile Include="Utils\BaseConfig.cs" />
+    <Compile Include="Utils\DataTableUtils.cs" />
+    <Compile Include="Utils\HttpUtils.cs" />
+    <Compile Include="Utils\HttpWebResponseUtil.cs" />
+    <Compile Include="Utils\IConfig.cs" />
+    <Compile Include="Utils\Options.cs" />
+    <Compile Include="Utils\OrderNoUtils.cs" />
+    <Compile Include="Utils\QRCodeUtils.cs" />
+    <Compile Include="Utils\RandomUtil.cs" />
+    <Compile Include="Utils\SmsUtil.cs" />
+    <Compile Include="Utils\StringEncryptionHelper.cs" />
+    <Compile Include="WeChatManage\WxUrls.cs" />
+    <Compile Include="WxScene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AsposeCells\Aspose.Cells.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

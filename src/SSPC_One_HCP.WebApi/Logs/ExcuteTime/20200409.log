@@ -1,0 +1,170 @@
+2020-04-09 16:41:23,535 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:41:23,542 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:41:23,543 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-09 16:41:23,543 ExcuteTimeLogFileLogger -  Take[[2978]]Milliseconds
+2020-04-09 16:41:23,543 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:41:23,544 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:41:23,545 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:41:23,545 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-09 16:41:23,545 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-09 16:41:23,545 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:41:23,548 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:41:23,548 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:41:23,548 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-04-09 16:41:23,548 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-09 16:41:23,548 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,144 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,144 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:46:20,144 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-09 16:46:20,144 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:46:20,144 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:46:20,145 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:04,869 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:04,869 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:47:04,869 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.UnionId) AndAlso (o.ClickTime == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).clickTime1)) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.ControlId))]]
+2020-04-09 16:47:04,870 ExcuteTimeLogFileLogger -  Take[[43]]Milliseconds
+2020-04-09 16:47:04,870 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,211 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,211 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-04-09 16:47:07,211 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:47:07,211 ExcuteTimeLogFileLogger -  Take[[27]]Milliseconds
+2020-04-09 16:47:07,211 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  Take[[183]]Milliseconds
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger -  Take[[6855]]Milliseconds
+2020-04-09 16:47:07,395 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:13,760 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:13,760 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:47:13,761 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.UnionId) AndAlso (o.ClickTime == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).clickTime1)) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.ControlId))]]
+2020-04-09 16:47:13,761 ExcuteTimeLogFileLogger -  Take[[19]]Milliseconds
+2020-04-09 16:47:13,761 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,541 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,541 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-04-09 16:47:34,541 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:47:34,541 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:47:34,541 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  Take[[35]]Milliseconds
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger -  Take[[24988]]Milliseconds
+2020-04-09 16:47:34,576 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:06,342 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:06,342 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:48:06,342 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.UnionId) AndAlso (o.ClickTime == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).clickTime1)) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.ControlId))]]
+2020-04-09 16:48:06,342 ExcuteTimeLogFileLogger -  Take[[18]]Milliseconds
+2020-04-09 16:48:06,342 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:20,966 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:20,966 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-04-09 16:48:20,966 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:48:20,967 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:48:20,967 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:22,199 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:22,199 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:48:22,199 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:48:22,199 ExcuteTimeLogFileLogger -  Take[[39]]Milliseconds
+2020-04-09 16:48:22,199 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:23,691 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:23,691 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:48:23,691 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:48:23,691 ExcuteTimeLogFileLogger -  Take[[21431]]Milliseconds
+2020-04-09 16:48:23,691 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:50,020 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:48:50,020 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:48:50,020 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.UnionId) AndAlso (o.ClickTime == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).clickTime1)) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_1).CS$<>8__locals1.dto.ControlId))]]
+2020-04-09 16:48:50,020 ExcuteTimeLogFileLogger -  Take[[18]]Milliseconds
+2020-04-09 16:48:50,020 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,174 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,181 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:50:36,182 ExcuteTimeLogFileLogger -  Arguments£º[[s => ((s.IsDeleted != 1) AndAlso (s.MeetStartTime > Convert(value(SSPC_One_HCP.WebApi.Jobs.RemindJob+<>c__DisplayClass3_0).dt)))]]
+2020-04-09 16:50:36,182 ExcuteTimeLogFileLogger -  Take[[2972]]Milliseconds
+2020-04-09 16:50:36,182 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,183 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,183 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:50:36,184 ExcuteTimeLogFileLogger -  Arguments£º[[s => (((s.IsDeleted != 1) AndAlso (s.HasReminded != 1)) AndAlso (s.IsRemind == 1))]]
+2020-04-09 16:50:36,184 ExcuteTimeLogFileLogger -  Take[[1]]Milliseconds
+2020-04-09 16:50:36,184 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,186 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:50:36,186 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Where]] 
+2020-04-09 16:50:36,186 ExcuteTimeLogFileLogger -  Arguments£º[[s => (s.IsDeleted != 1)]]
+2020-04-09 16:50:36,187 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:50:36,187 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,320 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,320 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:51:07,320 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.UnionId) AndAlso (o.Remark == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ClickTime.ToString())) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ControlId))]]
+2020-04-09 16:51:07,320 ExcuteTimeLogFileLogger -  Take[[77]]Milliseconds
+2020-04-09 16:51:07,320 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,352 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,352 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Insert]] 
+2020-04-09 16:51:07,352 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:51:07,352 ExcuteTimeLogFileLogger -  Take[[27]]Milliseconds
+2020-04-09 16:51:07,352 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  Take[[183]]Milliseconds
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger -  Take[[297]]Milliseconds
+2020-04-09 16:51:07,536 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,441 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,441 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:51:12,441 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.UnionId) AndAlso (o.Remark == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ClickTime.ToString())) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ControlId))]]
+2020-04-09 16:51:12,441 ExcuteTimeLogFileLogger -  Take[[28]]Milliseconds
+2020-04-09 16:51:12,441 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,442 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,442 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-04-09 16:51:12,442 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:51:12,442 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:51:12,442 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,488 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,488 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:51:12,488 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger -  Take[[46]]Milliseconds
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger -  Take[[76]]Milliseconds
+2020-04-09 16:51:12,489 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:24,860 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:24,860 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.FirstOrDefault]] 
+2020-04-09 16:51:24,860 ExcuteTimeLogFileLogger -  Arguments£º[[o => (((o.UnionId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.UnionId) AndAlso (o.Remark == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ClickTime.ToString())) AndAlso (o.ControlId == value(SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService+<>c__DisplayClass3_0).dto.ControlId))]]
+2020-04-09 16:51:24,860 ExcuteTimeLogFileLogger -  Take[[19]]Milliseconds
+2020-04-09 16:51:24,860 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,051 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,051 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.Update]] 
+2020-04-09 16:51:37,051 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Core.Domain.Models.DataModels.PneumoniaBotOperationRecord]]
+2020-04-09 16:51:37,051 ExcuteTimeLogFileLogger -  Take[[0]]Milliseconds
+2020-04-09 16:51:37,051 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Data.Data.EfRepository.SaveChanges]] 
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  Arguments£º[[]]
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  Take[[34]]Milliseconds
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger - ******************************************************************
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  MethodName£º[[SSPC_One_HCP.Services.HCPYSData.WeChat.PneumoniaBotService.AddPneumoniaBotOperationRecord]] 
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  Arguments£º[[SSPC_One_HCP.Services.HCPYSData.Dto.PneumoniaBotOperationRecordInputDto]]
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger -  Take[[15192]]Milliseconds
+2020-04-09 16:51:37,086 ExcuteTimeLogFileLogger - ******************************************************************

@@ -1,0 +1,16 @@
+2020-05-07 10:03:19,954 ErrorFileLogger -- --------------------------------------------------------------------------------
+2020-05-07 10:03:19,954 ErrorFileLogger -- [MSG]:未将对象引用设置到对象的实例。
+
+2020-05-07 10:03:19,954 ErrorFileLogger -- [Source]:SSPC_One_HCP.Services
+
+2020-05-07 10:03:19,954 ErrorFileLogger -- [StackTrace]:   在 SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.GetLiveBroadcastPV(String id) 位置 D:\工作\HCP\src\SSPC_One_HCP.Services\Services\WeChat\Implementations\WcLiveBroadcastPVService.cs:行号 140
+   在 Castle.Proxies.Invocations.IWcLiveBroadcastPVService_GetLiveBroadcastPV.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 SSPC_One_HCP.AOP.AopInterceptor.ServiceInterceptor.Intercept(IInvocation invocation) 位置 D:\工作\HCP\src\SSPC_One_HCP.AOP\AopInterceptor\ServiceInterceptor.cs:行号 29
+
+2020-05-07 10:03:19,954 ErrorFileLogger -- [TargetSite]:GetLiveBroadcastPV
+
+2020-05-07 10:03:19,954 ErrorFileLogger -- [MethodName]：[[SSPC_One_HCP.Services.Services.WeChat.Implementations.WcLiveBroadcastPVService.GetLiveBroadcastPV]]
+
+2020-05-07 10:03:19,954 ErrorFileLogger -- [Arguments]：[[1d7c80f4-dc36-4551-a92e-4aa12ab35418]]
+2020-05-07 10:03:19,954 ErrorFileLogger -- --------------------------------------------------------------------------------

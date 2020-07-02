@@ -1,0 +1,8 @@
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\bin\Release\SSPC_One_HCP.AutofacManager.dll
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\bin\Release\SSPC_One_HCP.AutofacManager.pdb
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\bin\Release\Autofac.dll
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\bin\Release\Autofac.xml
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\obj\Release\SSPC_One_HCP.AutofacManager.csprojAssemblyReference.cache
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\obj\Release\SSPC_One_HCP.AutofacManager.csproj.CopyComplete
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\obj\Release\SSPC_One_HCP.AutofacManager.dll
+D:\OneHCP\OneHCPService\master\SSPC_One_HCP.AutofacManager\obj\Release\SSPC_One_HCP.AutofacManager.pdb
