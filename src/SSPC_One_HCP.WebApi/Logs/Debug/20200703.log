@@ -4,3 +4,134 @@
 2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse contentType: application/json
 2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse StatusCode: InternalServerError
 2020-07-03 00:23:29,885 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse postData: {"client_id":"client_id","client_secret":"client_secret ","scope":"scope ","grant_type":"client_credentials","state":"123"}
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 11:02:23,818 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 11:45:18,565 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 11:45:18,585 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 11:45:18,585 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 11:45:18,585 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 11:45:18,585 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 11:45:18,585 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 11:49:21,176 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 12:52:56,712 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 12:52:56,733 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 12:52:56,733 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 12:52:56,733 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 12:52:56,733 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 12:52:56,733 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 12:53:47,219 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 12:54:10,890 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:04:56,896 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:04:56,896 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/messagecenter/api/message/send
+2020-07-03 13:04:56,896 DebugFileLogger -- PostResponse postData: {"SendType":2,"Receiver":"13681752161","SignCode":"FKSign0001","TemplateCode":"FKSMS0047","Content":"{\"code\":\"213421\"}"}
+2020-07-03 13:04:56,896 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:04:56,896 DebugFileLogger -- PostResponse StatusCode: Unauthorized
+2020-07-03 13:04:56,897 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"scope","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:05:31,831 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:25:11,302 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:25:11,328 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:25:11,328 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"scope","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:25:11,328 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:25:11,328 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:25:11,328 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:34:29,146 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:34:29,174 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:34:29,174 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:34:29,174 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:34:29,174 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:34:29,174 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:39:15,201 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:39:15,256 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:39:15,256 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:39:15,256 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:39:15,256 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:39:15,256 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:40:11,344 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:40:11,345 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:40:11,345 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:40:11,345 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 13:40:11,345 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:40:11,345 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:46:39,175 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:46:39,198 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:46:39,198 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:46:39,198 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:46:39,198 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:47:42,648 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:47:42,648 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:47:42,648 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:47:42,648 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:47:42,648 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:50:40,526 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:50:40,526 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:50:40,526 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:50:40,526 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:50:40,526 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:50:47,055 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:50:47,055 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:50:47,055 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:50:47,055 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:50:47,055 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:50:47,283 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:50:47,283 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:50:47,283 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:50:47,283 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:50:47,283 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 13:50:47,987 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 13:50:47,987 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 13:50:47,987 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 13:50:47,987 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 13:50:47,987 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 14:26:29,366 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 14:26:29,366 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 14:26:29,366 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 14:26:29,366 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 14:26:29,366 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 14:51:29,899 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 14:51:29,932 DebugFileLogger -- PostResponse url: http://localhost:8089/send
+2020-07-03 14:51:29,932 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 14:51:29,932 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 14:51:29,932 DebugFileLogger -- PostResponse StatusCode: NotFound
+2020-07-03 14:51:29,932 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 15:26:06,825 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 15:26:06,845 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 15:26:06,845 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 15:26:06,845 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 15:26:06,845 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 15:26:06,845 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse postData: {"client_id":"42958C0C2F79F2C6A509","client_secret":"B6A1722A4BD88112B2F6618A9C85F8","scope":"message_service","grant_type":"client_credentials","state":"123"}
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse contentType: application/json
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 15:26:26,263 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------
+2020-07-03 15:57:04,542 DebugFileLogger -- PostResponse  failed begin ---------------------------------------------
+2020-07-03 15:57:04,625 DebugFileLogger -- PostResponse url: https://apitest.fresenius-kabi-sspc.com/Login/token
+2020-07-03 15:57:04,625 DebugFileLogger -- PostResponse postData: client_id=42958C0C2F79F2C6A509&client_secret=B6A1722A4BD88112B2F6618A9C85F8&scope=message_service&state=123
+2020-07-03 15:57:04,625 DebugFileLogger -- PostResponse contentType: application/x-www-form-urlencoded
+2020-07-03 15:57:04,625 DebugFileLogger -- PostResponse StatusCode: InternalServerError
+2020-07-03 15:57:04,625 DebugFileLogger -- PostResponse  failed end   ---------------------------------------------

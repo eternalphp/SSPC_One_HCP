@@ -29,3 +29,12 @@ E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.dll
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.pdb
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.csprojAssemblyReference.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\bin\Debug\SSPC_One_HCP.AutofacManager.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\bin\Debug\SSPC_One_HCP.AutofacManager.pdb
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\bin\Debug\Autofac.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\bin\Debug\Autofac.xml
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.csprojAssemblyReference.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.csproj.CoreCompileInputs.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.csproj.CopyComplete
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.AutofacManager\obj\Debug\SSPC_One_HCP.AutofacManager.pdb

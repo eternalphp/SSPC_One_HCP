@@ -29,3 +29,12 @@ E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.AssemblyInfo.cs
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.dll
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.pdb
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\bin\Debug\netstandard2.0\SSPC_One_HCP.KBS.deps.json
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\bin\Debug\netstandard2.0\SSPC_One_HCP.KBS.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\bin\Debug\netstandard2.0\SSPC_One_HCP.KBS.pdb
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.csprojAssemblyReference.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.csproj.CoreCompileInputs.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.AssemblyInfoInputs.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.AssemblyInfo.cs
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.KBS\obj\Debug\netstandard2.0\SSPC_One_HCP.KBS.pdb

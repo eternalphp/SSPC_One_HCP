@@ -13,16 +13,30 @@ namespace SSPC_One_HCP.Core.Domain.CommonModels
     [DataContract]
     public class AccessToken
     {
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public AccessToken() {
+
+        }
+
         /// <summary>
         /// access_token 
         /// </summary>
-        [DataMember(Name = "access_token ")]
+        [DataMember(Name = "success")]
+        public bool success { get; set; }
+
+        /// <summary>
+        /// access_token 
+        /// </summary>
+        [DataMember(Name = "access_token")]
         public string access_token { get; set; }
 
         /// <summary>
         /// refresh_token 
         /// </summary>
-        [DataMember(Name = "refresh_token ")]
+        [DataMember(Name = "refresh_token")]
         public string refresh_token { get; set; }
 
         /// <summary>

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using log4net;
 using Newtonsoft.Json;
+using System.Net.Http.Headers;
+using System.Reflection;
 
 namespace SSPC_One_HCP.Core.Utils
 {
@@ -81,8 +83,10 @@ namespace SSPC_One_HCP.Core.Utils
             HttpContent httpContent = new StringContent(postData);
             httpContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(contentType);
             httpContent.Headers.ContentType.CharSet = "utf-8";
+
             using (HttpClient httpClient = new HttpClient())
             {
+
                 HttpResponseMessage response = httpClient.PostAsync(url, httpContent).Result;
 
                 if (response.IsSuccessStatusCode)
@@ -120,5 +124,97 @@ namespace SSPC_One_HCP.Core.Utils
             }
             return result;
         }
+
+
+        // 泛型：Post请求
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="url"></param>
+        /// <param name="postData"></param>
+        /// <param name="token"></param>
+        /// <param name="contentType"></param>
+        /// <returns></returns>
+        public static T PostResponse<T>(string url, string postData,string token, string contentType = "application/json") where T : class, new()
+        {
+            T result = default(T);
+
+            HttpContent httpContent = new StringContent(postData);
+            httpContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(contentType);
+            httpContent.Headers.ContentType.CharSet = "utf-8";
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+
+                if (token != null)
+                {
+                    AuthenticationHeaderValue authValue = new AuthenticationHeaderValue("Bear", token);
+                    httpClient.DefaultRequestHeaders.Authorization = authValue;
+                }
+
+                HttpResponseMessage response = httpClient.PostAsync(url, httpContent).Result;
+
+                if (response.IsSuccessStatusCode)
+                {
+                    Task<string> t = response.Content.ReadAsStringAsync();
+                    string s = t.Result;
+                    //Newtonsoft.Json
+                    string json = JsonConvert.DeserializeObject(s).ToString();
+                    result = JsonConvert.DeserializeObject<T>(json);
+
+                    if (result == null)
+                    {
+                        ILog _logger = LogManager.GetLogger("DebugFileLogger");
+                        _logger.Warn($"PostResponse  failed begin ---------------------------------------------");
+                        _logger.Warn($"PostResponse url: {url}");
+                        _logger.Warn($"PostResponse postData: {postData}");
+                        _logger.Warn($"PostResponse contentType: {contentType}");
+                        _logger.Warn($"PostResponse StatusCode: {response.StatusCode}");
+                        _logger.Warn($"PostResponse Content: {s}");
+                        _logger.Warn($"PostResponse  failed end   ---------------------------------------------");
+                    }
+                }
+                else
+                {
+                    ILog _logger = LogManager.GetLogger("DebugFileLogger");
+                    _logger.Warn($"PostResponse  failed begin ---------------------------------------------");
+                    _logger.Warn($"PostResponse url: {url}");
+                    _logger.Warn($"PostResponse postData: {postData}");
+                    _logger.Warn($"PostResponse contentType: {contentType}");
+                    _logger.Warn($"PostResponse StatusCode: {response.StatusCode}");
+                    _logger.Warn($"PostResponse  failed end   ---------------------------------------------");
+                }
+
+
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public static string ModelToUriParam(this object obj)
+        {
+            PropertyInfo[] propertis = obj.GetType().GetProperties();
+            StringBuilder sb = new StringBuilder();
+            foreach (var p in propertis)
+            {
+                var v = p.GetValue(obj, null);
+                if (v == null)
+                    continue;
+
+                sb.Append(p.Name);
+                sb.Append("=");
+                sb.Append(v.ToString());
+                sb.Append("&");
+            }
+            sb.Remove(sb.Length - 1, 1);
+
+            return sb.ToString();
+        }
+
     }
 }

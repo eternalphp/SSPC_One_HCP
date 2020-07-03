@@ -139,7 +139,7 @@ namespace SSPC_One_HCP.WebApi.Jobs
                 LoggerHelper.Error($"[StackTrace]:{ex.TargetSite.Name}\n");
                 LoggerHelper.Error($"[MethodName]：[[SSPC_One_HCP.WebApi.Jobs.RemindJob.RemindMeet]]\n");
                 LoggerHelper.Error($"--------------------------------------------------------------------------------");
-                throw ex;
+                //throw ex;
             }
         }
     }

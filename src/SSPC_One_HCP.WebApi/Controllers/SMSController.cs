@@ -49,13 +49,25 @@ namespace SSPC_One_HCP.WebApi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="secret"></param>
+        /// <param name="mobile"></param>
         /// <returns></returns>
         [HttpPost]
-        public IHttpActionResult send([FromUri]string secret)
+        public IHttpActionResult sendMessage([FromUri]string mobile)
         {
-            var ret = secret.GetHash();
-            return Ok(ret);
+
+            AccessToken token = this.accessToken();
+
+            Message msg = new Message
+            {
+                SendType = 2,
+                Receiver = mobile,
+                SignCode = "FKSign0001",
+                TemplateCode = "FKSMS0047",
+                Content = "{\"code\":\"213421\"}"
+            };
+            var postData = HttpUtils.ModelToUriParam(msg);
+            var json = HttpUtils.PostResponse<MessageResult>(messageUrl, postData, token.access_token, "application/x-www-form-urlencoded");
+            return Ok(json);
         }
 
 
@@ -64,18 +76,59 @@ namespace SSPC_One_HCP.WebApi.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpPost]
+        [HttpGet]
         public IHttpActionResult getAccessToken() {
             OAuthToken token = new OAuthToken
             {
-                client_id = "client_id",
-                client_secret = "client_secret ",
-                scope = "scope ",
+                client_id = "42958C0C2F79F2C6A509",
+                client_secret = "B6A1722A4BD88112B2F6618A9C85F8",
+                scope = "message_service",
                 grant_type = "client_credentials",
                 state = "123"
             };
-            var postData = JsonConvert.SerializeObject(token);
-            var accessToken = HttpUtils.PostResponse<AccessToken>(tokenUrl, postData);
+
+            var postData = HttpUtils.ModelToUriParam(token);
+            var accessToken = HttpUtils.PostResponse<AccessToken>(tokenUrl, postData, "application/x-www-form-urlencoded");
             return Ok(accessToken);
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public AccessToken accessToken() {
+
+            DateTime datetime = Convert.ToDateTime(System.Web.HttpContext.Current.Application["datetime"]);
+            AccessToken accessToken = System.Web.HttpContext.Current.Application["accessToken"] as AccessToken;
+
+            if (accessToken != null && datetime.AddSeconds(accessToken.expires_in) > DateTime.Now)
+            {
+
+                return accessToken;
+            }
+            else
+            {
+
+                OAuthToken token = new OAuthToken
+                {
+                    client_id = "42958C0C2F79F2C6A509",
+                    client_secret = "B6A1722A4BD88112B2F6618A9C85F8",
+                    scope = "message_service",
+                    grant_type = "client_credentials",
+                    state = "123"
+                };
+
+                var postData = HttpUtils.ModelToUriParam(token);
+                accessToken = HttpUtils.PostResponse<AccessToken>(tokenUrl, postData, "application/x-www-form-urlencoded");
+
+                System.Web.HttpContext.Current.Application["accessToken"] = accessToken;
+                System.Web.HttpContext.Current.Application["datetime"] = DateTime.Now;
+
+                return accessToken;
+
+            }
+
+        }
+
     }
 }

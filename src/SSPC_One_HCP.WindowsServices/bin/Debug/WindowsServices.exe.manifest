@@ -138,14 +138,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
       <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ac9cWkErjr8jszZyAJmOSMD97M1dzSVakhQ4Z+QehrI=</dsig:DigestValue>
+        <dsig:DigestValue>K217jVZ5Zf0WOYFugSKVgZevZ5/8SK7L43yY+XRyLTU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -265,19 +265,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A1Bq+iCORvZoTEpjON6kyzEhmD61t7ZB0EuYLPzj9EY=</dsig:DigestValue>
+        <dsig:DigestValue>OgKqf4fU7+Viklzf4Msw62IALObrKmJT6TwId/X7EZg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SSPC_One_HCP.Core.dll" size="272384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SSPC_One_HCP.Core.dll" size="275968">
       <assemblyIdentity name="SSPC_One_HCP.Core" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iTvaMw6jUqw7X3GT1DKAaWCKFuSC16xG082ddtcKwLQ=</dsig:DigestValue>
+        <dsig:DigestValue>0fXGHrlbsgk0xER3yr65WAzn8cpRnlNzr8aqSN8hKt4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -289,7 +289,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n0kk7oEG+SFEI04degCqoKu8dvELZ6ALx55+bnT0Hs8=</dsig:DigestValue>
+        <dsig:DigestValue>Q3Uhg6VAoIhWkZB1kHMpo5x1mqcZsBHc1/rkhA3gj2s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -301,7 +301,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iz8d+O6U/3GRrGLj+0KUTTYzmIH+QQpZHSgtNx2S4qk=</dsig:DigestValue>
+        <dsig:DigestValue>qL5FhPdv++pDBQ0JV7R7LstWjIkICGl/Z4j/9/19KHI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -313,7 +313,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>illIO64vccXM8v/0GP6PrNqTSQ7CJR4myebGAHd8qpQ=</dsig:DigestValue>
+        <dsig:DigestValue>wztV+ApqTEwmwzRez6zeh1fHPJAfoGn1DIE8hgooA04=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -325,7 +325,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WD3LFpzw/WGDPrbYEfERM5SY6ZXNtD+MhTYxmWKrorg=</dsig:DigestValue>
+        <dsig:DigestValue>G1NmmgxYuo4BfjhgRntqsK71XKfaNp/p6FisJQPcOHE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -341,13 +341,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="WindowsServices.exe.config" size="6801">
+  <file name="WindowsServices.exe.config" size="7622">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ljSo5mrqcyVjEVj8s/uTPpKPZyLG7TdXSWQXNWA3XPo=</dsig:DigestValue>
+      <dsig:DigestValue>OB+55g9Ot987KgchKDHRuhKOimpjPZMUPFUc7x2+1f8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

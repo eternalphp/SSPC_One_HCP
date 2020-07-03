@@ -913,14 +913,20 @@
             </summary>
             <param name="hcpDataInfoService"></param>
         </member>
-        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.send(System.String)">
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.sendMessage(System.String)">
             <summary>
             
             </summary>
-            <param name="secret"></param>
+            <param name="mobile"></param>
             <returns></returns>
         </member>
         <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.getAccessToken">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.accessToken">
             <summary>
             
             </summary>

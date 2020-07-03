@@ -23,3 +23,12 @@ E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.R
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.csproj.CopyComplete
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.dll
 E:\项目代码\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.pdb
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\bin\Debug\SSPC_One_HCP.RongCloud.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\bin\Debug\SSPC_One_HCP.RongCloud.pdb
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\bin\Debug\Newtonsoft.Json.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\bin\Debug\Newtonsoft.Json.xml
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.csprojAssemblyReference.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.csproj.CoreCompileInputs.cache
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.csproj.CopyComplete
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.dll
+E:\workspace\SSPC_One_HCP\src\SSPC_One_HCP.RongCloud\obj\Debug\SSPC_One_HCP.RongCloud.pdb

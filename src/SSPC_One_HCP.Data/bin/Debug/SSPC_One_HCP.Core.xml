@@ -510,6 +510,51 @@
             <param name="entity"></param>
             <returns></returns>
         </member>
+        <member name="T:SSPC_One_HCP.Core.Domain.CommonModels.MessageResult">
+            <summary>
+            Message模型
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.MessageResult.error_code">
+            <summary>
+            access_token 
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.Core.Domain.CommonModels.MessageResult.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SSPC_One_HCP.Core.Domain.CommonModels.Message">
+            <summary>
+            Message模型
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.Message.SendType">
+            <summary>
+            access_token 
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.Message.Receiver">
+            <summary>
+            Receiver 
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.Message.SignCode">
+            <summary>
+            SignCode
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.Message.TemplateCode">
+            <summary>
+            TemplateCode
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.Message.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
         <member name="T:SSPC_One_HCP.Core.Domain.CommonModels.BaseRowNumModel">
             <summary>
             分页基础
@@ -538,6 +583,16 @@
         <member name="T:SSPC_One_HCP.Core.Domain.CommonModels.AccessToken">
             <summary>
             AccessToken模型
+            </summary>
+        </member>
+        <member name="M:SSPC_One_HCP.Core.Domain.CommonModels.AccessToken.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.AccessToken.success">
+            <summary>
+            access_token 
             </summary>
         </member>
         <member name="P:SSPC_One_HCP.Core.Domain.CommonModels.AccessToken.access_token">
@@ -9036,6 +9091,24 @@
             <param name="url"></param>
             <param name="postData"></param>
             <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.Core.Utils.HttpUtils.PostResponse``1(System.String,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="url"></param>
+            <param name="postData"></param>
+            <param name="token"></param>
+            <param name="contentType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SSPC_One_HCP.Core.Utils.HttpUtils.ModelToUriParam(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
             <returns></returns>
         </member>
         <member name="T:SSPC_One_HCP.Core.Utils.HttpWebResponseUtil">
