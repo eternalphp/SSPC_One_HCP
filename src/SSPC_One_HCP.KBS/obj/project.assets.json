@@ -319,11 +319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\workspace\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\SSPC_One_HCP.KBS.csproj",
+      "projectUniqueName": "E:\\项目代码\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\SSPC_One_HCP.KBS.csproj",
       "projectName": "SSPC_One_HCP.KBS",
-      "projectPath": "E:\\workspace\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\SSPC_One_HCP.KBS.csproj",
+      "projectPath": "E:\\项目代码\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\SSPC_One_HCP.KBS.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "E:\\workspace\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\obj\\",
+      "outputPath": "E:\\项目代码\\SSPC_One_HCP\\src\\SSPC_One_HCP.KBS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -911,7 +911,8 @@
             <summary>
             
             </summary>
-            <param name="hcpDataInfoService"></param>
+            <param name="aDDoctorService"></param>
+            <param name="cacheManager"></param>
         </member>
         <member name="M:SSPC_One_HCP.WebApi.Controllers.SMSController.sendMessage(System.String)">
             <summary>

@@ -20,6 +20,7 @@ using SSPC_One_HCP.Services.Interfaces;
 using SSPC_One_HCP.Core.Data;
 using System.Configuration;
 using Newtonsoft.Json;
+using System.Runtime.Caching;
 
 namespace SSPC_One_HCP.WebApi.Controllers
 {
@@ -34,13 +35,18 @@ namespace SSPC_One_HCP.WebApi.Controllers
 
         private readonly IEfRepository _rep;
         private readonly string messageUrl = ConfigurationManager.AppSettings["messageUrl"];
-        private readonly string tokenUrl = ConfigurationManager.AppSettings["tokenUrl"];
+        private readonly string messageSignCode = ConfigurationManager.AppSettings["messageSignCode"];
+        private readonly string messageTemplateCode = ConfigurationManager.AppSettings["messageTemplateCode"];
 
+        private readonly string tokenUrl = ConfigurationManager.AppSettings["tokenUrl"];
+        private readonly string tokenClientId = ConfigurationManager.AppSettings["tokenClientId"];
+        private readonly string tokenClientSecret = ConfigurationManager.AppSettings["tokenClientSecret"];
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="hcpDataInfoService"></param>
+        /// <param name="aDDoctorService"></param>
+        /// <param name="cacheManager"></param>
         public SMSController(IADDoctorService aDDoctorService, ICacheManager cacheManager)
         {
             _iADDoctorService = aDDoctorService;
@@ -56,14 +62,20 @@ namespace SSPC_One_HCP.WebApi.Controllers
         {
 
             AccessToken token = this.accessToken();
+            Random random = new Random();
+
+            var messageCode = new
+            {
+                code = random.Next(100000, 999999)
+            };
 
             Message msg = new Message
             {
                 SendType = 2,
                 Receiver = mobile,
-                SignCode = "FKSign0001",
-                TemplateCode = "FKSMS0047",
-                Content = "{\"code\":\"213421\"}"
+                SignCode = messageSignCode,
+                TemplateCode = messageTemplateCode,
+                Content = JsonConvert.SerializeObject(messageCode)
             };
             var postData = HttpUtils.ModelToUriParam(msg);
             var json = HttpUtils.PostResponse<MessageResult>(messageUrl, postData, token.access_token, "application/x-www-form-urlencoded");
@@ -80,8 +92,8 @@ namespace SSPC_One_HCP.WebApi.Controllers
         public IHttpActionResult getAccessToken() {
             OAuthToken token = new OAuthToken
             {
-                client_id = "42958C0C2F79F2C6A509",
-                client_secret = "B6A1722A4BD88112B2F6618A9C85F8",
+                client_id = tokenClientId,
+                client_secret = tokenClientSecret,
                 scope = "message_service",
                 grant_type = "client_credentials",
                 state = "123"
@@ -98,21 +110,19 @@ namespace SSPC_One_HCP.WebApi.Controllers
         /// <returns></returns>
         public AccessToken accessToken() {
 
-            DateTime datetime = Convert.ToDateTime(System.Web.HttpContext.Current.Application["datetime"]);
-            AccessToken accessToken = System.Web.HttpContext.Current.Application["accessToken"] as AccessToken;
 
-            if (accessToken != null && datetime.AddSeconds(accessToken.expires_in) > DateTime.Now)
+            ObjectCache cache = MemoryCache.Default;//声明缓存类
+            AccessToken accessToken = cache["access_token"] as AccessToken;
+
+            if (accessToken != null)
             {
-
                 return accessToken;
             }
-            else
-            {
-
+            else {
                 OAuthToken token = new OAuthToken
                 {
-                    client_id = "42958C0C2F79F2C6A509",
-                    client_secret = "B6A1722A4BD88112B2F6618A9C85F8",
+                    client_id = tokenClientId,
+                    client_secret = tokenClientSecret,
                     scope = "message_service",
                     grant_type = "client_credentials",
                     state = "123"
@@ -121,11 +131,11 @@ namespace SSPC_One_HCP.WebApi.Controllers
                 var postData = HttpUtils.ModelToUriParam(token);
                 accessToken = HttpUtils.PostResponse<AccessToken>(tokenUrl, postData, "application/x-www-form-urlencoded");
 
-                System.Web.HttpContext.Current.Application["accessToken"] = accessToken;
-                System.Web.HttpContext.Current.Application["datetime"] = DateTime.Now;
+                CacheItemPolicy policy = new CacheItemPolicy();
+                policy.AbsoluteExpiration = DateTime.Now.AddSeconds(accessToken.expires_in);
+                cache.Set("access_token", accessToken, policy);
 
                 return accessToken;
-
             }
 
         }
